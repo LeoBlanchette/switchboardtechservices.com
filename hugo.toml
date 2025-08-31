@@ -1,3 +1,65 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://switchboardtechservices.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Switchboard Tech Services - Kirksville, Missouri'
+theme = 'terminal'
+
+# Basic site params
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  # Terminal theme options
+  contentTypeName = "posts"
+  themeColor = "green"   # Options: orange, blue, red, green, pink, etc.
+  showMenuItems = 3
+  centerTheme = true
+  fullWidthTheme = false
+  favicon = "favicon.ico"
+
+  # Business identity
+  author = "Leo Blanchette"
+  subtitle = "Local Tech Help, Tech Maintenance and Repair, Linux Conversions"
+  description = "Switchboard Tech Services provides reliable computer and tech support in Kirksville, Missouri. Call or text today for local service."
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Switchboard Tech Services"
+
+    [languages.en.params.logo]
+      logoText = "Switchboard Tech Services, Kirksville"
+      logoHomeLink = "/"
+
+# Menus (minimal — QR hit should go straight to Contact/Services)
+[menu]
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+# Deployment output
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+# Sitemap & SEO
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params.business]
+  name   = "Switchboard Tech Services, LLC"
+  street = "East Harrison"
+  city   = "Kirksville"
+  state  = "MO"
+  zip    = "63501"
+  phone  = "+1.660.956.1108"
+  email  = "theswitchboard@protonmail.com"
+  url    = "https://switchboardtechservices.com"

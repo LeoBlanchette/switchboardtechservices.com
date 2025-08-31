@@ -1,0 +1,29 @@
+<!-- Visible contact info -->
+<div class="contact-block">
+  📍 {{ .Site.Params.business.city }}, {{ .Site.Params.business.state }}<br>
+  📞 <a href="tel:{{ .Site.Params.business.phone }}">{{ .Site.Params.business.phone }}</a><br>
+  ✉️ <a href="mailto:{{ .Site.Params.business.email }}">{{ .Site.Params.business.email }}</a><br>
+  🌐 <a href="{{ .Site.Params.business.url }}">{{ .Site.Params.business.url }}</a>
+</div>
+
+<!-- Machine-readable JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ .Site.Params.business.name }}",
+  "image": "{{ .Site.Params.business.url }}/favicon.ico",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.business.street }}",
+    "addressLocality": "{{ .Site.Params.business.city }}",
+    "addressRegion": "{{ .Site.Params.business.state }}",
+    "postalCode": "{{ .Site.Params.business.zip }}",
+    "addressCountry": "US"
+  },
+  "telephone": "{{ .Site.Params.business.phone }}",
+  "email": "{{ .Site.Params.business.email }}",
+  "url": "{{ .Site.Params.business.url }}"
+}
+</script>
+

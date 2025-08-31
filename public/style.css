@@ -1,0 +1,22 @@
+/* Basic palette tweaks */
+:root {
+  --accent: #41c07b;         /* links, buttons */
+  --accent-2: #2a7f52;       /* hovers/borders */
+  --background: #0e1111;     /* page bg */
+  --color: #e6ffe6;          /* body text */
+  --secondary: #a8d8b8;      /* subtle text */
+}
+
+/* Make links/buttons adopt the accent */
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); }
+
+.btn, .post .read-more {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.btn:hover, .post .read-more:hover {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+}
+

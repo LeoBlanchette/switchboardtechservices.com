@@ -1,8 +1,7 @@
 +++
 title = "Services"
+Toc = false
 +++
-
-# Services
 
 **Computer Repair**  
 Simple fixes to keep you moving.  

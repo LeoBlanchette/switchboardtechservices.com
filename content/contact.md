@@ -1,5 +1,6 @@
 +++
 title = "Contact"
+Toc = false
 +++
 
 {{< contactinfo >}}

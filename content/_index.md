@@ -2,7 +2,11 @@
 title = "Switchboard Tech Services"
 +++
 
+
 # Tech Help. Kirksville, MO.  
+
+![Switchboard Tech Services in Kirksville](/images/theswitchboard.jpg "Switchboard Tech Services, Kirksville")
+
 **Fast fixes. No nonsense.**  
 
 - Computers that won’t start  

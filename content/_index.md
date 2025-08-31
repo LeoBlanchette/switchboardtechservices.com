@@ -15,4 +15,8 @@ title = "Switchboard Tech Services"
 - Odd jobs most shops won’t touch  
 - Other tasks / help needed in Kirksville
 
+---
+
 {{< contactinfo >}}
+
+![Switchboard Tech Services in Kirksville](/images/theswitchboard.jpg "Switchboard Tech Services, Kirksville")

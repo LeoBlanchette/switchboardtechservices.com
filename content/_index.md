@@ -2,10 +2,9 @@
 title = "Switchboard Tech Services"
 +++
 
-
 # Tech Help. Kirksville, MO.  
 
-![Switchboard Tech Services in Kirksville](/images/theswitchboard.jpg "Switchboard Tech Services, Kirksville")
+![Switchboard Tech Services in Kirksville](/images/courthouse.jpg "Switchboard Tech Services, Kirksville")
 
 **Fast fixes. No nonsense.**  
 
@@ -16,6 +15,8 @@ title = "Switchboard Tech Services"
 - Other tasks / help needed in Kirksville
 
 ---
+
+##Contact
 
 {{< contactinfo >}}
 

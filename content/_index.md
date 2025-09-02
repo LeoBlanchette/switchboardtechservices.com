@@ -1,21 +1,21 @@
 +++
-title = "Switchboard Tech Services"
+title = "Switchboard Tech Services, LLC"
+toc = false
+description = "Local tech help in Kirksville, Missouri: Linux conversions, house calls, odd repairs, and practical fixes within two miles of the courthouse."
+keywords = ["Kirksville computer repair", "Linux conversions", "local tech help", "Switchboard Tech Services"]
+cover = "images/theswitchboard.jpg"
 +++
 
 # Tech Help. Kirksville, MO.
 
 **Fast fixes. No nonsense.**
 
+{{< profileblock >}}
+
+
 ---
 
-## Services
-- Computers that won’t start  
-- Old machines saved with Linux  
-- WiFi / Router help  
-- Odd jobs most shops won’t touch  
-- Other tech help needed in Kirksville  
-
-[See full services →](/services/)
+{{< servicesnav >}}
 
 ---
 

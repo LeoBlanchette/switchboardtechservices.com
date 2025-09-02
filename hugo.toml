@@ -13,7 +13,7 @@ canonifyURLs = true
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -41,7 +41,7 @@ canonifyURLs = true
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
-  Toc = true
+  toc = true
 
   # set title for the table of contents
   # can be overridden in a page's front-matter
@@ -77,19 +77,32 @@ canonifyURLs = true
       logoText = "Switchboard Tech Services, Kirksville"
       logoHomeLink = "/"
 
-# Menus (minimal — QR hit should go straight to Contact/Services)
 [menu]
+  # Core navigation — only what you want in the header
   [[menu.main]]
     identifier = "services"
     name = "Services"
     url = "/services/"
     weight = 1
-
+  # Optional — third anchor if you want more than bare-minimum
+  [[menu.main]]
+    identifier = "who"
+    name = "Who I Help"
+    url = "/who/"
+    weight = 2
+  [[menu.main]]
+    name = "Rates"
+    url = "/rates/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 2
+    weight = 5
 
 # Deployment output
 [outputs]

@@ -1,6 +1,27 @@
-<meta name="description" content="Fast, no-nonsense computer repair, Linux conversions, and tech help in Kirksville, Missouri.">
-<meta property="og:title" content="Switchboard Tech Services — Kirksville, MO">
-<meta property="og:description" content="Local tech help: computer repair, Linux conversions, WiFi setup, and the odd jobs most shops won’t touch.">
-<meta property="og:image" content="https://switchboardtechservices.com/images/courthouse.webp">
-<meta property="og:type" content="website">
+{{/* layouts/partials/extended_head.html */}}
 
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Switchboard Tech Services",
+  "image": "{{ "images/theswitchboard.jpg" | absURL }}",
+  "url": "https://switchboardtechservices.com/",
+  "telephone": "+1-660-956-1108",
+  "email": "theswitchboard@protonmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 594",
+    "addressLocality": "Kirksville",
+    "addressRegion": "MO",
+    "postalCode": "63501",
+    "addressCountry": "US"
+  },
+  "areaServed": "Kirksville Courthouse radius",
+  "openingHours": "Mo-Fr 17:00-21:00 Sa 10:00-18:00"
+}
+</script>

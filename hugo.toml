@@ -116,7 +116,7 @@ canonifyURLs = true
 
 [params.business]
   name   = "Switchboard Tech Services, LLC"
-  street = "East Harrison"
+  street = "PO Box 594"
   city   = "Kirksville"
   state  = "MO"
   zip    = "63501"

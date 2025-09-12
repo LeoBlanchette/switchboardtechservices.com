@@ -1,0 +1,207 @@
+.
+├── archetypes
+│   └── default.md
+├── assets
+│   └── images
+│       ├── courthouse.jpg
+│       ├── profile_pic.png
+│       └── theswitchboard.jpg
+├── content
+│   ├── contact
+│   │   └── _index.md
+│   ├── _index.md
+│   ├── rates
+│   │   └── index.md
+│   ├── services
+│   │   ├── coaching
+│   │   │   └── index.md
+│   │   ├── custom-devices
+│   │   │   └── index.md
+│   │   ├── foot-soldier
+│   │   │   └── index.md
+│   │   ├── house-calls
+│   │   │   └── index.md
+│   │   ├── _index.md
+│   │   ├── linux-conversions
+│   │   │   └── index.md
+│   │   ├── repairs
+│   │   │   └── index.md
+│   │   ├── small-business-basics
+│   │   │   └── index.md
+│   │   └── web-design
+│   │       └── index.md
+│   └── who
+│       └── index.md
+├── hugo.toml
+├── layouts
+│   ├── partials
+│   │   └── extended_head.html
+│   ├── services
+│   │   └── list.html
+│   └── shortcodes
+│       ├── contactinfo.html
+│       ├── profileblock.html
+│       └── servicesnav.html
+├── public
+│   ├── 404.html
+│   ├── apple-touch-icon.png
+│   ├── bundle.min.js
+│   ├── categories
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── contact
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   ├── css
+│   │   ├── buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css
+│   │   ├── code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css
+│   │   ├── fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css
+│   │   ├── footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css
+│   │   ├── gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css
+│   │   ├── header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css
+│   │   ├── main.min.775ac2af004d44c22a6d000fbd1d9af529642f5cef27399d0280d180af2c2e9b.css
+│   │   ├── menu.min.310d32205bdedd6f43144e3c3273c9deecd238eba5f9108db5ea96ca0cfbe377.css
+│   │   ├── pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css
+│   │   ├── post.min.ad50c7f4d00e7975918f37fc74c6029e1959a40d66fb5b2c6564a8715e985573.css
+│   │   ├── syntax.min.e9ab635cf918bc84b901eb65c0b2caa74c9544245e3647c1af5c129896ef276e.css
+│   │   ├── terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+│   │   └── terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css
+│   ├── favicon.png
+│   ├── fonts
+│   │   ├── FiraCode-LatinExt.woff2
+│   │   └── FiraCode-Latin.woff2
+│   ├── index.html
+│   ├── index.xml
+│   ├── og-image.png
+│   ├── page
+│   │   └── 1
+│   │       └── index.html
+│   ├── rates
+│   │   └── index.html
+│   ├── robots.txt
+│   ├── services
+│   │   ├── coaching
+│   │   │   └── index.html
+│   │   ├── custom-devices
+│   │   │   └── index.html
+│   │   ├── foot-soldier
+│   │   │   └── index.html
+│   │   ├── house-calls
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── linux-conversions
+│   │   │   └── index.html
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── repairs
+│   │   │   └── index.html
+│   │   ├── small-business-basics
+│   │   │   └── index.html
+│   │   └── web-design
+│   │       └── index.html
+│   ├── sitemap.xml
+│   ├── style.css
+│   ├── tags
+│   │   ├── index.html
+│   │   └── index.xml
+│   └── who
+│       └── index.html
+├── README.md
+├── resources
+│   └── _gen
+│       ├── assets
+│       └── images
+├── static
+│   └── style.css
+├── themes
+│   └── terminal
+│       ├── archetypes
+│       │   └── posts.md
+│       ├── assets
+│       │   ├── css
+│       │   │   ├── buttons.css
+│       │   │   ├── code.css
+│       │   │   ├── fonts.css
+│       │   │   ├── footer.css
+│       │   │   ├── gist.css
+│       │   │   ├── header.css
+│       │   │   ├── main.css
+│       │   │   ├── menu.css
+│       │   │   ├── pagination.css
+│       │   │   ├── post.css
+│       │   │   ├── syntax.css
+│       │   │   ├── terminal.css
+│       │   │   └── terms.css
+│       │   └── js
+│       │       ├── code.js
+│       │       └── menu.js
+│       ├── babel.config.js
+│       ├── COMMUNITY-FEATURES.md
+│       ├── config.toml
+│       ├── exampleSite
+│       │   ├── config.toml
+│       │   ├── content
+│       │   │   ├── about.md
+│       │   │   ├── posts
+│       │   │   │   └── hello.md
+│       │   │   └── showcase.md
+│       │   └── static
+│       │       └── img
+│       │           └── hello.jpg
+│       ├── go.mod
+│       ├── images
+│       │   ├── screenshot.png
+│       │   ├── terminal-css.png
+│       │   ├── terminal-theme-old.png
+│       │   ├── terminal-theme.png
+│       │   └── tn.png
+│       ├── layouts
+│       │   ├── 404.html
+│       │   ├── _default
+│       │   │   ├── baseof.html
+│       │   │   ├── index.html
+│       │   │   ├── list.html
+│       │   │   ├── single.html
+│       │   │   ├── term.html
+│       │   │   └── terms.html
+│       │   ├── partials
+│       │   │   ├── comments.html
+│       │   │   ├── cover.html
+│       │   │   ├── extended_footer.html
+│       │   │   ├── extended_head.html
+│       │   │   ├── footer.html
+│       │   │   ├── header.html
+│       │   │   ├── head.html
+│       │   │   ├── language-menu.html
+│       │   │   ├── logo.html
+│       │   │   ├── menu.html
+│       │   │   ├── mobile-menu.html
+│       │   │   ├── pagination.html
+│       │   │   ├── post-date.html
+│       │   │   ├── post-lastmod.html
+│       │   │   └── posts_pagination.html
+│       │   └── shortcodes
+│       │       ├── code.html
+│       │       └── image.html
+│       ├── LICENSE.md
+│       ├── package.hugo.json
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── README.md
+│       ├── static
+│       │   ├── apple-touch-icon.png
+│       │   ├── favicon.png
+│       │   ├── fonts
+│       │   │   ├── FiraCode-LatinExt.woff2
+│       │   │   └── FiraCode-Latin.woff2
+│       │   └── og-image.png
+│       ├── theme.toml
+│       └── yarn.lock
+└── tree.txt
+
+66 directories, 138 files

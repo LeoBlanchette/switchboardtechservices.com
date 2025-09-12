@@ -1,0 +1,14 @@
+{{/* Services navigation: clean list of service pages */}}
+{{ $section := site.GetPage "section" "services" }}
+{{ if $section }}
+<nav class="svc-nav">
+  <h3 class="svc-nav__title">Services</h3>
+  <ul class="svc-nav__list">
+    {{ range $section.RegularPages.ByWeight }}
+      <li class="svc-nav__item{{ if eq .Permalink $.Page.Permalink }} is-active{{ end }}">
+        > <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

@@ -123,3 +123,15 @@ canonifyURLs = true
   phone  = "+1.660.956.1108"
   email  = "theswitchboard@protonmail.com"
   url    = "https://switchboardtechservices.com"
+
+# Modern way
+[services]
+  [services.googleAnalytics]
+    ID = "G-SZ853YL51X"
+
+# Optional privacy hardening
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false

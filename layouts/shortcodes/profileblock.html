@@ -1,7 +1,46 @@
 <!-- Microformats2 h-card + visual layout preserved -->
+<style>
+.h-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.h-card img {
+  border-radius: 8px;
+  max-width: 160px;
+  transition: all 0.3s ease; /* smooth resizing */
+}
+
+@media (max-width: 600px) {
+  .h-card {
+    flex-direction: column;
+  }
+
+  .h-card img {
+    max-width: 80%;   /* expand photo to 80% of container width */
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    margin-bottom: 1rem;
+    border-radius: 12px; /* slightly larger rounding looks better at scale */
+  }
+  .h-card #u-photo-container img {
+    margin: 0;    
+    padding: 0;
+  }
+  h2.p-name, p.p-note{
+    margin: 0;
+    padding: 0;
+  }
+}
+</style>
+
 <div class="h-card" style="display:flex; align-items:flex-start; gap:1.5rem; margin-top:1rem;">
 
-  <div style="flex:0 0 auto;">
+  <div id="u-photo-container" style="flex:0 0 auto;">
     <img class="u-photo" src="/images/profile_pic.png" alt="Leo Blanchette" style="border-radius:8px; max-width:160px;">
   </div>
 

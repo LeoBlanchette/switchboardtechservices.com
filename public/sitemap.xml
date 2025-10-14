@@ -34,6 +34,51 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/posts/gpu-facts/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/cryptocurrency/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/gaming/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/gpu/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/field-notes/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -49,12 +94,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/tags/old-pc/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -69,17 +119,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/posts/save-your-old-pc/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/unsupported/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/wi-fi/</loc>
+    <lastmod>2025-10-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2025-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

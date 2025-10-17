@@ -30,6 +30,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/pillar-page/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/altgrid/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -115,6 +120,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/categories/hosting/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/host-website-in-kirksville/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/posts/right-to-repair/how-they-lock-you-out/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -135,6 +150,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/html-websites/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/categories/kirksville/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -145,12 +165,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/pillar-page/kirksville-computer-repair-guide/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/kirksville-internet/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/kirksville-tech-handbook/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/kirksville-web-design/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -170,7 +200,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/categories/local-business/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/categories/local-tech/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/local-tech/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -220,6 +260,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/pillar-page/offline-resilient-tech-toolkit/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/offline-storage/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -230,12 +275,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/opalstack/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/categories/open-source/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/pillar-page/open-source-localism-in-kirksville/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/porkbun/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -256,6 +316,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/privacy/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/pillar-page/privacy-and-security-toolkit-for-kirksville-residents/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -366,6 +431,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/tails/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech-help/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

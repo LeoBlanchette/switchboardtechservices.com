@@ -16,5 +16,12 @@
       <guid>http://localhost:1313/posts/mesh-lora-communications/</guid>
       <description>The Internet is a house of cards. LoRa, mesh networks, and a bit of radio magic can keep us talking when the lights go out.</description>
     </item>
+    <item>
+      <title>Offline and Resilient Tech Toolkit</title>
+      <link>http://localhost:1313/pillar-page/offline-resilient-tech-toolkit/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pillar-page/offline-resilient-tech-toolkit/</guid>
+      <description>How to stay connected and productive when the internet or power goes down.</description>
+    </item>
   </channel>
 </rss>

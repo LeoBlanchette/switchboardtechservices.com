@@ -17,6 +17,13 @@
       <description></description>
     </item>
     <item>
+      <title>Hosting</title>
+      <link>http://localhost:1313/categories/hosting/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hosting/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Kirksville</title>
       <link>http://localhost:1313/categories/kirksville/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
@@ -28,6 +35,13 @@
       <link>http://localhost:1313/categories/kirksville-tech-handbook/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/kirksville-tech-handbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local Business</title>
+      <link>http://localhost:1313/categories/local-business/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/local-business/</guid>
       <description></description>
     </item>
     <item>

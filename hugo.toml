@@ -17,7 +17,7 @@ canonifyURLs = true
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
+  showMenuItems = 6
 
   # show selector to switch language
   showLanguageSelector = false
@@ -93,24 +93,34 @@ canonifyURLs = true
     url = "/services/"
     weight = 1
   # Optional — third anchor if you want more than bare-minimum
-  [[menu.main]]
+ [[menu.main]]
     identifier = "who"
     name = "Who I Help"
     url = "/who/"
     weight = 2
-  [[menu.main]]
+
+[[menu.main]]
     name = "Rates"
     url = "/rates/"
     weight = 3
-  [[menu.main]]
+
+[[menu.main]]
     name = "About"
     url = "/about/"
     weight = 4
-  [[menu.main]]
+
+[[menu.main]]
+    identifier = "guides"
+    name = "Guides"
+    url = "/pillar-page/"
+    weight = 5
+
+[[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
+
 
 # Deployment output
 [outputs]

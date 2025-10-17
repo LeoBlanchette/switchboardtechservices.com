@@ -30,11 +30,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pillar-page/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/altgrid/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,6 +106,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/guides/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/pillar-page/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

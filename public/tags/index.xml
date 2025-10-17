@@ -115,6 +115,13 @@
       <description></description>
     </item>
     <item>
+      <title>Internet Archive</title>
+      <link>http://localhost:1313/tags/internet-archive/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/internet-archive/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Kirksville</title>
       <link>http://localhost:1313/tags/kirksville/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
@@ -129,6 +136,13 @@
       <description></description>
     </item>
     <item>
+      <title>Kirksville Tech</title>
+      <link>http://localhost:1313/tags/kirksville-tech/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kirksville-tech/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Kirksville Web Design</title>
       <link>http://localhost:1313/tags/kirksville-web-design/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
@@ -140,6 +154,13 @@
       <link>http://localhost:1313/tags/laptop-repair/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/laptop-repair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Link Rot</title>
+      <link>http://localhost:1313/tags/link-rot/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/link-rot/</guid>
       <description></description>
     </item>
     <item>
@@ -343,6 +364,13 @@
       <link>http://localhost:1313/tags/tor/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/tor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wayback Machine</title>
+      <link>http://localhost:1313/tags/wayback-machine/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wayback-machine/</guid>
       <description></description>
     </item>
     <item>

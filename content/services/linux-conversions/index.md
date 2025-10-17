@@ -70,6 +70,8 @@ Computers are not single-use appliances. They can almost always be rescued with 
 Instead of discarding an older machine, installing Linux gives it a new role and keeps it useful.  
 Regular maintenance — updates, backups, simple care — extends its life even further.
 
+See also [I Am Kirksville’s Linux Guy](posts/kirksville-mo-linux-guy/)
+
 ![Computer Repair](/images/services/computer-repair.jpg)
 
 {{< servicesnav >}}

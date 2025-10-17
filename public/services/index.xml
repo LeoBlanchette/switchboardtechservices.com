@@ -57,12 +57,5 @@
       <guid>http://localhost:1313/services/web-design/</guid>
       <description>Simple, durable websites and troubleshooting for sites that have aged or broken down.</description>
     </item>
-    <item>
-      <title>Foot Soldier for Tech Maintenance</title>
-      <link>http://localhost:1313/services/foot-soldier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/foot-soldier/</guid>
-      <description>&lt;h2 id=&#34;local-and-lean&#34;&gt;Local and Lean&lt;/h2&gt;&#xA;&lt;p&gt;Switchboard keeps things simple.&lt;br&gt;&#xA;Most service calls within two miles of the courthouse square are done on foot.&lt;/p&gt;&#xA;&lt;p&gt;Why? It’s efficient, reliable, and keeps overhead low — which means better value for you.&lt;br&gt;&#xA;For jobs outside that range, I drive as needed.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A straightforward, no-frills service model&lt;/li&gt;&#xA;&lt;li&gt;Prompt arrival in the Kirksville core area&lt;/li&gt;&#xA;&lt;li&gt;Focus on the work, not the overhead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It’s a foot soldier’s approach to tech maintenance: light gear, direct service, steady results.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

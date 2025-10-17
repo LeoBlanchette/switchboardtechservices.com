@@ -32,6 +32,6 @@
       "opens": "10:00", "closes": "18:00"
     }
   ],
-  "sameAs": {{ jsonify .Site.Params.business.sameAs }}
+  "sameAs": {{ .Site.Params.business.sameAs | jsonify | safeJS }}
 }
 </script>

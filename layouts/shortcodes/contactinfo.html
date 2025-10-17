@@ -10,26 +10,3 @@
   🛠️ Repairs done at home workshop, drop-off by arrangement
 </div>
 
-<!-- Machine-readable JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "{{ .Site.Params.business.name }}",
-  "image": "{{ .Site.Params.business.url }}/favicon.ico",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "{{ .Site.Params.business.street }}",
-    "addressLocality": "{{ .Site.Params.business.city }}",
-    "addressRegion": "{{ .Site.Params.business.state }}",
-    "postalCode": "{{ .Site.Params.business.zip }}",
-    "addressCountry": "US"
-  },
-  "telephone": "{{ .Site.Params.business.phone }}",
-  "email": "{{ .Site.Params.business.email }}",
-  "url": "{{ .Site.Params.business.url }}",
-  "sameAs": [
-    "https://www.facebook.com/SwitchboardTechServices"
-  ]
-}
-</script>

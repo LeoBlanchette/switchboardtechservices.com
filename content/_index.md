@@ -22,3 +22,4 @@ cover = "images/theswitchboard.jpg"
 ## Contact
 {{< contactinfo >}}
 
+See also [posts...](/posts)

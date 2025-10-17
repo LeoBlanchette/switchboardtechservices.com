@@ -8,6 +8,10 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+  readMore = "Read more →"
+  defaultDescription = "Switchboard Tech Services — Local Tech Help, Linux conversions, and repair services in Kirksville, Missouri."
+  defaultImage = "/images/theswitchboard.jpg"
+  
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -72,6 +76,10 @@ canonifyURLs = true
     languageName = "English"
     title = "Switchboard Tech Services"
     copyright = "© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated"
+    readMore = "Read more →"
+    readOtherPosts = "More field notes"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
 
     [languages.en.params.logo]
       logoText = "Switchboard Tech Services, Kirksville"
@@ -107,6 +115,7 @@ canonifyURLs = true
 # Deployment output
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
+  page = ["HTML", "JSON"]
 
 # Sitemap & SEO
 [sitemap]
@@ -123,6 +132,10 @@ canonifyURLs = true
   phone  = "+1.660.956.1108"
   email  = "theswitchboard@protonmail.com"
   url    = "https://switchboardtechservices.com"
+  sameAs = [
+    "https://www.facebook.com/SwitchboardTechServices/",
+    "https://www.yelp.com/biz/switchboard-tech-services-kirksville"
+  ]
 
 # Modern way
 [services]

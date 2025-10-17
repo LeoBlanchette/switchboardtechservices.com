@@ -1,20 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Technology on Switchboard Tech Services</title>
-    <link>http://localhost:1313/categories/technology/</link>
-    <description>Recent content in Technology on Switchboard Tech Services</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
-    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How Open-Source Saves Local Dollars and Builds Local Skill</title>
-      <link>http://localhost:1313/posts/open-source-for-kirksville/</link>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/open-source-for-kirksville/</guid>
-      <description>&lt;h1 id=&#34;how-open-source-saves-local-dollars-and-builds-local-skill&#34;&gt;How Open-Source Saves Local Dollars and Builds Local Skill&lt;/h1&gt;&#xA;&lt;p&gt;See also &lt;a href=&#34;http://localhost:1313/posts/kirksville-mo-linux-guy/&#34;&gt;posts/kirksville-mo-linux-guy/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-pay-rent-on-software-you-already-own&#34;&gt;Why Pay Rent on Software You Already Own?&lt;/h2&gt;&#xA;&lt;p&gt;Every month, businesses and people in Kirksville quietly pay rent on their computers.&lt;br&gt;&#xA;A few bucks here for Microsoft 365, a little more for Adobe or some &amp;ldquo;cloud subscription.&amp;rdquo;&lt;br&gt;&#xA;It does not sound bad &amp;ndash; until you realize you have been paying for years&amp;hellip; and the computer is still not yours.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology on Switchboard Tech Services</title><link>https://switchboardtechservices.com/categories/technology/</link><description>Recent content in Technology on Switchboard Tech Services</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/categories/technology/index.xml" rel="self" type="application/rss+xml"/><item><title>How Open-Source Saves Local Dollars and Builds Local Skill</title><link>https://switchboardtechservices.com/posts/open-source-for-kirksville/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/open-source-for-kirksville/</guid><description>&lt;h1 id="how-open-source-saves-local-dollars-and-builds-local-skill"&gt;How Open-Source Saves Local Dollars and Builds Local Skill&lt;/h1&gt;
+&lt;p&gt;See also &lt;a href="https://switchboardtechservices.com/posts/kirksville-mo-linux-guy/"&gt;posts/kirksville-mo-linux-guy/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="why-pay-rent-on-software-you-already-own"&gt;Why Pay Rent on Software You Already Own?&lt;/h2&gt;
+&lt;p&gt;Every month, businesses and people in Kirksville quietly pay rent on their computers.&lt;br&gt;
+A few bucks here for Microsoft 365, a little more for Adobe or some &amp;ldquo;cloud subscription.&amp;rdquo;&lt;br&gt;
+It does not sound bad &amp;ndash; until you realize you have been paying for years&amp;hellip; and the computer is still not yours.&lt;/p&gt;</description></item></channel></rss>

@@ -1,1 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Switchboard Tech Services</title><link>https://switchboardtechservices.com/categories/</link><description>Recent content in Categories on Switchboard Tech Services</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Guides</title><link>https://switchboardtechservices.com/categories/guides/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/guides/</guid><description/></item><item><title>Kirksville Tech Handbook</title><link>https://switchboardtechservices.com/categories/kirksville-tech-handbook/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/kirksville-tech-handbook/</guid><description/></item><item><title>Local Tech</title><link>https://switchboardtechservices.com/categories/local-tech/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/local-tech/</guid><description/></item><item><title>Off-Grid Tech</title><link>https://switchboardtechservices.com/categories/off-grid-tech/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/off-grid-tech/</guid><description/></item><item><title>Open Source</title><link>https://switchboardtechservices.com/categories/open-source/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/open-source/</guid><description/></item><item><title>Preparedness</title><link>https://switchboardtechservices.com/categories/preparedness/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/preparedness/</guid><description/></item><item><title>Privacy</title><link>https://switchboardtechservices.com/categories/privacy/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/privacy/</guid><description/></item><item><title>Repair Guides</title><link>https://switchboardtechservices.com/categories/repair-guides/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/repair-guides/</guid><description/></item><item><title>Repair Philosophy</title><link>https://switchboardtechservices.com/categories/repair-philosophy/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/repair-philosophy/</guid><description/></item><item><title>Resilience</title><link>https://switchboardtechservices.com/categories/resilience/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/resilience/</guid><description/></item><item><title>Security</title><link>https://switchboardtechservices.com/categories/security/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/security/</guid><description/></item><item><title>SEO</title><link>https://switchboardtechservices.com/categories/seo/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/seo/</guid><description/></item><item><title>Web Design</title><link>https://switchboardtechservices.com/categories/web-design/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/web-design/</guid><description/></item><item><title>Local</title><link>https://switchboardtechservices.com/categories/local/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/local/</guid><description/></item><item><title>Philosophy</title><link>https://switchboardtechservices.com/categories/philosophy/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/philosophy/</guid><description/></item><item><title>Technology</title><link>https://switchboardtechservices.com/categories/technology/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/categories/technology/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Switchboard Tech Services</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Switchboard Tech Services</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guides</title>
+      <link>http://localhost:1313/categories/guides/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/guides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kirksville</title>
+      <link>http://localhost:1313/categories/kirksville/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/kirksville/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kirksville Tech Handbook</title>
+      <link>http://localhost:1313/categories/kirksville-tech-handbook/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/kirksville-tech-handbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local Tech</title>
+      <link>http://localhost:1313/categories/local-tech/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/local-tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/categories/networking/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Off-Grid Tech</title>
+      <link>http://localhost:1313/categories/off-grid-tech/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/off-grid-tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/categories/open-source/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preparedness</title>
+      <link>http://localhost:1313/categories/preparedness/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/preparedness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/categories/privacy/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repair</title>
+      <link>http://localhost:1313/categories/repair/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/repair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repair Guides</title>
+      <link>http://localhost:1313/categories/repair-guides/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/repair-guides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repair Philosophy</title>
+      <link>http://localhost:1313/categories/repair-philosophy/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/repair-philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resilience</title>
+      <link>http://localhost:1313/categories/resilience/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/resilience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>http://localhost:1313/categories/seo/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Design</title>
+      <link>http://localhost:1313/categories/web-design/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/web-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>http://localhost:1313/categories/how-to/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local</title>
+      <link>http://localhost:1313/categories/local/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/local/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:1313/categories/philosophy/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/categories/technology/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/technology/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

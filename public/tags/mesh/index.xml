@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mesh on Switchboard Tech Services</title><link>https://switchboardtechservices.com/tags/mesh/</link><description>Recent content in Mesh on Switchboard Tech Services</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/tags/mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Communicate Without the Internet: LoRa, Mesh, and Magic</title><link>https://switchboardtechservices.com/posts/mesh-lora-communications/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/mesh-lora-communications/</guid><description>The Internet is a house of cards. LoRa, mesh networks, and a bit of radio magic can keep us talking when the lights go out.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesh on Switchboard Tech Services</title>
+    <link>http://localhost:1313/tags/mesh/</link>
+    <description>Recent content in Mesh on Switchboard Tech Services</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Communicate Without the Internet: LoRa, Mesh, and Magic</title>
+      <link>http://localhost:1313/posts/mesh-lora-communications/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mesh-lora-communications/</guid>
+      <description>The Internet is a house of cards. LoRa, mesh networks, and a bit of radio magic can keep us talking when the lights go out.</description>
+    </item>
+  </channel>
+</rss>

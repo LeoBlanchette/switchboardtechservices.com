@@ -1,9 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Switchboard Tech Services</title><link>https://switchboardtechservices.com/tags/security/</link><description>Recent content in Security on Switchboard Tech Services</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Full Privacy Real Simple The Tools of the Modern Ghost</title><link>https://switchboardtechservices.com/posts/kirksville-guide-to-internet-privacy/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/kirksville-guide-to-internet-privacy/</guid><description>Complete practical and understandable. This is the modern privacy guide for people who want to take control of their digital life using open verifiable tools.</description></item><item><title>What to Do Before You Bring Your Computer for Repair</title><link>https://switchboardtechservices.com/posts/what-to-do-before-repair/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/what-to-do-before-repair/</guid><description>A practical checklist from Switchboard Tech Services in Kirksville. Here is how to prepare your computer for repair the smart way &amp;ndash; safely, simply, and without losing your files.</description></item><item><title>Saving Your Old Windows PC: How Linux Can Keep It Secure</title><link>https://switchboardtechservices.com/posts/save-your-old-pc/</link><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/save-your-old-pc/</guid><description>&lt;h2 id="your-old-windows-pc-isnt-getting-updates--why-thats-a-problem"&gt;Your Old Windows PC Isn’t Getting Updates — Why That’s a Problem&lt;/h2&gt;
-&lt;p&gt;If your laptop or desktop is running &lt;strong&gt;Windows 7, 8, or even early Windows 10 builds&lt;/strong&gt;, you might have noticed a quiet truth: &lt;strong&gt;security updates have stopped&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Life on an unsupported Windows PC can be frustrating:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pop-ups warning about end-of-support&lt;/li&gt;
-&lt;li&gt;Applications that stop updating&lt;/li&gt;
-&lt;li&gt;Increased risk of malware and exploits&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Maintaining it yourself means &lt;strong&gt;tracking CVEs and patches manually&lt;/strong&gt; — essentially, keeping a full-time security hobby.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Switchboard Tech Services</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Switchboard Tech Services</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full Privacy Real Simple The Tools of the Modern Ghost</title>
+      <link>http://localhost:1313/posts/kirksville-guide-to-internet-privacy/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kirksville-guide-to-internet-privacy/</guid>
+      <description>Complete practical and understandable. This is the modern privacy guide for people who want to take control of their digital life using open verifiable tools.</description>
+    </item>
+    <item>
+      <title>What to Do Before You Bring Your Computer for Repair</title>
+      <link>http://localhost:1313/posts/what-to-do-before-repair/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-to-do-before-repair/</guid>
+      <description>A practical checklist from Switchboard Tech Services in Kirksville. Here is how to prepare your computer for repair the smart way &amp;ndash; safely, simply, and without losing your files.</description>
+    </item>
+    <item>
+      <title>Router Settings That Make a Difference in Small-Town Homes and Apartment Buildings</title>
+      <link>http://localhost:1313/posts/ideal-router-settings-kirksville/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ideal-router-settings-kirksville/</guid>
+      <description>Default router settings are made for city apartments, not small-town homes. A few careful changes can boost range, reliability, and security for everyone on your network.</description>
+    </item>
+    <item>
+      <title>Saving Your Old Windows PC: How Linux Can Keep It Secure</title>
+      <link>http://localhost:1313/posts/save-your-old-pc/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/save-your-old-pc/</guid>
+      <description>&lt;h2 id=&#34;your-old-windows-pc-isnt-getting-updates--why-thats-a-problem&#34;&gt;Your Old Windows PC Isn’t Getting Updates — Why That’s a Problem&lt;/h2&gt;&#xA;&lt;p&gt;If your laptop or desktop is running &lt;strong&gt;Windows 7, 8, or even early Windows 10 builds&lt;/strong&gt;, you might have noticed a quiet truth: &lt;strong&gt;security updates have stopped&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Life on an unsupported Windows PC can be frustrating:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pop-ups warning about end-of-support&lt;/li&gt;&#xA;&lt;li&gt;Applications that stop updating&lt;/li&gt;&#xA;&lt;li&gt;Increased risk of malware and exploits&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Maintaining it yourself means &lt;strong&gt;tracking CVEs and patches manually&lt;/strong&gt; — essentially, keeping a full-time security hobby.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

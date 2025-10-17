@@ -14,14 +14,14 @@ Website design has shifted over the years. There are plenty of cheap, do-it-your
 
 ## What I Can Do
 
-- **Sleek HTML-only websites**  
-  Fast, secure, no clutter. Perfect for a simple business card site, brochure, or portfolio. These work anywhere and last for years without fuss.
+- **Sleek HTML-only websites, $40 launch fee, **$15/month** no upsells, no hidden costs.**  
+  Fast, secure, no clutter. Perfect for a simple business card site, brochure, or portfolio. These work anywhere and last for years without fuss. **See the detailed article on how I host and price. [posts/host-website-in-kirksville/](posts/host-website-in-kirksville/)**
 
 - **Dynamic websites**  
-  Where needed, I can add forms, blogs, or basic interactive features. I host on Linux servers (Opalstack or similar) so you’re not tied to a single platform.
+  Where needed, I can add forms, blogs, or basic interactive features. I host on Linux servers (Opalstack or similar) so you’re not tied to a single platform. This is if you require **important custom functionality** or require **automated features**.
 
 - **Maintenance, repair, troubleshooting**  
-  If you already have a site that’s half-working, throwing errors, or needs to be cleaned up, I can usually get it back on its feet.
+  If you already have a site that’s half-working, throwing errors, or needs to be cleaned up, I can usually get it back on its feet. I am very experienced in web design and server management. 
 
 ## My Approach
 

@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy on Switchboard Tech Services</title><link>https://switchboardtechservices.com/categories/privacy/</link><description>Recent content in Privacy on Switchboard Tech Services</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/categories/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>Full Privacy Real Simple The Tools of the Modern Ghost</title><link>https://switchboardtechservices.com/posts/kirksville-guide-to-internet-privacy/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/kirksville-guide-to-internet-privacy/</guid><description>Complete practical and understandable. This is the modern privacy guide for people who want to take control of their digital life using open verifiable tools.</description></item><item><title>Why You Should Use ProtonMail in Kirksville: The Email That Doesnt Spy on You</title><link>https://switchboardtechservices.com/posts/why-use-protonmail/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/why-use-protonmail/</guid><description>Google reads your emails like a nosy neighbor. ProtonMail locks them up tighter than Fort Knox. Heres why that matters in Kirksville.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on Switchboard Tech Services</title>
+    <link>http://localhost:1313/categories/privacy/</link>
+    <description>Recent content in Privacy on Switchboard Tech Services</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full Privacy Real Simple The Tools of the Modern Ghost</title>
+      <link>http://localhost:1313/posts/kirksville-guide-to-internet-privacy/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kirksville-guide-to-internet-privacy/</guid>
+      <description>Complete practical and understandable. This is the modern privacy guide for people who want to take control of their digital life using open verifiable tools.</description>
+    </item>
+    <item>
+      <title>Why You Should Use ProtonMail in Kirksville: The Email That Doesnt Spy on You</title>
+      <link>http://localhost:1313/posts/why-use-protonmail/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-use-protonmail/</guid>
+      <description>Google reads your emails like a nosy neighbor. ProtonMail locks them up tighter than Fort Knox. Heres why that matters in Kirksville.</description>
+    </item>
+  </channel>
+</rss>

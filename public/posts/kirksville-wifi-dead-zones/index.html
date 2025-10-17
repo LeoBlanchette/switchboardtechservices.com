@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Kirksville’s Wi-Fi Dead Zones (and How to Fix Them) :: Switchboard Tech Services</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A complete guide for Kirksville residents and techs on diagnosing and fixing Wi-Fi dead zones, understanding local network infrastructure, and improving home and neighborhood connectivity." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/kirksville-wifi-dead-zones/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ853YL51X"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SZ853YL51X');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Kirksville’s Wi-Fi Dead Zones (and How to Fix Them)">
+<meta property="og:description" content="A complete guide for Kirksville residents and techs on diagnosing and fixing Wi-Fi dead zones, understanding local network infrastructure, and improving home and neighborhood connectivity." />
+<meta property="og:url" content="http://localhost:1313/posts/kirksville-wifi-dead-zones/" />
+<meta property="og:site_name" content="Switchboard Tech Services" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/posts/kirksville-wifi-dead-zones/images/wifi-dropouts-lego-minifig-explores.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Repair" />
+
+  <meta property="article:section" content="Networking" />
+
+  <meta property="article:section" content="Kirksville" />
+
+
+  <meta property="article:published_time" content="2025-10-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+  <link href="http://localhost:1313/posts/kirksville-wifi-dead-zones/index.json" rel="alternate" type="application/json" title="Switchboard Tech Services" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https:\/\/switchboardtechservices.com#business",
+  "name": "Switchboard Tech Services, LLC",
+  "image": "https:\/\/switchboardtechservices.com\/images\/theswitchboard.jpg",
+  "url": "https:\/\/switchboardtechservices.com",
+  "telephone": "\u002b1.660.956.1108",
+  "email": "theswitchboard@protonmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 594",
+    "addressLocality": "Kirksville",
+    "addressRegion": "MO",
+    "postalCode": "63501",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "City", "name": "Kirksville" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "17:00", "closes": "21:00"
+    },
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00", "closes": "18:00"
+    }
+  ],
+  "sameAs": ["https://www.facebook.com/SwitchboardTechServices/","https://www.yelp.com/biz/switchboard-tech-services-kirksville"]
+}
+</script>
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Switchboard Tech Services, Kirksville
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="http://localhost:1313/services/">Services</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/">Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/rates/">Rates</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/">About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/">Contact</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="http://localhost:1313/services/" >Services</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/" >Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/rates/" >Rates</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/" >About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/" >Contact</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/kirksville-wifi-dead-zones/">Kirksville’s Wi-Fi Dead Zones (and How to Fix Them)</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-10-17</time><span class="post-author">Switchboard Tech Services</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/wifi-repair-kirksville/">wifi repair kirksville</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/network-troubleshooting/">network troubleshooting</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/kirksville-internet/">kirksville internet</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/computer-repair-kirksville/">computer repair kirksville</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/wireless/">wireless</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/broadband/">broadband</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="http://localhost:1313/posts/kirksville-wifi-dead-zones/images/wifi-dropouts-lego-minifig-explores.jpg"
+    class="post-cover"
+    alt="Kirksville’s Wi-Fi Dead Zones (and How to Fix Them)"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#quick-reference">Quick Reference</a></li>
+    <li><a href="#why-your-wi-fi-dies-a-plain-english-map-of-causes">Why Your Wi-Fi Dies: A Plain-English Map Of Causes</a>
+      <ul>
+        <li><a href="#rural-realities-around-kirksville">Rural Realities Around Kirksville</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-signals-actually-move-in-a-house">How Signals Actually Move In A House</a>
+      <ul>
+        <li><a href="#a-one-minute-physics-lesson">A One-Minute Physics Lesson</a></li>
+        <li><a href="#building-materials-that-eat-wi-fi">Building Materials That Eat Wi-Fi</a></li>
+        <li><a href="#floor-plans-and-layouts">Floor Plans And Layouts</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-outside-world-you-inherited">The Outside World You Inherited</a>
+      <ul>
+        <li><a href="#what-your-isp-hands-you">What Your ISP Hands You</a></li>
+        <li><a href="#when-the-bottleneck-is-not-wi-fi">When The Bottleneck Is Not Wi-Fi</a></li>
+        <li><a href="#fixed-wireless-dishes-around-kirksville">Fixed Wireless Dishes Around Kirksville</a></li>
+      </ul>
+    </li>
+    <li><a href="#diagnose-like-a-local-network-analyst">Diagnose Like A Local Network Analyst</a>
+      <ul>
+        <li><a href="#step-1-establish-baseline-at-the-modem">Step 1: Establish Baseline At The Modem</a></li>
+        <li><a href="#step-2-walk-test-wi-fi-signal-strength">Step 2: Walk-Test Wi-Fi Signal Strength</a></li>
+        <li><a href="#step-3-test-at-different-times">Step 3: Test At Different Times</a></li>
+        <li><a href="#step-4-one-change-at-a-time">Step 4: One Change At A Time</a></li>
+      </ul>
+    </li>
+    <li><a href="#decision-tree-where-the-problem-lives">Decision Tree: Where The Problem Lives</a></li>
+    <li><a href="#fixes-inside-the-home-least-cost-to-most">Fixes Inside The Home (Least Cost To Most)</a>
+      <ul>
+        <li><a href="#router-placement-and-elevation">Router Placement And Elevation</a></li>
+        <li><a href="#firmware-updates-and-band-settings">Firmware Updates And Band Settings</a></li>
+        <li><a href="#separate-ssids-when-debugging">Separate SSIDs When Debugging</a></li>
+        <li><a href="#wired-backhaul-beats-mesh">Wired Backhaul Beats Mesh</a></li>
+        <li><a href="#powerline-and-ethernet-options">Powerline And Ethernet Options</a></li>
+        <li><a href="#antenna-orientation-and-roaming">Antenna Orientation And Roaming</a></li>
+      </ul>
+    </li>
+    <li><a href="#when-the-issue-is-upstream-of-you">When The Issue Is Upstream Of You</a>
+      <ul>
+        <li><a href="#reading-modem-levels">Reading Modem Levels</a></li>
+        <li><a href="#how-to-talk-to-your-isp-effectively">How To Talk To Your ISP Effectively</a></li>
+        <li><a href="#for-fixed-wireless-users">For Fixed Wireless Users</a></li>
+      </ul>
+    </li>
+    <li><a href="#small-town-specials-outbuildings-shops-and-acreage">Small-Town Specials: Outbuildings, Shops, And Acreage</a>
+      <ul>
+        <li><a href="#point-to-point-links">Point-To-Point Links</a></li>
+        <li><a href="#outdoor-aps-and-weather">Outdoor APs And Weather</a></li>
+        <li><a href="#sharing-bandwidth-responsibly">Sharing Bandwidth Responsibly</a></li>
+      </ul>
+    </li>
+    <li><a href="#security-and-stability-while-you-improve-coverage">Security And Stability While You Improve Coverage</a>
+      <ul>
+        <li><a href="#basic-security">Basic Security</a></li>
+        <li><a href="#backup-configurations">Backup Configurations</a></li>
+        <li><a href="#power-protection">Power Protection</a></li>
+      </ul>
+    </li>
+    <li><a href="#neighborhood-scale-moves">Neighborhood-Scale Moves</a>
+      <ul>
+        <li><a href="#mapping-community-dead-zones">Mapping Community Dead Zones</a></li>
+        <li><a href="#coordinated-provider-requests">Coordinated Provider Requests</a></li>
+        <li><a href="#when-a-local-mesh-makes-sense">When A Local Mesh Makes Sense</a></li>
+      </ul>
+    </li>
+    <li><a href="#still-need-help">Still need help?</a></li>
+    <li><a href="#faq">FAQ</a>
+      <ul>
+        <li><a href="#why-is-my-garage-always-a-dead-zone">Why Is My Garage Always A Dead Zone?</a></li>
+        <li><a href="#is-my-router-too-old">Is My Router Too Old?</a></li>
+        <li><a href="#mesh-vs-extender">Mesh vs Extender?</a></li>
+        <li><a href="#do-trees-and-rain-really-matter">Do Trees And Rain Really Matter?</a></li>
+        <li><a href="#should-i-switch-isps">Should I Switch ISPs?</a></li>
+      </ul>
+    </li>
+    <li><a href="#closing-from-dead-zones-to-living-networks">Closing: From Dead Zones To Living Networks</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="kirksvilles-wi-fi-dead-zones-and-how-to-fix-them">Kirksville’s Wi-Fi Dead Zones (and How to Fix Them)<a href="#kirksvilles-wi-fi-dead-zones-and-how-to-fix-them" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><em>By Switchboard Tech Services – Kirksville, Missouri</em></p>
+<h2 id="quick-reference">Quick Reference<a href="#quick-reference" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><strong>10-Minute Checklist</strong></p>
+<ol>
+<li>Reboot modem and router.</li>
+<li>Test Ethernet speed.</li>
+<li>Move router to a central, elevated spot.</li>
+<li>Update firmware.</li>
+<li>Check interference from nearby networks.</li>
+<li>Use 5 GHz where possible.</li>
+<li>Test again and note improvement.</li>
+</ol>
+<p><strong>Useful Tools</strong></p>
+<ul>
+<li><a href="https://www.speedtest.net/">Speedtest.net</a> – Simple and accurate speed testing for download, upload, and latency.</li>
+<li><a href="https://wifiman.com/">WiFiman</a> (Android/iOS) – Scan Wi-Fi signal strength, channels, and nearby networks; built by Ubiquiti.</li>
+<li><a href="https://www.netspotapp.com/">NetSpot</a> (desktop) – Create Wi-Fi heatmaps and visualize coverage throughout your space.</li>
+<li><a href="https://www.pingplotter.com/">PingPlotter</a> – Graph latency and packet loss over time to spot unstable links.</li>
+<li><a href="https://www.mocalliance.org/">MoCA Adapters</a> or <a href="https://www.tp-link.com/us/home-networking/powerline/">Powerline Adapters</a> – Use existing coax or electrical wiring to create reliable wired backhaul without new cabling.</li>
+</ul>
+<hr>
+<h2 id="why-your-wi-fi-dies-a-plain-english-map-of-causes">Why Your Wi-Fi Dies: A Plain-English Map Of Causes<a href="#why-your-wi-fi-dies-a-plain-english-map-of-causes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Every Kirksville neighborhood has that one spot where the signal dies mid-scroll. Maybe it is the back bedroom, the basement, or the shed. Understanding why helps you fix it once and for all.</p>
+<p>Wi-Fi failure is usually the result of three layers that all have to cooperate:</p>
+<ol>
+<li><strong>Your provider connection</strong> – The line that brings Internet into your building.</li>
+<li><strong>Your local network</strong> – The modem, router, and cabling inside your walls.</li>
+<li><strong>Your devices</strong> – Phones, laptops, TVs, each with their own radio quirks.</li>
+</ol>
+<p>When any layer weakens, your whole network feels it. Slow speeds across every device usually trace back to the ISP or modem. Sluggishness in specific rooms points to signal loss through walls or interference from appliances. Random dropouts often mean channel congestion, outdated firmware, or even aging cabling &ndash; the kind where a partially frayed, moisture-sensitive line misbehaves whenever humidity rises.</p>
+<h3 id="rural-realities-around-kirksville">Rural Realities Around Kirksville<a href="#rural-realities-around-kirksville" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Kirksville sits in the rolling hills of northeast Missouri. Those gentle hills can block line-of-sight wireless signals. Older houses use thick plaster, brick, or metal lath walls that eat Wi-Fi. Outskirts of town may run on older copper lines or fixed wireless dishes where capacity is limited.</p>
+<p>Understanding those physical limits is step one toward reliable connectivity.</p>
+<hr>
+<h2 id="how-signals-actually-move-in-a-house">How Signals Actually Move In A House<a href="#how-signals-actually-move-in-a-house" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="a-one-minute-physics-lesson">A One-Minute Physics Lesson<a href="#a-one-minute-physics-lesson" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Wi-Fi is radio. Radio waves weaken over distance and bounce off solid objects. Each wall, appliance, or reflective surface either absorbs or scatters energy. The more turns a signal has to take, the weaker it becomes.</p>
+<h3 id="building-materials-that-eat-wi-fi">Building Materials That Eat Wi-Fi<a href="#building-materials-that-eat-wi-fi" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Concrete, brick, metal siding, stone, and foil-backed insulation all block signals.<br>
+Appliances like microwaves and cordless phones emit on the same 2.4 GHz band.<br>
+Even fish tanks absorb radio waves, since water conducts electricity.</p>
+<h3 id="floor-plans-and-layouts">Floor Plans And Layouts<a href="#floor-plans-and-layouts" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Wi-Fi prefers open space. Basements and garages are trouble spots because signals travel poorly through floors and insulation. Stairwells and hallways can create reflections and null zones. A router in the center of the home generally works best.</p>
+<hr>
+<h2 id="the-outside-world-you-inherited">The Outside World You Inherited<a href="#the-outside-world-you-inherited" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="what-your-isp-hands-you">What Your ISP Hands You<a href="#what-your-isp-hands-you" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>In Kirksville, homes may be connected by:</p>
+<ul>
+<li><strong>Cable internet</strong> – typically the fastest and most common.</li>
+<li><strong>Fiber</strong> – available in some newer developments and businesses.</li>
+<li><strong>DSL or phone-line internet</strong> – older, slower, still present in rural pockets.</li>
+<li><strong>Fixed wireless</strong> – a small dish or antenna pointing toward a tower.</li>
+<li><strong>Satellite</strong> – high latency and data caps, a last resort.</li>
+</ul>
+<p>Each technology has different limits on speed and reliability.</p>
+<h3 id="when-the-bottleneck-is-not-wi-fi">When The Bottleneck Is Not Wi-Fi<a href="#when-the-bottleneck-is-not-wi-fi" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Sometimes Wi-Fi is innocent. Your modem may be struggling with bad signal-to-noise levels, upstream congestion, or faulty cabling from the street. Before blaming the router, confirm whether the issue is happening even over a wired Ethernet connection.</p>
+<h3 id="fixed-wireless-dishes-around-kirksville">Fixed Wireless Dishes Around Kirksville<a href="#fixed-wireless-dishes-around-kirksville" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Fixed wireless systems are common in rural Missouri. You may see small dishes on barns or rooftops pointing toward a distant tower. They use line-of-sight radio to deliver internet where cable cannot reach.</p>
+<p>If you use this kind of service, small misalignments, storms, or tree growth can cut performance in half. Unlike cable, your connection quality literally depends on air and geometry.</p>
+<p>Since these installations live outdoors, it’s not uncommon to find that insects, spiders, or wasps have taken up residence inside the hardware. Even a small nest can block ventilation, trap moisture, or interfere with the signal, so it’s worth inspecting the dish and enclosure periodically.</p>
+<hr>
+<h2 id="diagnose-like-a-local-network-analyst">Diagnose Like A Local Network Analyst<a href="#diagnose-like-a-local-network-analyst" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Think like a detective, not a gambler. Guessing wastes time.</p>
+<h3 id="step-1-establish-baseline-at-the-modem">Step 1: Establish Baseline At The Modem<a href="#step-1-establish-baseline-at-the-modem" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Plug a laptop directly into the modem or router using Ethernet. Run a speed test at a consistent time of day. That gives you a baseline of what your ISP is delivering.</p>
+<h3 id="step-2-walk-test-wi-fi-signal-strength">Step 2: Walk-Test Wi-Fi Signal Strength<a href="#step-2-walk-test-wi-fi-signal-strength" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Use a phone app that shows signal (RSSI) and channel usage. Walk through your house and record where the signal drops. This maps your dead zones.</p>
+<p><a href="http://localhost:1313/posts/router-interference/">See also the article on Router Interference&hellip;</a></p>
+<h3 id="step-3-test-at-different-times">Step 3: Test At Different Times<a href="#step-3-test-at-different-times" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Run the same test during busy hours and quiet hours. If it is always weak in the same rooms, it is layout. If it slows only at night, it is neighborhood congestion.</p>
+<h3 id="step-4-one-change-at-a-time">Step 4: One Change At A Time<a href="#step-4-one-change-at-a-time" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Move the router or change one setting, then test again. Keep notes. Avoid changing multiple variables at once, or you will not know which one helped.</p>
+<hr>
+<h2 id="decision-tree-where-the-problem-lives">Decision Tree: Where The Problem Lives<a href="#decision-tree-where-the-problem-lives" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Ethernet is slow at the modem</strong> – Call the ISP. The problem is upstream.</li>
+<li><strong>Ethernet is fast but Wi-Fi slow everywhere</strong> – Replace or reconfigure router.</li>
+<li><strong>Wi-Fi bad in certain rooms only</strong> – Move router, change channels, reduce obstacles.</li>
+<li><strong>One device only</strong> – Update drivers, disable power saving, check band preferences.</li>
+</ul>
+<hr>
+<h2 id="fixes-inside-the-home-least-cost-to-most">Fixes Inside The Home (Least Cost To Most)<a href="#fixes-inside-the-home-least-cost-to-most" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="router-placement-and-elevation">Router Placement And Elevation<a href="#router-placement-and-elevation" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Routers love high ground. Keep it on a shelf or wall mount, not the floor. Center placement helps reach all rooms evenly.</p>
+<h3 id="firmware-updates-and-band-settings">Firmware Updates And Band Settings<a href="#firmware-updates-and-band-settings" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Outdated firmware causes instability. Log into the router and check for updates.<br>
+IMPORTANT: <strong>Use 5 GHz for speed and 2.4 GHz for range.</strong> Avoid overly wide 160 MHz channels that interfere with neighbors.</p>
+<h3 id="separate-ssids-when-debugging">Separate SSIDs When Debugging<a href="#separate-ssids-when-debugging" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Name your 2.4 GHz and 5 GHz networks differently during testing. That way you can see which band performs better.</p>
+<h3 id="wired-backhaul-beats-mesh">Wired Backhaul Beats Mesh<a href="#wired-backhaul-beats-mesh" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Mesh systems are helpful, but whenever possible connect them via Ethernet or MoCA over coax. Pure wireless repeaters cut throughput in half.</p>
+<h3 id="powerline-and-ethernet-options">Powerline And Ethernet Options<a href="#powerline-and-ethernet-options" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Powerline adapters use electrical wiring to extend your network. MoCA adapters do the same using TV cable lines. Both are often faster than wireless extenders.</p>
+<h3 id="antenna-orientation-and-roaming">Antenna Orientation And Roaming<a href="#antenna-orientation-and-roaming" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Point router antennas vertically for horizontal coverage, horizontally for multi-floor homes. Disable band steering temporarily to see if your devices roam poorly between access points.</p>
+<hr>
+<h2 id="when-the-issue-is-upstream-of-you">When The Issue Is Upstream Of You<a href="#when-the-issue-is-upstream-of-you" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="reading-modem-levels">Reading Modem Levels<a href="#reading-modem-levels" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Most modems show signal levels and error counts. High uncorrectable errors mean line noise or bad coax. Low signal levels suggest a loose connection or water-damaged cable.</p>
+<h3 id="how-to-talk-to-your-isp-effectively">How To Talk To Your ISP Effectively<a href="#how-to-talk-to-your-isp-effectively" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Document test results, times, and exact speeds. When calling support, be polite but firm. Present your evidence and ask to escalate if needed.</p>
+<h3 id="for-fixed-wireless-users">For Fixed Wireless Users<a href="#for-fixed-wireless-users" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Check dish alignment twice a year. Tighten mounts after high winds. Clear tree branches in the line of sight. Mount on solid structure, not siding. Keep cables short and weather-sealed. Depending on distance apart, even small rotations of the dish can make or break a good connection.</p>
+<hr>
+<h2 id="small-town-specials-outbuildings-shops-and-acreage">Small-Town Specials: Outbuildings, Shops, And Acreage<a href="#small-town-specials-outbuildings-shops-and-acreage" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="point-to-point-links">Point-To-Point Links<a href="#point-to-point-links" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If you want Wi-Fi in your barn, garage, or workshop, consider a <strong>point-to-point link</strong>. <a href="https://www.ui.com/">Ubiquiti</a> and <a href="https://www.tp-link.com/">TP-Link</a> sell small outdoor radios that create invisible Ethernet bridges. These are safer and faster than trying to extend Wi-Fi through walls.</p>
+<h3 id="outdoor-aps-and-weather">Outdoor APs And Weather<a href="#outdoor-aps-and-weather" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Use outdoor-rated access points and shielded cabling. Ground all runs properly to prevent lightning damage. Always use a GFCI outlet.</p>
+<h3 id="sharing-bandwidth-responsibly">Sharing Bandwidth Responsibly<a href="#sharing-bandwidth-responsibly" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If you are sharing internet with family across the property, use <a href="https://en.wikipedia.org/wiki/VLAN">VLANs</a> or guest SSIDs. That keeps everyone secure and avoids network loops.</p>
+<hr>
+<h2 id="security-and-stability-while-you-improve-coverage">Security And Stability While You Improve Coverage<a href="#security-and-stability-while-you-improve-coverage" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="basic-security">Basic Security<a href="#basic-security" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Use WPA2 or WPA3 encryption. Disable WPS. Set strong passwords and change default admin logins.</p>
+<h3 id="backup-configurations">Backup Configurations<a href="#backup-configurations" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Before experimenting, export your router configuration. After each major improvement, save another snapshot. This lets you restore a working setup quickly.</p>
+<h3 id="power-protection">Power Protection<a href="#power-protection" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Kirksville gets occasional brownouts and flickers. Plug your modem and router into a small UPS battery backup. It prevents corruption and downtime during brief outages.</p>
+<hr>
+<h2 id="neighborhood-scale-moves">Neighborhood-Scale Moves<a href="#neighborhood-scale-moves" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="mapping-community-dead-zones">Mapping Community Dead Zones<a href="#mapping-community-dead-zones" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Neighbors can pool data using free apps to build coverage maps. This helps identify gaps the ISPs overlook.</p>
+<p><strong>Useful mapping tools:</strong></p>
+<ul>
+<li><a href="https://wifiman.com/">WiFiman</a> – Quick, no-login signal mapper by Ubiquiti. Excellent for scanning signal strength and channel overlap indoors or outdoors.</li>
+<li><a href="https://www.netspotapp.com/">NetSpot</a> – Desktop Wi-Fi survey tool for creating heatmaps of coverage in homes, shops, or public buildings.</li>
+<li><a href="https://www.speedtest.net/map">Ookla Speedtest Map</a> – Public worldwide speed map based on user test data; helpful for spotting slower neighborhoods.</li>
+<li><a href="https://location.services.mozilla.com/">Mozilla Common Voice / Firefox Location Service</a> – Community-driven map of wireless and cell signals, great for comparing rural data.</li>
+<li><a href="https://www.measurementlab.net/">Measurement Lab (M-Lab)</a> – Open data platform for Internet performance tests, used by Google and research projects to assess broadband quality.</li>
+</ul>
+<h3 id="coordinated-provider-requests">Coordinated Provider Requests<a href="#coordinated-provider-requests" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If multiple addresses on the same street report poor signal, file requests together. Providers respond faster to grouped complaints.</p>
+<h3 id="when-a-local-mesh-makes-sense">When A Local Mesh Makes Sense<a href="#when-a-local-mesh-makes-sense" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>A small neighborhood mesh using directional radios can share a single backhaul connection legally and efficiently, especially in rural edges of Kirksville. It is the modern version of neighbors sharing a fence line for mutual benefit.</p>
+<hr>
+<h2 id="still-need-help">Still need help?<a href="#still-need-help" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Give us a call, and we can help determine what is causing a given deadzone.</p>
+<p><strong>ISP Data Sheet Template</strong></p>
+<p>Keep a small table of date, time, Ethernet speed, Wi-Fi speed, and notes. Support teams love data.</p>
+<hr>
+<h2 id="faq">FAQ<a href="#faq" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="why-is-my-garage-always-a-dead-zone">Why Is My Garage Always A Dead Zone?<a href="#why-is-my-garage-always-a-dead-zone" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Metal doors and concrete block signals. Consider an outdoor-rated access point facing the garage or a wired link.</p>
+<h3 id="is-my-router-too-old">Is My Router Too Old?<a href="#is-my-router-too-old" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If it is more than five years old and uses Wi-Fi 4 or early Wi-Fi 5, yes. Modern routers handle interference and multiple devices better.</p>
+<h3 id="mesh-vs-extender">Mesh vs Extender?<a href="#mesh-vs-extender" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Mesh shares one network name and manages roaming automatically. Extenders create new networks and halve bandwidth. Mesh is cleaner if you can afford it.</p>
+<p>See <a href="https://www.tp-link.com/us/deco-mesh-wifi/">https://www.tp-link.com/us/deco-mesh-wifi/</a> for example.</p>
+<h3 id="do-trees-and-rain-really-matter">Do Trees And Rain Really Matter?<a href="#do-trees-and-rain-really-matter" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Yes. Water absorbs 5 GHz radio energy. Wet leaves or rainfall can cause measurable loss, especially on fixed wireless links.</p>
+<h3 id="should-i-switch-isps">Should I Switch ISPs?<a href="#should-i-switch-isps" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If your Ethernet speed never matches your plan, yes. Otherwise, fix in-house issues first. Many customers replace routers unnecessarily when the real problem is placement.</p>
+<hr>
+<h2 id="closing-from-dead-zones-to-living-networks">Closing: From Dead Zones To Living Networks<a href="#closing-from-dead-zones-to-living-networks" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Strong Wi-Fi is not magic; it is physics, planning, and a bit of patience.<br>
+Kirksville homes can enjoy fast, stable connections without buying new equipment every year. By learning how signals travel and how to test logically, you take control of your own network.</p>
+<p>And if you get stuck, Switchboard Tech Services is here to bridge the gaps &ndash; literally. We have turned more dead zones into living networks than we can count.</p>
+<hr>
+<p><em>Switchboard Tech Services LLC – Kirksville’s local repair and network support shop. Helping neighbors build stronger connections, one signal at a time.</em></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/speed-up-laptop/" class="button inline prev">
+        &lt; [<span class="button__text">How to Speed Up Your Old Laptop (Kirksville Edition)</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/simple-data-backups-without-the-cloud/" class="button inline next">
+         [<span class="button__text">Simple Data Backups Without the Cloud</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

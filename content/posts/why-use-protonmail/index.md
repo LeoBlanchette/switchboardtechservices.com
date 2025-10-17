@@ -21,7 +21,7 @@ What they dont realize is that "free" email costs more than they think -- not in
 
 ## How Google Snoops (and Why Its Worse Than You Think)
 
-Lets be honest: Google reads your mail like a nosy neighbor with binoculars.
+Google reads your mail like a nosy neighbor with binoculars.
 
 Every receipt you get from Amazon? Logged.  
 Every flight confirmation, appointment, or "you up?" message? Indexed.  

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Simple Data Backups Without the Cloud :: Switchboard Tech Services</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A practical guide from Switchboard Tech Services in Kirksville on keeping your files safe with offline backups -- no cloud accounts, no subscriptions, no nonsense." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/simple-data-backups-without-the-cloud/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ853YL51X"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SZ853YL51X');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Simple Data Backups Without the Cloud">
+<meta property="og:description" content="A practical guide from Switchboard Tech Services in Kirksville on keeping your files safe with offline backups -- no cloud accounts, no subscriptions, no nonsense." />
+<meta property="og:url" content="http://localhost:1313/posts/simple-data-backups-without-the-cloud/" />
+<meta property="og:site_name" content="Switchboard Tech Services" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/posts/simple-data-backups-without-the-cloud/images/simple-data-backup-without-the-cloud-lego-minifigure.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Local Tech" />
+
+  <meta property="article:section" content="Repair Guides" />
+
+  <meta property="article:section" content="Kirksville Tech Handbook" />
+
+
+  <meta property="article:published_time" content="2025-10-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+  <link href="http://localhost:1313/posts/simple-data-backups-without-the-cloud/index.json" rel="alternate" type="application/json" title="Switchboard Tech Services" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https:\/\/switchboardtechservices.com#business",
+  "name": "Switchboard Tech Services, LLC",
+  "image": "https:\/\/switchboardtechservices.com\/images\/theswitchboard.jpg",
+  "url": "https:\/\/switchboardtechservices.com",
+  "telephone": "\u002b1.660.956.1108",
+  "email": "theswitchboard@protonmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 594",
+    "addressLocality": "Kirksville",
+    "addressRegion": "MO",
+    "postalCode": "63501",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "City", "name": "Kirksville" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "17:00", "closes": "21:00"
+    },
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00", "closes": "18:00"
+    }
+  ],
+  "sameAs": ["https://www.facebook.com/SwitchboardTechServices/","https://www.yelp.com/biz/switchboard-tech-services-kirksville"]
+}
+</script>
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Switchboard Tech Services, Kirksville
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="http://localhost:1313/services/">Services</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/">Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/rates/">Rates</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/">About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/">Contact</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="http://localhost:1313/services/" >Services</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/" >Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/rates/" >Rates</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/" >About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/" >Contact</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/simple-data-backups-without-the-cloud/">Simple Data Backups Without the Cloud</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-10-17</time><span class="post-author">Switchboard Tech Services</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/data-backup/">data backup</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/kirksville/">kirksville</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/offline-storage/">offline storage</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/privacy/">privacy</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/switchboard-tech-services/">switchboard tech services</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="http://localhost:1313/posts/simple-data-backups-without-the-cloud/images/simple-data-backup-without-the-cloud-lego-minifigure.jpg"
+    class="post-cover"
+    alt="Simple Data Backups Without the Cloud"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-why-avoid-the-cloud">1. Why avoid the cloud?</a></li>
+    <li><a href="#2-the-golden-rule-two-copies-minimum">2. The golden rule: two copies minimum</a></li>
+    <li><a href="#3-choose-your-backup-device">3. Choose your backup device</a></li>
+    <li><a href="#4-organize-your-backup-folder">4. Organize your backup folder</a></li>
+    <li><a href="#5-how-to-do-a-manual-backup">5. How to do a manual backup</a>
+      <ul>
+        <li><a href="#on-windows">On Windows:</a></li>
+        <li><a href="#on-linux">On Linux:</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-automating-the-process">6. Automating the process</a></li>
+    <li><a href="#7-test-your-backups">7. Test your backups</a></li>
+    <li><a href="#8-store-your-drives-wisely">8. Store your drives wisely</a></li>
+    <li><a href="#9-a-local-habit-worth-forming">9. A local habit worth forming</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="simple-data-backups-without-the-cloud">Simple Data Backups Without the Cloud<a href="#simple-data-backups-without-the-cloud" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><em>By Switchboard Tech Services &ndash; Kirksville, Missouri</em></p>
+<p>Most people do not think about backups until it is too late. A hard drive fails, a laptop gets dropped, or a ransomware pop-up locks the screen, and suddenly years of work or photos are gone.</p>
+<p>The good news: you can protect everything that matters with one or two small devices and about 15 minutes of setup. No cloud subscriptions, no login screens, and no data mining involved.</p>
+<p>This guide covers the simplest, most reliable ways to back up your files <strong>completely offline</strong>.</p>
+<hr>
+<h2 id="1-why-avoid-the-cloud">1. Why avoid the cloud?<a href="#1-why-avoid-the-cloud" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Cloud storage is convenient, but it also means your data lives on someone else’s computer. You depend on their password system, their pricing, and their ability to stay honest and secure.</p>
+<p>There is nothing wrong with using Google Drive or OneDrive for quick sharing, but <strong>they should not be your only backup</strong>. If an account is hacked or closed, you can lose everything overnight.</p>
+<p>Local backups give you full control. You own the drives. You decide when they connect. You can literally hold your data in your hands.</p>
+<hr>
+<h2 id="2-the-golden-rule-two-copies-minimum">2. The golden rule: two copies minimum<a href="#2-the-golden-rule-two-copies-minimum" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>A backup only counts if it exists in more than one place. That means:</p>
+<ul>
+<li>One copy on your computer (your working files)</li>
+<li>One copy on a separate drive or medium</li>
+</ul>
+<p>If you have important documents or irreplaceable photos, add a third copy stored somewhere else, like a safe or a trusted family member’s house. This protects you from fire, flood, or theft.</p>
+<hr>
+<h2 id="3-choose-your-backup-device">3. Choose your backup device<a href="#3-choose-your-backup-device" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>You have three main options, depending on how much data you need to save.</p>
+<p><strong>USB flash drives:</strong></p>
+<ul>
+<li>Great for small sets of documents and photos</li>
+<li>Compact, cheap, and easy to use</li>
+<li>Limited lifespan (eventually wear out)</li>
+</ul>
+<p><strong>External hard drives (HDD):</strong></p>
+<ul>
+<li>High capacity for a low price</li>
+<li>Ideal for full system backups</li>
+<li>Slower and slightly fragile (don’t drop them)</li>
+</ul>
+<p><strong>Solid State Drives (SSD):</strong></p>
+<ul>
+<li>Fast and durable</li>
+<li>Great for frequent backups</li>
+<li>Cost a bit more but last longer</li>
+</ul>
+<p>At Switchboard Tech Services, we usually recommend an SSD for laptops and a standard HDD for desktop backups.</p>
+<hr>
+<h2 id="4-organize-your-backup-folder">4. Organize your backup folder<a href="#4-organize-your-backup-folder" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The best backups are simple. Create one main folder on your drive called <code>Backup</code> and inside it, use clear subfolders like:</p>
+<pre tabindex="0"><code>/Backup/Documents
+/Backup/Photos
+/Backup/Projects
+/Backup/Finances
+</code></pre><p>Keep names short and obvious. Avoid long nested folders or strange characters. A tidy structure makes it easier to find files years later.</p>
+<hr>
+<h2 id="5-how-to-do-a-manual-backup">5. How to do a manual backup<a href="#5-how-to-do-a-manual-backup" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>This method works on any computer, no special software needed.</p>
+<h3 id="on-windows">On Windows:<a href="#on-windows" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ol>
+<li>Plug in your USB or external drive.</li>
+<li>Open File Explorer and drag your folders (Documents, Pictures, Desktop) onto the drive.</li>
+<li>Wait until the copy finishes, then safely eject the drive.</li>
+</ol>
+<h3 id="on-linux">On Linux:<a href="#on-linux" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ol>
+<li>Mount your external drive (it usually appears on the desktop automatically).</li>
+<li>Open your file manager or terminal.</li>
+<li>Copy using drag-and-drop or run a simple command like:
+<pre tabindex="0"><code>rsync -avh ~/Documents /media/username/BackupDrive/
+</code></pre></li>
+<li>Unmount the drive when done.</li>
+</ol>
+<p>You can schedule this weekly or monthly depending on how often you update your files.</p>
+<hr>
+<h2 id="6-automating-the-process">6. Automating the process<a href="#6-automating-the-process" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>If you forget to back up, automation helps. Use free tools like:</p>
+<ul>
+<li><strong>FreeFileSync</strong> (Windows/Linux/Mac) for mirror-style backups</li>
+<li><strong>Timeshift</strong> (Linux) for full system snapshots</li>
+<li><strong>rsync scripts</strong> for advanced users</li>
+</ul>
+<p>These tools can compare folders and only copy new or changed files, saving time and wear on the drive.</p>
+<hr>
+<h2 id="7-test-your-backups">7. Test your backups<a href="#7-test-your-backups" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>A backup you have never tested might as well not exist. Every few months:</p>
+<ul>
+<li>Plug in your drive</li>
+<li>Open a few files</li>
+<li>Make sure they open correctly and are up to date</li>
+</ul>
+<p>If something fails to open, fix it now &ndash; not after a crash.</p>
+<hr>
+<h2 id="8-store-your-drives-wisely">8. Store your drives wisely<a href="#8-store-your-drives-wisely" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Keep backup drives in a cool, dry place away from magnets, heat, and sunlight.<br>
+If you make a second copy for off-site storage, label it clearly and seal it in an anti-static bag or a small lockbox.</p>
+<p>For sensitive data, consider encrypting your backup drive with <strong>VeraCrypt</strong> or the built-in disk encryption on your operating system.</p>
+<hr>
+<h2 id="9-a-local-habit-worth-forming">9. A local habit worth forming<a href="#9-a-local-habit-worth-forming" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>In a small town like Kirksville, the internet is not always reliable, and outages happen. Having your data safely stored on a local device means you can work through anything &ndash; even offline.</p>
+<p>Backups are one of the simplest forms of digital self-reliance. Once you get in the habit, it feels strange not to have one.</p>
+<hr>
+<p><strong>Need help setting up backups?</strong><br>
+Switchboard Tech Services in Kirksville can set up an automated local backup system for your computer, external drive, or home network.</p>
+<p><em>Read more local tech guides in <a href="http://localhost:1313/categories/kirksville-tech-handbook/">The Kirksville Tech Handbook</a>.</em></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/speed-up-laptop/" class="button inline prev">
+        &lt; [<span class="button__text">How to Speed Up Your Old Laptop (Kirksville Edition)</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/kirksville-locals-guide-to-free-and-open-source-software/" class="button inline next">
+         [<span class="button__text">The Kirksville Local’s Guide to Free and Open-Source Software</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

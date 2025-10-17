@@ -42,8 +42,8 @@ Amateur radio (ham) is far from obsolete — modern digital modes make it even m
 
 - **Handhelds** (e.g. dual band VHF/UHF rigs) let you tap into local repeaters or nearby nets.  
 - **HF radio with digital modes** — with modest power and a wire antenna, you can reach regional or distant stations.  
-- **JS8Call**: a keyboard-to-keyboard weak-signal messaging protocol. It combines the robustness of FT8 with the ability to send text, and supports store-and-forward and relaying behaviors. :contentReference[oaicite:0]{index=0}  
-- **Fldigi**: open-source software that lets you run many digital modes over ham radio (PSK, RTTY, Olivia, etc.) via sound-card interface. :contentReference[oaicite:1]{index=1}  
+- **JS8Call**: a keyboard-to-keyboard weak-signal messaging protocol. It combines the robustness of FT8 with the ability to send text, and supports store-and-forward and relaying behaviors.  
+- **Fldigi**: open-source software that lets you run many digital modes over ham radio (PSK, RTTY, Olivia, etc.) via sound-card interface. 
 
 These radios form a backbone for emergency regional communications, even when cell and Internet links are dead.
 
@@ -51,8 +51,8 @@ These radios form a backbone for emergency regional communications, even when ce
 
 LoRa mesh (for example via Meshtastic) is a complementary tool in the toolbox — simple, decentralized, low power.
 
-- **Meshtastic** is an open-source project which enables you to use inexpensive LoRa radios to form a long-range, off-grid text messaging mesh without relying on phones or centralized infrastructure. :contentReference[oaicite:2]{index=2}  
-- Nodes can rebroadcast messages, extending reach via hops. :contentReference[oaicite:3]{index=3}  
+- **Meshtastic** is an open-source project which enables you to use inexpensive LoRa radios to form a long-range, off-grid text messaging mesh without relying on phones or centralized infrastructure. 
+- Nodes can rebroadcast messages, extending reach via hops.
 - Because LoRa is low bandwidth, it’s not a full Internet alternative — but it excels for short text, alerts, or coordinate sharing.  
 
 For more depth, see your Mesh-LoRa communications article at `/posts/mesh-lora-communications/`.
@@ -129,5 +129,3 @@ It’s tempting to think of your phone or cloud as eternal, but rural life teach
 
 By building out a toolkit that doesn’t depend on "always on" services — by combining ham radio, LoRa mesh, Linux systems, and solid analog gear — you shift from dependence to **capability**. You become a node of resilience, not a passive consumer of infrastructure.
 
-If you’d like, I can also generate a **checklist PDF** (or image) version of this article so folks can print it out for field use. Do you want me to do that next?
-::contentReference[oaicite:4]{index=4}

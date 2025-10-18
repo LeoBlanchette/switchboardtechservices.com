@@ -1,1 +1,8 @@
 User-agent: *
+Allow: /
+
+Disallow: /drafts/
+Disallow: /tmp/
+
+Sitemap: http://localhost:1313/sitemap.xml
+

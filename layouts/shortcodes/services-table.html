@@ -1,0 +1,66 @@
+{{/*
+----------------------------------------------
+Shortcode: services-table
+Usage: {{< services-table id="basicrates" >}}
+       {{< services-table id="webdesign" >}}
+
+Pulls from /data/services.yaml using the given id.
+Outputs a clean two-column table with linked services.
+----------------------------------------------
+*/}}
+
+{{ $id := .Get "id" }}
+{{ $data := index site.Data.services $id }}
+
+{{ if not $data }}
+  <p><em>No service data found for '{{ $id }}'.</em></p>
+{{ else }}
+  <div class="service-table" id="{{ $id }}">
+    <h2 class="service-table__title">
+      {{ if eq $id "basicrates" }}General Service Rates{{ end }}
+      {{ if eq $id "webdesign" }}Web Design & Hosting Plans{{ end }}
+    </h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $data }}
+          <tr>
+            <td>
+              {{ if .link }}
+                <a href="{{ .link | relURL }}">{{ .name }}</a>
+              {{ else }}
+                {{ .name }}
+              {{ end }}
+            </td>
+            <td>
+              {{ .price | safeHTML }}
+            </td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+
+    {{ if eq $id "basicrates" }}
+      <p class="service-table__note">
+        Prices shown are for most standard repair and setup work.
+        Some special cases may vary slightly depending on parts or travel time.
+      </p>
+    {{ end }}
+
+    {{ if eq $id "webdesign" }}
+      <p>Simple hosting info available at
+        <a href="services/web-design/">Web Design & Website Repair</a>.
+      </p>
+      <p class="service-table__note">
+        Detailed hosting and maintenance info available at
+        <a href="/posts/host-website-in-kirksville/">How I Host Your Website in Kirksville</a>.
+      </p>
+    {{ end }}
+  </div>
+{{ end }}

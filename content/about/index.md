@@ -32,12 +32,13 @@ Switchboard was created to:
 - Help retirees and students with practical, plain-English support.  
 - Repair or repurpose electronics that others won’t touch.  
 
-### Help, Not Compete
-We know established providers like Sprocket Technologies and Anderson Computer Consultants cover much of the mainstream IT and device repair. Switchboard fills the **underserved space**:
+### Fast Help
 - After-hours and on-site service.  
 - Linux systems and conversions.  
 - Oddball electronics and custom devices.  
 - Patient tutoring and one-on-one help.  
+
+### See [Services / Prices](/services/)
 
 ---
 

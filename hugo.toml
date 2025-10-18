@@ -89,7 +89,7 @@ canonifyURLs = true
   # Core navigation — only what you want in the header
   [[menu.main]]
     identifier = "services"
-    name = "Services"
+    name = "Services / Prices"
     url = "/services/"
     weight = 1
   # Optional — third anchor if you want more than bare-minimum
@@ -98,11 +98,6 @@ canonifyURLs = true
     name = "Who I Help"
     url = "/who/"
     weight = 2
-
-[[menu.main]]
-    name = "Rates"
-    url = "/rates/"
-    weight = 3
 
 [[menu.main]]
     name = "About"

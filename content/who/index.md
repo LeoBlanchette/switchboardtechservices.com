@@ -15,9 +15,12 @@ These groups tend to call me most often:
 - **Students (Truman & ATSU)** — slow laptops, broken Wi-Fi, Linux installs, tutoring.  
 - **Churches & offices** — projectors, sound systems, shared printers, backups.  
 
+### See [Services / Prices](/services/)
+
 ---
 
-My focus is **close to the courthouse square** — generally within a two-mile walk.  
+My focus is **close to the courthouse square** — generally within a five mile radius. 
+
 That keeps service responsive and reliable.  
 
 If you’re nearby and need a practical tech fix, I’ll make it work.

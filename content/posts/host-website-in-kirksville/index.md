@@ -84,12 +84,16 @@ Transparency matters. Here is exactly how the pricing breaks down.
 | Service | Description | Cost |
 |----------|--------------|------:|
 | **Setup Fee (me)** | Initial build, configuration, and site launch | **$40 one-time** |
-| **Domain Registration** | Paid directly to Porkbun, typically for a .com or vanity domain | **~$10-$40 per year** |
+| **Domain Registration** | Paid directly to Porkbun, typically for a .com or vanity domain | **~$10-$60 per year** |
 | **Hosting Fee** | Fast Opalstack hosting with light maintenance | **$15 per month** |
 
 Customers are encouraged to include text and images they want featured.  
 I will handle formatting, optimization, and publication.  
 A few small updates per week are included, provided they are clearly written and ready to post.
+
+Thus here is our full website service breakdown:
+
+{{< services-table id="webdesign" >}}
 
 ---
 

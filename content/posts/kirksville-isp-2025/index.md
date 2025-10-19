@@ -19,18 +19,6 @@ NOTE: This guide was created in October of 2025.
 
 ---
 
-## Contents
-
-- [Cable & Fiber Providers](#cable--fiber-providers)
-- [DSL & Legacy Wireline Options](#dsl--legacy-wireline-options)
-- [Fixed Wireless Providers](#fixed-wireless-providers)
-- [Cellular Home Internet (5G/LTE)](#cellular-home-internet-5glte)
-- [Satellite Providers (Including Starlink)](#satellite-providers-including-starlink)
-- [Enterprise Fiber for Businesses](#enterprise-fiber-for-businesses)
-- [Summary: Which ISP Should You Choose?](#summary-which-isp-should-you-choose)
-
----
-
 ## Cable & Fiber Providers
 
 ### Sparklight (Cable One)

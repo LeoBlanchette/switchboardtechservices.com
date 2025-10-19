@@ -31,10 +31,31 @@
       <description></description>
     </item>
     <item>
+      <title>Kirksville Tech Help</title>
+      <link>http://localhost:1313/tags/kirksville-tech-help/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kirksville-tech-help/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Linux</title>
       <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Old Computers</title>
+      <link>http://localhost:1313/tags/old-computers/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/old-computers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refurbish</title>
+      <link>http://localhost:1313/tags/refurbish/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/refurbish/</guid>
       <description></description>
     </item>
     <item>
@@ -542,13 +563,6 @@
       <description></description>
     </item>
     <item>
-      <title>Old Computers</title>
-      <link>http://localhost:1313/tags/old-computers/</link>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/old-computers/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>PC Troubleshooting</title>
       <link>http://localhost:1313/tags/pc-troubleshooting/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
@@ -609,6 +623,20 @@
       <link>http://localhost:1313/tags/windows/</link>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compatibility</title>
+      <link>http://localhost:1313/tags/compatibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/compatibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Old PCs</title>
+      <link>http://localhost:1313/tags/old-pcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/old-pcs/</guid>
       <description></description>
     </item>
   </channel>

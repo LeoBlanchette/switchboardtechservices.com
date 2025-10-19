@@ -72,5 +72,12 @@
       <guid>http://localhost:1313/posts/kirksville-computer-repair-tips/</guid>
       <description>&lt;h1 id=&#34;kirksville-computer-repair-common-problems-with-10-year-old-pcs&#34;&gt;&lt;strong&gt;Kirksville Computer Repair&lt;/strong&gt;: Common Problems with 10+ Year Old PCs&lt;/h1&gt;&#xA;&lt;p&gt;If your computer has seen &lt;strong&gt;10 years of life&lt;/strong&gt;—maybe since Truman was still a joke on reruns—you’re not alone in Kirksville. Old PCs have their quirks, and if you’ve ever stared at a spinning hourglass for longer than a local winter night, this article is for you.&lt;/p&gt;&#xA;&lt;p&gt;Here’s what residents often encounter, and how a reliable &lt;strong&gt;computer service&lt;/strong&gt; can save the day.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Linux Compatibility Cheat Sheet by Make, Model &amp; Year (10&#43; Years of Hardware)</title>
+      <link>http://localhost:1313/guides/old-computer-linux-compatability-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guides/old-computer-linux-compatability-guide/</guid>
+      <description>Choose the best Linux distro for your old (or semi-modern) PC by make, model, and year—fast.</description>
+    </item>
   </channel>
 </rss>

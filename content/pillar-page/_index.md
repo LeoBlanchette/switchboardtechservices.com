@@ -9,6 +9,8 @@ cover:
 ![Toolkit Guides](images/toolkit-guides.jpg)
 # Guides and Toolkits
 
+Need advanced guides? See [/guides/](/guides/)
+
 Switchboard Tech Services isn’t just about fixing computers — it’s about teaching the community how to stay independent, private, and connected.  
 These guides gather the best of what we’ve learned in our technological journey: how to repair, secure, and future-proof your technology.
 

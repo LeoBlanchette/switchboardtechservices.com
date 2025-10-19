@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>USB Boot and Firmware Unlock Cheat Sheet :: Switchboard Tech Services</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Field-ready Hugo markdown reference for booting from USB and unlocking firmware protections across every major computer system." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/guides/boot-from-usb-every-major-system/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ853YL51X"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SZ853YL51X');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="USB Boot and Firmware Unlock Cheat Sheet">
+<meta property="og:description" content="Field-ready Hugo markdown reference for booting from USB and unlocking firmware protections across every major computer system." />
+<meta property="og:url" content="http://localhost:1313/guides/boot-from-usb-every-major-system/" />
+<meta property="og:site_name" content="Switchboard Tech Services" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/guides/boot-from-usb-every-major-system/images/lego-figurine-in-front-of-computer-bios.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="guides" />
+
+  <meta property="article:section" content="field manual" />
+
+
+  <meta property="article:published_time" content="2025-10-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+  <link href="http://localhost:1313/guides/boot-from-usb-every-major-system/index.json" rel="alternate" type="application/json" title="Switchboard Tech Services" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https:\/\/switchboardtechservices.com#business",
+  "name": "Switchboard Tech Services, LLC",
+  "image": "https:\/\/switchboardtechservices.com\/images\/theswitchboard.jpg",
+  "url": "https:\/\/switchboardtechservices.com",
+  "telephone": "\u002b1.660.956.1108",
+  "email": "theswitchboard@protonmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 594",
+    "addressLocality": "Kirksville",
+    "addressRegion": "MO",
+    "postalCode": "63501",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "City", "name": "Kirksville" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "17:00", "closes": "21:00"
+    },
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00", "closes": "18:00"
+    }
+  ],
+  "sameAs": ["https://www.facebook.com/SwitchboardTechServices/","https://www.yelp.com/biz/switchboard-tech-services-kirksville"]
+}
+</script>
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Switchboard Tech Services, Kirksville
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="http://localhost:1313/services/">Services / Prices</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/">Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/">About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/pillar-page/">Guides</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/">Contact</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="http://localhost:1313/services/" >Services / Prices</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/" >Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/" >About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/pillar-page/" >Guides</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/" >Contact</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/guides/boot-from-usb-every-major-system/">USB Boot and Firmware Unlock Cheat Sheet</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-10-19</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/usb-boot/">usb boot</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/bios/">bios</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/secure-boot/">secure boot</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/firmware/">firmware</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/repair/">repair</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="http://localhost:1313/guides/boot-from-usb-every-major-system/images/lego-figurine-in-front-of-computer-bios.jpg"
+    class="post-cover"
+    alt="USB Boot and Firmware Unlock Cheat Sheet"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dell">Dell</a>
+      <ul>
+        <li><a href="#inspiron--latitude--xps">Inspiron / Latitude / XPS</a></li>
+        <li><a href="#optiplex--precision--vostro">OptiPlex / Precision / Vostro</a></li>
+      </ul>
+    </li>
+    <li><a href="#hp">HP</a>
+      <ul>
+        <li><a href="#pavilion--envy--spectre">Pavilion / Envy / Spectre</a></li>
+        <li><a href="#elitebook--probook--zbook">EliteBook / ProBook / ZBook</a></li>
+        <li><a href="#compaq--older-hp-systems">Compaq / Older HP Systems</a></li>
+      </ul>
+    </li>
+    <li><a href="#lenovo">Lenovo</a>
+      <ul>
+        <li><a href="#thinkpad-t-x-l-series">ThinkPad (T, X, L Series)</a></li>
+        <li><a href="#ideapad--yoga">IdeaPad / Yoga</a></li>
+        <li><a href="#thinkcentre--thinkstation">ThinkCentre / ThinkStation</a></li>
+      </ul>
+    </li>
+    <li><a href="#apple">Apple</a>
+      <ul>
+        <li><a href="#intel-macs-pre-2020">Intel Macs (pre-2020)</a></li>
+        <li><a href="#apple-silicon-m1m2m3">Apple Silicon (M1/M2/M3)</a></li>
+      </ul>
+    </li>
+    <li><a href="#acer--gateway">Acer / Gateway</a>
+      <ul>
+        <li><a href="#aspire--swift--nitro">Aspire / Swift / Nitro</a></li>
+        <li><a href="#gateway-laptops-walmart-models">Gateway Laptops (Walmart models)</a></li>
+      </ul>
+    </li>
+    <li><a href="#asus">ASUS</a>
+      <ul>
+        <li><a href="#vivobook--zenbook--tuf--rog">VivoBook / ZenBook / TUF / ROG</a></li>
+        <li><a href="#motherboards--desktops">Motherboards / Desktops</a></li>
+      </ul>
+    </li>
+    <li><a href="#microsoft-surface">Microsoft Surface</a>
+      <ul>
+        <li><a href="#surface-pro--laptop--book">Surface Pro / Laptop / Book</a></li>
+      </ul>
+    </li>
+    <li><a href="#chromebook-any-model">Chromebook (any model)</a></li>
+    <li><a href="#raspberry-pi">Raspberry Pi</a>
+      <ul>
+        <li><a href="#pi-3b--3b--4--400">Pi 3B / 3B+ / 4 / 400</a></li>
+      </ul>
+    </li>
+    <li><a href="#intel-nuc">Intel NUC</a>
+      <ul>
+        <li><a href="#all-models">All Models</a></li>
+      </ul>
+    </li>
+    <li><a href="#framework-laptop">Framework Laptop</a>
+      <ul>
+        <li><a href="#all-generations">All Generations</a></li>
+      </ul>
+    </li>
+    <li><a href="#system76">System76</a>
+      <ul>
+        <li><a href="#lemur--oryx--galago">Lemur / Oryx / Galago</a></li>
+        <li><a href="#thelio--meerkat">Thelio / Meerkat</a></li>
+      </ul>
+    </li>
+    <li><a href="#pine64">Pine64</a>
+      <ul>
+        <li><a href="#pinebook-pro--pinephone--rockpro64">Pinebook Pro / PinePhone / RockPro64</a></li>
+      </ul>
+    </li>
+    <li><a href="#toshiba--dynabook">Toshiba / Dynabook</a>
+      <ul>
+        <li><a href="#satellite--portege--tecra">Satellite / Portege / Tecra</a></li>
+      </ul>
+    </li>
+    <li><a href="#samsung">Samsung</a>
+      <ul>
+        <li><a href="#notebooks--ativ--np-series">Notebooks / Ativ / NP Series</a></li>
+      </ul>
+    </li>
+    <li><a href="#sony-vaio">Sony VAIO</a>
+      <ul>
+        <li><a href="#all-models-1">All Models</a></li>
+      </ul>
+    </li>
+    <li><a href="#msi">MSI</a>
+      <ul>
+        <li><a href="#laptops--motherboards">Laptops / Motherboards</a></li>
+      </ul>
+    </li>
+    <li><a href="#gigabyte">Gigabyte</a>
+      <ul>
+        <li><a href="#desktops--aero--aorus-laptops">Desktops / Aero / Aorus Laptops</a></li>
+      </ul>
+    </li>
+    <li><a href="#asrock">ASRock</a>
+      <ul>
+        <li><a href="#motherboards--desktops-1">Motherboards / Desktops</a></li>
+      </ul>
+    </li>
+    <li><a href="#packard-bell--emachines">Packard Bell / eMachines</a>
+      <ul>
+        <li><a href="#legacy-systems">Legacy Systems</a></li>
+      </ul>
+    </li>
+    <li><a href="#ibm--lenovo-desktop">IBM / Lenovo Desktop</a>
+      <ul>
+        <li><a href="#thinkcentre--netvista">ThinkCentre / NetVista</a></li>
+      </ul>
+    </li>
+    <li><a href="#dell-servers--precision-workstations">Dell Servers / Precision Workstations</a>
+      <ul>
+        <li><a href="#poweredge--precision">PowerEdge / Precision</a></li>
+      </ul>
+    </li>
+    <li><a href="#advanced-bootloader--usb-toolkit-options">Advanced Bootloader &amp; USB Toolkit Options</a>
+      <ul>
+        <li><a href="#ventoy">Ventoy</a></li>
+        <li><a href="#yumi--easy2boot">YUMI / Easy2Boot</a></li>
+        <li><a href="#grub-based-rescue-drives">GRUB-Based Rescue Drives</a></li>
+      </ul>
+    </li>
+    <li><a href="#server--enterprise-boot-notes">Server &amp; Enterprise Boot Notes</a>
+      <ul>
+        <li><a href="#dell-poweredge">Dell PowerEdge</a></li>
+        <li><a href="#hp-proliant">HP ProLiant</a></li>
+        <li><a href="#lenovo-thinksystem">Lenovo ThinkSystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#usb-filesystem-compatibility">USB Filesystem Compatibility</a></li>
+    <li><a href="#tablet--arm-based-device-warnings">Tablet &amp; ARM-Based Device Warnings</a>
+      <ul>
+        <li><a href="#windows-rt--arm-tablets">Windows RT / ARM Tablets</a></li>
+        <li><a href="#android-devices">Android Devices</a></li>
+      </ul>
+    </li>
+    <li><a href="#boot-order-recovery--bios-recovery-modes">Boot Order Recovery &amp; BIOS Recovery Modes</a>
+      <ul>
+        <li><a href="#asus-crashfree-bios">ASUS CrashFree BIOS</a></li>
+        <li><a href="#gigabyte-dual-bios">Gigabyte Dual BIOS</a></li>
+        <li><a href="#msi-bios-flashback">MSI BIOS Flashback</a></li>
+      </ul>
+    </li>
+    <li><a href="#pxe--network-boot-triggering">PXE / Network Boot Triggering</a>
+      <ul>
+        <li><a href="#how-to-enable-pxe-boot">How to Enable PXE Boot</a></li>
+      </ul>
+    </li>
+    <li><a href="#bitlocker-interaction-warning">BitLocker Interaction Warning</a></li>
+    <li><a href="#apple-boot-policy-command-line-tools">Apple Boot Policy Command Line Tools</a>
+      <ul>
+        <li><a href="#verify-secure-boot-or-integrity-status">Verify Secure Boot or Integrity Status</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h2 id="dell">Dell<a href="#dell" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="inspiron--latitude--xps">Inspiron / Latitude / XPS<a href="#inspiron--latitude--xps" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>F12</code> during startup to enter the Boot Menu.</li>
+<li><strong>Disable Secure Boot:</strong> Press <code>F2</code> to enter BIOS. Go to <em>Secure Boot</em>, set to <code>Disabled</code>. Save and exit.</li>
+</ul>
+<h3 id="optiplex--precision--vostro">OptiPlex / Precision / Vostro<a href="#optiplex--precision--vostro" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>F12</code> at Dell logo.</li>
+<li><strong>Disable Secure Boot:</strong> Enter BIOS with <code>F2</code>, disable under <em>Boot &gt; Secure Boot</em>. Toggle <em>Legacy Option ROMs</em> if needed.</li>
+</ul>
+<h2 id="hp">HP<a href="#hp" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="pavilion--envy--spectre">Pavilion / Envy / Spectre<a href="#pavilion--envy--spectre" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>Esc</code>, then <code>F9</code> at Startup Menu.</li>
+<li><strong>Disable Secure Boot:</strong> <code>Esc</code> &gt; <code>F10</code> to enter BIOS. Go to <em>Boot Options</em>, set <code>Secure Boot: Disabled</code>, enable <code>Legacy Support</code> if needed.</li>
+</ul>
+<h3 id="elitebook--probook--zbook">EliteBook / ProBook / ZBook<a href="#elitebook--probook--zbook" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>Esc</code>, then <code>F9</code> at power-on.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F10</code>). Go to <em>Security</em> &gt; <em>Secure Boot Configuration</em>, set to <code>Disabled</code>. Enable <code>Legacy Boot</code> if boot media is not UEFI.</li>
+</ul>
+<h3 id="compaq--older-hp-systems">Compaq / Older HP Systems<a href="#compaq--older-hp-systems" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>Esc</code>, then <code>F9</code> or directly <code>F12</code>.</li>
+<li><strong>Disable Secure Boot:</strong> If present, disable in BIOS under <em>Security</em>.</li>
+</ul>
+<h2 id="lenovo">Lenovo<a href="#lenovo" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="thinkpad-t-x-l-series">ThinkPad (T, X, L Series)<a href="#thinkpad-t-x-l-series" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Tap <code>F12</code> on boot logo screen.</li>
+<li><strong>Disable Secure Boot:</strong> Press <code>F1</code> to enter BIOS Setup. Under <em>Security</em> tab, disable Secure Boot. Enable <em>Legacy Support</em> if needed.</li>
+</ul>
+<h3 id="ideapad--yoga">IdeaPad / Yoga<a href="#ideapad--yoga" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F2</code> or use Novo Button (pin-hole near power).</li>
+<li><strong>Disable Secure Boot:</strong> BIOS via <code>F2</code> or Novo Menu. Disable Secure Boot under <em>Security</em>. Enable <em>Legacy Support</em> if required.</li>
+</ul>
+<h3 id="thinkcentre--thinkstation">ThinkCentre / ThinkStation<a href="#thinkcentre--thinkstation" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>F12</code> repeatedly during startup.</li>
+<li><strong>Disable Secure Boot:</strong> <code>F1</code> for BIOS. Navigate to <em>Security</em> and disable.</li>
+</ul>
+<h2 id="apple">Apple<a href="#apple" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="intel-macs-pre-2020">Intel Macs (pre-2020)<a href="#intel-macs-pre-2020" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Hold <code>Option</code> (⌥) key at startup.</li>
+<li><strong>Disable Secure Boot:</strong> For T2 Macs: Boot to Recovery (<code>⌘R</code>) &gt; <em>Utilities</em> &gt; <em>Startup Security Utility</em>. Set <code>External Boot: Allow</code>, <code>Secure Boot: No Security</code>.</li>
+</ul>
+<h3 id="apple-silicon-m1m2m3">Apple Silicon (M1/M2/M3)<a href="#apple-silicon-m1m2m3" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Hold Power until <em>Startup Options</em> appear.</li>
+<li><strong>Disable Secure Boot:</strong> Boot to <em>Options</em> &gt; <em>Utilities</em> &gt; <em>Startup Security</em>. Set <code>Reduced Security</code>, allow external boot.</li>
+</ul>
+<h2 id="acer--gateway">Acer / Gateway<a href="#acer--gateway" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="aspire--swift--nitro">Aspire / Swift / Nitro<a href="#aspire--swift--nitro" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Tap <code>F12</code> at startup. Enable F12 Boot Menu in BIOS (<code>F2</code>) if not working.</li>
+<li><strong>Disable Secure Boot:</strong> In BIOS, under <em>Boot</em> or <em>Security</em>, set <code>Secure Boot: Disabled</code>.</li>
+</ul>
+<h3 id="gateway-laptops-walmart-models">Gateway Laptops (Walmart models)<a href="#gateway-laptops-walmart-models" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F2</code> for BIOS, <code>F12</code> for Boot Menu.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS &gt; <em>Boot</em> &gt; Disable Secure Boot. May require enabling Legacy Mode.</li>
+</ul>
+<h2 id="asus">ASUS<a href="#asus" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="vivobook--zenbook--tuf--rog">VivoBook / ZenBook / TUF / ROG<a href="#vivobook--zenbook--tuf--rog" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>Esc</code> or <code>F8</code> at startup.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F2</code> or <code>Del</code>). Go to <em>Boot &gt; Secure Boot</em>, set to <code>Disabled</code>. Change OS Type to <code>Other OS</code>.</li>
+</ul>
+<h3 id="motherboards--desktops">Motherboards / Desktops<a href="#motherboards--desktops" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>Del</code> for BIOS, <code>F8</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> Found under <em>Security</em> or <em>Boot</em>. Set to <code>Disabled</code>.</li>
+</ul>
+<h2 id="microsoft-surface">Microsoft Surface<a href="#microsoft-surface" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="surface-pro--laptop--book">Surface Pro / Laptop / Book<a href="#surface-pro--laptop--book" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Hold <code>Volume Down</code>, press <code>Power</code>.</li>
+<li><strong>Disable Secure Boot:</strong> Power off, hold <code>Volume Up</code>, then press <code>Power</code> to enter UEFI. Disable Secure Boot in Security tab.</li>
+</ul>
+<h2 id="chromebook-any-model">Chromebook (any model)<a href="#chromebook-any-model" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Boot to USB:</strong> Requires Developer Mode: <code>Esc + Refresh + Power</code> &gt; <code>Ctrl + D</code> &gt; confirm.</li>
+<li><strong>Enable USB Boot:</strong> <code>Ctrl+Alt+T</code> &gt; <code>shell</code> &gt; <code>sudo crossystem dev_boot_usb=1 dev_boot_legacy=1</code>.</li>
+<li><strong>Boot:</strong> At white screen, press <code>Ctrl + U</code>.</li>
+<li><strong>Note:</strong> Cannot boot USB on enrolled/managed devices without admin deprovisioning.</li>
+</ul>
+<h2 id="raspberry-pi">Raspberry Pi<a href="#raspberry-pi" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="pi-3b--3b--4--400">Pi 3B / 3B+ / 4 / 400<a href="#pi-3b--3b--4--400" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Insert bootable USB. Pi 4 supports USB boot out of box. Pi 3B requires OTP bit via <code>config.txt</code>.</li>
+<li><strong>Disable Secure Boot:</strong> Not applicable. Pi always boots unrestricted.</li>
+</ul>
+<h2 id="intel-nuc">Intel NUC<a href="#intel-nuc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="all-models">All Models<a href="#all-models" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Tap <code>F10</code> at NUC logo.</li>
+<li><strong>Disable Secure Boot:</strong> <code>F2</code> for BIOS. Under <em>Security</em>, set Secure Boot to <code>Disabled</code>.</li>
+</ul>
+<h2 id="framework-laptop">Framework Laptop<a href="#framework-laptop" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="all-generations">All Generations<a href="#all-generations" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Press <code>F12</code> on boot. Toggle Fn-lock (<code>Fn + Esc</code>) if F12 doesn’t respond.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F2</code>). Set Secure Boot to <code>Disabled</code>.</li>
+</ul>
+<h2 id="system76">System76<a href="#system76" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="lemur--oryx--galago">Lemur / Oryx / Galago<a href="#lemur--oryx--galago" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Coreboot: tap <code>ESC</code> twice at power-on. Clevo: <code>F7</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> Off by default. Otherwise, disable under <em>Security</em> in BIOS.</li>
+</ul>
+<h3 id="thelio--meerkat">Thelio / Meerkat<a href="#thelio--meerkat" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Thelio: <code>Del</code>, then <code>F8/F12</code>. Meerkat: <code>F10</code> boot menu (Intel NUC-based).</li>
+<li><strong>Disable Secure Boot:</strong> Enter BIOS. Disable under <em>Security</em>.</li>
+</ul>
+<h2 id="pine64">Pine64<a href="#pine64" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="pinebook-pro--pinephone--rockpro64">Pinebook Pro / PinePhone / RockPro64<a href="#pinebook-pro--pinephone--rockpro64" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Insert microSD or USB. System boots from external media if present.</li>
+<li><strong>Disable Secure Boot:</strong> Not applicable. Pine64 devices do not enforce Secure Boot.</li>
+</ul>
+<h2 id="toshiba--dynabook">Toshiba / Dynabook<a href="#toshiba--dynabook" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="satellite--portege--tecra">Satellite / Portege / Tecra<a href="#satellite--portege--tecra" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F12</code> boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F2</code>) &gt; <em>Security</em> tab &gt; disable Secure Boot.</li>
+</ul>
+<h2 id="samsung">Samsung<a href="#samsung" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="notebooks--ativ--np-series">Notebooks / Ativ / NP Series<a href="#notebooks--ativ--np-series" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F2</code> for BIOS, <code>F10/F12</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS &gt; <em>Boot</em> or <em>Security</em>, disable Secure Boot.</li>
+</ul>
+<h2 id="sony-vaio">Sony VAIO<a href="#sony-vaio" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="all-models-1">All Models<a href="#all-models-1" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F11/F12</code> or press <code>ASSIST</code> button while powered off.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F2</code>) &gt; <em>Boot</em>, set Secure Boot to <code>Disabled</code>.</li>
+</ul>
+<h2 id="msi">MSI<a href="#msi" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="laptops--motherboards">Laptops / Motherboards<a href="#laptops--motherboards" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>Del</code> for BIOS, <code>F11</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS &gt; <em>Settings &gt; Security</em>, set Secure Boot to <code>Disabled</code>.</li>
+</ul>
+<h2 id="gigabyte">Gigabyte<a href="#gigabyte" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="desktops--aero--aorus-laptops">Desktops / Aero / Aorus Laptops<a href="#desktops--aero--aorus-laptops" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>Del</code> for BIOS, <code>F12</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> Disable in BIOS under <em>Security</em>. Enable CSM if needed.</li>
+</ul>
+<h2 id="asrock">ASRock<a href="#asrock" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="motherboards--desktops-1">Motherboards / Desktops<a href="#motherboards--desktops-1" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F2</code> or <code>Del</code> for BIOS, <code>F11</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS &gt; <em>Security</em> tab, disable Secure Boot.</li>
+</ul>
+<h2 id="packard-bell--emachines">Packard Bell / eMachines<a href="#packard-bell--emachines" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="legacy-systems">Legacy Systems<a href="#legacy-systems" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> Packard Bell: <code>F8</code>, eMachines: <code>F12</code>, BIOS: <code>Del</code>.</li>
+<li><strong>Disable Secure Boot:</strong> Disable in BIOS if available. Most older models default to Legacy.</li>
+</ul>
+<h2 id="ibm--lenovo-desktop">IBM / Lenovo Desktop<a href="#ibm--lenovo-desktop" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="thinkcentre--netvista">ThinkCentre / NetVista<a href="#thinkcentre--netvista" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F12</code> for boot menu.</li>
+<li><strong>Disable Secure Boot:</strong> Older models have no Secure Boot. On UEFI units, disable via BIOS.</li>
+</ul>
+<h2 id="dell-servers--precision-workstations">Dell Servers / Precision Workstations<a href="#dell-servers--precision-workstations" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="poweredge--precision">PowerEdge / Precision<a href="#poweredge--precision" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Boot to USB:</strong> <code>F11</code> or <code>F12</code> at startup.</li>
+<li><strong>Disable Secure Boot:</strong> BIOS (<code>F2</code>) &gt; <em>Secure Boot</em> &gt; set to <code>Disabled</code>.</li>
+</ul>
+<hr>
+<h2 id="advanced-bootloader--usb-toolkit-options">Advanced Bootloader &amp; USB Toolkit Options<a href="#advanced-bootloader--usb-toolkit-options" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="ventoy">Ventoy<a href="#ventoy" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Create a single USB that can boot multiple ISO/WIM/IMG/VHD files.</li>
+<li>Preserves UEFI and Legacy boot support with automatic ISO detection.</li>
+<li>Supports Secure Boot with custom MOK enrollment (v1.0.07+).</li>
+<li><a href="https://www.ventoy.net">https://www.ventoy.net</a></li>
+</ul>
+<h3 id="yumi--easy2boot">YUMI / Easy2Boot<a href="#yumi--easy2boot" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Useful for BIOS-era systems or when Ventoy fails.</li>
+<li>Legacy-focused with custom menu creation for multiboot.</li>
+</ul>
+<h3 id="grub-based-rescue-drives">GRUB-Based Rescue Drives<a href="#grub-based-rescue-drives" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Build your own boot menu for Linux, Memtest, hardware tools.</li>
+<li>Can be paired with PXELINUX or syslinux for deep-level boot chaining.</li>
+</ul>
+<hr>
+<h2 id="server--enterprise-boot-notes">Server &amp; Enterprise Boot Notes<a href="#server--enterprise-boot-notes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="dell-poweredge">Dell PowerEdge<a href="#dell-poweredge" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Boot Menu: <code>F11</code></li>
+<li>BIOS/UEFI Setup: <code>F2</code></li>
+<li>Some servers use iDRAC policies to lock boot order — check lifecycle controller.</li>
+</ul>
+<h3 id="hp-proliant">HP ProLiant<a href="#hp-proliant" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>BIOS: <code>F9</code>, Intelligent Provisioning: <code>F10</code></li>
+<li>UEFI systems require FAT32-formatted USB with bootloader at <code>/EFI/BOOT/BOOTX64.EFI</code></li>
+</ul>
+<h3 id="lenovo-thinksystem">Lenovo ThinkSystem<a href="#lenovo-thinksystem" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Boot Menu: <code>F12</code></li>
+<li>Secure Boot off by default on many rackmount systems.</li>
+</ul>
+<hr>
+<h2 id="usb-filesystem-compatibility">USB Filesystem Compatibility<a href="#usb-filesystem-compatibility" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<table>
+  <thead>
+      <tr>
+          <th>Format</th>
+          <th>UEFI Boot</th>
+          <th>Legacy BIOS</th>
+          <th>Max File Size</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>FAT32</td>
+          <td>✅</td>
+          <td>✅</td>
+          <td>4GB</td>
+          <td>Required for Secure Boot</td>
+      </tr>
+      <tr>
+          <td>NTFS</td>
+          <td>❌ (most)</td>
+          <td>✅</td>
+          <td>&gt;4GB</td>
+          <td>Won&rsquo;t boot on UEFI-only</td>
+      </tr>
+      <tr>
+          <td>exFAT</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>Unlimited</td>
+          <td>Not bootable directly</td>
+      </tr>
+      <tr>
+          <td>ISO9660</td>
+          <td>❌</td>
+          <td>✅ (CD)</td>
+          <td>~2GB</td>
+          <td>For optical emulation</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Tip:</strong> Use FAT32 with a split install.wim for large Windows ISOs, or use Ventoy with Secure Boot support.</p>
+<hr>
+<h2 id="tablet--arm-based-device-warnings">Tablet &amp; ARM-Based Device Warnings<a href="#tablet--arm-based-device-warnings" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="windows-rt--arm-tablets">Windows RT / ARM Tablets<a href="#windows-rt--arm-tablets" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Cannot boot custom USB images.</li>
+<li>Bootloaders are signed with Microsoft-only keys (no bypass).</li>
+<li>Avoid servicing unless you&rsquo;re restoring factory image.</li>
+</ul>
+<h3 id="android-devices">Android Devices<a href="#android-devices" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>No UEFI BIOS; USB boot not supported.</li>
+<li>Use fastboot/ADB tools with unlocked bootloader for OS flashing.</li>
+</ul>
+<hr>
+<h2 id="boot-order-recovery--bios-recovery-modes">Boot Order Recovery &amp; BIOS Recovery Modes<a href="#boot-order-recovery--bios-recovery-modes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="asus-crashfree-bios">ASUS CrashFree BIOS<a href="#asus-crashfree-bios" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Insert USB with renamed BIOS file (<code>XXXX.CAP</code>)</li>
+<li>Boot with specific key held (<code>Ctrl+Home</code> or check manual)</li>
+</ul>
+<h3 id="gigabyte-dual-bios">Gigabyte Dual BIOS<a href="#gigabyte-dual-bios" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Automatic fallback to backup BIOS if POST fails repeatedly</li>
+<li>May require shorting pins or power cycling with failed checksum</li>
+</ul>
+<h3 id="msi-bios-flashback">MSI BIOS Flashback<a href="#msi-bios-flashback" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Use dedicated USB port and press button on I/O shield</li>
+<li>Requires power but no CPU/RAM installed</li>
+</ul>
+<hr>
+<h2 id="pxe--network-boot-triggering">PXE / Network Boot Triggering<a href="#pxe--network-boot-triggering" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="how-to-enable-pxe-boot">How to Enable PXE Boot<a href="#how-to-enable-pxe-boot" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>BIOS &gt; Enable LAN Boot ROM or PXE Boot</li>
+<li>Boot Key: <code>F12</code> on most PCs</li>
+<li>DHCP and TFTP server needed to serve image (iPXE or TinyPXE)</li>
+</ul>
+<p><strong>Use Case:</strong> Diskless recovery, OS imaging, or rescue when USB ports are dead.</p>
+<hr>
+<h2 id="bitlocker-interaction-warning">BitLocker Interaction Warning<a href="#bitlocker-interaction-warning" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Disabling Secure Boot or enabling Legacy Boot may trigger BitLocker key prompt.</li>
+<li>BitLocker Recovery Key can be retrieved from:
+<ul>
+<li>Microsoft account: <a href="https://account.microsoft.com/devices/recoverykey">https://account.microsoft.com/devices/recoverykey</a></li>
+<li>Admin (for domain-joined machines)</li>
+</ul>
+</li>
+<li>Inform clients beforehand to back up the key.</li>
+</ul>
+<hr>
+<h2 id="apple-boot-policy-command-line-tools">Apple Boot Policy Command Line Tools<a href="#apple-boot-policy-command-line-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="verify-secure-boot-or-integrity-status">Verify Secure Boot or Integrity Status<a href="#verify-secure-boot-or-integrity-status" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># On Intel Macs</span>
+</span></span><span style="display:flex;"><span>spctl --status
+</span></span><span style="display:flex;"><span>csrutil status
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># On Apple Silicon (macOS Recovery Terminal)</span>
+</span></span><span style="display:flex;"><span>bputil -s
+</span></span></code></pre></div>
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

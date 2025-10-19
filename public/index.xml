@@ -59,6 +59,20 @@
       <description>Simple, durable websites and troubleshooting for sites that have aged or broken down.</description>
     </item>
     <item>
+      <title>Can Your Old Computer Run Linux? (Spoiler: Probably Yes)</title>
+      <link>http://localhost:1313/posts/which-computers-which-distros/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/which-computers-which-distros/</guid>
+      <description>That old laptop you’ve been using as a paperweight might be one USB stick away from a second life.</description>
+    </item>
+    <item>
+      <title>The Art of Making Things Boot (Linux Edition)</title>
+      <link>http://localhost:1313/posts/the-art-of-making-things-boot-linux/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-art-of-making-things-boot-linux/</guid>
+      <description>Because sometimes the hardest part of running Linux is getting the machine to start it.</description>
+    </item>
+    <item>
       <title>USB Boot and Firmware Unlock Cheat Sheet</title>
       <link>http://localhost:1313/guides/boot-from-usb-every-major-system/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
@@ -274,6 +288,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/leo-blanchette/</guid>
       <description>&lt;style&gt;&#xD;&#xA;.h-card {&#xD;&#xA;  display: flex;&#xD;&#xA;  align-items: flex-start;&#xD;&#xA;  gap: 1.5rem;&#xD;&#xA;  margin-top: 1rem;&#xD;&#xA;  flex-wrap: wrap;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.h-card img {&#xD;&#xA;  border-radius: 8px;&#xD;&#xA;  max-width: 160px;&#xD;&#xA;  transition: all 0.3s ease;  &#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;@media (max-width: 600px) {&#xD;&#xA;  .h-card {&#xD;&#xA;    flex-direction: column;&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  .h-card img {&#xD;&#xA;    max-width: 80%;    &#xD;&#xA;    height: auto;&#xD;&#xA;    margin: 0 auto 0 auto;&#xD;&#xA;    padding: 0;&#xD;&#xA;    margin-bottom: 1rem;&#xD;&#xA;    border-radius: 12px;  &#xD;&#xA;  }&#xD;&#xA;  .h-card #u-photo-container img {&#xD;&#xA;    margin: 0;    &#xD;&#xA;    padding: 0;&#xD;&#xA;  }&#xD;&#xA;  h2.p-name, p.p-note{&#xD;&#xA;    margin: 0;&#xD;&#xA;    padding: 0;&#xD;&#xA;  }&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;h-card&#34; style=&#34;display:flex; align-items:flex-start; gap:1.5rem; margin-top:1rem;&#34;&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div id=&#34;u-photo-container&#34; style=&#34;flex:0 0 auto;&#34;&gt;&#xD;&#xA;    &lt;img class=&#34;u-photo&#34; src=&#34;http://localhost:1313/images/profile_pic.png&#34; alt=&#34;Leo Blanchette&#34; style=&#34;border-radius:8px; max-width:160px;&#34;&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div style=&#34;flex:1;&#34;&gt;&#xD;&#xA;    &lt;h2 class=&#34;p-name&#34;&gt;Leo Blanchette&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;    &lt;p class=&#34;p-note&#34;&gt;&#xD;&#xA;      &lt;strong class=&#34;p-job-title&#34;&gt;Practical tech help in Kirksville&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;      I fix computers, connectivity, Linux systems, and small electronics.&lt;br&gt;&#xD;&#xA;      Clear rates, fast service, and a local focus near the Kirksville courthouse square.&#xD;&#xA;    &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux Compatibility Cheat Sheet by Make, Model &amp; Year (10&#43; Years of Hardware)</title>
+      <link>http://localhost:1313/guides/old-computer-linux-compatability-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guides/old-computer-linux-compatability-guide/</guid>
+      <description>Choose the best Linux distro for your old (or semi-modern) PC by make, model, and year—fast.</description>
     </item>
     <item>
       <title>Rates</title>

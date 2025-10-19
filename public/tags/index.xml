@@ -7,8 +7,71 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bios</title>
+      <link>http://localhost:1313/tags/bios/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fedora</title>
+      <link>http://localhost:1313/tags/fedora/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fedora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firmware</title>
+      <link>http://localhost:1313/tags/firmware/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/firmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repair</title>
+      <link>http://localhost:1313/tags/repair/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/repair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secure Boot</title>
+      <link>http://localhost:1313/tags/secure-boot/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/secure-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tails</title>
+      <link>http://localhost:1313/tags/tails/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/tags/ubuntu/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usb Boot</title>
+      <link>http://localhost:1313/tags/usb-boot/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/usb-boot/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Altgrid</title>
       <link>http://localhost:1313/tags/altgrid/</link>
@@ -161,13 +224,6 @@
       <link>http://localhost:1313/tags/link-rot/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/link-rot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -339,13 +395,6 @@
       <description></description>
     </item>
     <item>
-      <title>Tails</title>
-      <link>http://localhost:1313/tags/tails/</link>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tails/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tech Help</title>
       <link>http://localhost:1313/tags/tech-help/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
@@ -399,13 +448,6 @@
       <link>http://localhost:1313/tags/email/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/email/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Firmware</title>
-      <link>http://localhost:1313/tags/firmware/</link>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/firmware/</guid>
       <description></description>
     </item>
     <item>

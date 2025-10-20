@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Altgrid on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</title>
+    <link>http://localhost:1313/projects/altgrid/</link>
+    <description>Recent content in Altgrid on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Mon, 20 Oct 2025 17:40:21 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/altgrid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to ViaText Node</title>
+      <link>http://localhost:1313/projects/altgrid/introduction-to-viatext-node/</link>
+      <pubDate>Mon, 20 Oct 2025 17:40:21 -0500</pubDate>
+      <guid>http://localhost:1313/projects/altgrid/introduction-to-viatext-node/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/altgrid/&#34;&gt;&amp;laquo; Back to AltGrid Project&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction-to-viatext-node&#34;&gt;Introduction to ViaText Node&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;NOTE: This project is still very young in development.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;ViaText Node is the &lt;strong&gt;hardware side&lt;/strong&gt; of the ViaText system — an &lt;a href=&#34;https://lilygo.cc/products/lora3&#34;&gt;ESP32-based LoRa communication device&lt;/a&gt; that pairs directly with the &lt;a href=&#34;http://localhost:1313/projects/altgrid/introduction-to-viatext-core/&#34;&gt;ViaText Core (Linux)&lt;/a&gt; software.&lt;/p&gt;&#xA;&lt;p&gt;Together, they form a complete &lt;strong&gt;off-grid, text-based communication system&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ViaText Core&lt;/strong&gt; runs on your Linux computer. It handles CLI commands, message routing, and serial communication.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ViaText Node&lt;/strong&gt; runs on your TTGO LoRa32 V2.1 board (ESP32). It listens for packets from the Core, executes them, and handles the radio transmission layer.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Build like it’s 1986. Communicate like it’s 2086.&lt;br&gt;&#xA;&lt;strong&gt;Simplicity · Portability · Autonomy&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Viatext Core</title>
+      <link>http://localhost:1313/projects/altgrid/introduction-to-viatext-core/</link>
+      <pubDate>Mon, 20 Oct 2025 17:04:02 -0500</pubDate>
+      <guid>http://localhost:1313/projects/altgrid/introduction-to-viatext-core/</guid>
+      <description>&lt;h1 id=&#34;viatext-core-linux&#34;&gt;ViaText Core (Linux)&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/altgrid/&#34;&gt;&amp;laquo; Back to AltGrid Project&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; In Development&lt;br&gt;&#xA;&lt;strong&gt;Repository:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AltGrid/viatext-core&#34;&gt;github.com/AltGrid/viatext-core&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ViaText Core is the &lt;strong&gt;Linux-side command line and library system&lt;/strong&gt; used for the ViaText communications project.&lt;br&gt;&#xA;It allows a Linux computer to scan, manage, and message LoRa nodes directly — without phones, apps, or cloud servers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;see-also-introduction-to-viatext&#34;&gt;See also &lt;a href=&#34;http://localhost:1313/projects/altgrid/introduction-to-viatext/&#34;&gt;Introduction to ViaText&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;ViaText is built to support &lt;strong&gt;human-readable communication&lt;/strong&gt; between computers and microcontroller-based radio nodes.&lt;br&gt;&#xA;It follows three design standards:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to AltGrid Live Usb</title>
+      <link>http://localhost:1313/projects/altgrid/introduction-to-altgrid-live-usb/</link>
+      <pubDate>Mon, 20 Oct 2025 16:34:45 -0500</pubDate>
+      <guid>http://localhost:1313/projects/altgrid/introduction-to-altgrid-live-usb/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/altgrid/&#34;&gt;&amp;laquo; Back to AltGrid Project&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;NOTE: This is still young in production.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AltGrid Live&lt;/strong&gt; is a portable Linux operating system built for independence. It’s a &lt;strong&gt;Debian-based live USB environment&lt;/strong&gt; that can transform nearly any computer into a functional off-grid workstation — complete with &lt;strong&gt;LoRa radio communication&lt;/strong&gt;, scripting tools, and a curated offline toolkit.&lt;br&gt;&#xA;You can think of it as &lt;em&gt;&lt;a href=&#34;https://tails.net/&#34;&gt;Tails&lt;/a&gt; for the resilient technologist&lt;/em&gt;: focused not on anonymity, but &lt;strong&gt;self-reliance&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Viatext</title>
+      <link>http://localhost:1313/projects/altgrid/introduction-to-viatext/</link>
+      <pubDate>Mon, 20 Oct 2025 16:25:10 -0500</pubDate>
+      <guid>http://localhost:1313/projects/altgrid/introduction-to-viatext/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/altgrid/&#34;&gt;&amp;laquo; Back to AltGrid Project&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;ViaText&lt;/strong&gt; is an off-grid, Linux-first messaging system under the &lt;a href=&#34;https://github.com/AltGrid&#34;&gt;AltGrid&lt;/a&gt; project family — a toolkit for communication when the cloud disappears and cables end. Its guiding philosophy is &lt;strong&gt;Simplicity · Portability · Autonomy&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At its heart, ViaText connects computers directly through &lt;strong&gt;LoRa radio&lt;/strong&gt; or serial links. It doesn’t need cell towers, Wi-Fi, or even the internet — just small, low-power devices that talk to each other the old-fashioned way: by signal and intent. Messages are human-readable, inspectable with a text editor, and portable across Linux systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

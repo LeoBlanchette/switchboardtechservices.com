@@ -41,5 +41,9 @@ If it plugs in, powers on, or connects to the internet, there’s a good chance 
 ---
 
 ### From the Workbench
-[Read our latest posts →](/posts)
+
+### [See my major technical projects →](/projects/)
+These are major projects I've created or am working on.
+
+### [Read Switchboard's latest posts →](/posts/)
 Guides, local stories, and practical how-tos from the Switchboard workshop.

@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Field-Notes on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</title><link>https://switchboardtechservices.com/tags/field-notes/</link><description>Recent content in Field-Notes on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright><lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://switchboardtechservices.com/tags/field-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Router Interference: Why Your Wi-Fi Drops Out in Apartment Complexes</title><link>https://switchboardtechservices.com/posts/router-interference/</link><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/router-interference/</guid><description>&lt;p&gt;If you live in &lt;strong&gt;Kirksville&lt;/strong&gt;, you’ve probably noticed your Wi-Fi acting weird at certain times — Netflix buffers, calls glitch, smart plugs vanish like they’ve entered the Twilight Zone.&lt;/p&gt;
-&lt;p&gt;Nine times out of ten, it’s &lt;strong&gt;not your router dying&lt;/strong&gt;. It’s interference.&lt;/p&gt;
-&lt;h2 id="whats-causing-it"&gt;What’s Causing It?&lt;/h2&gt;</description></item><item><title>Saving Your Old Windows PC: How Linux Can Keep It Secure</title><link>https://switchboardtechservices.com/posts/save-your-old-pc/</link><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate><guid>https://switchboardtechservices.com/posts/save-your-old-pc/</guid><description>&lt;h2 id="your-old-windows-pc-isnt-getting-updates--why-thats-a-problem"&gt;Your Old Windows PC Isn’t Getting Updates — Why That’s a Problem&lt;/h2&gt;
-&lt;p&gt;If your laptop or desktop is running &lt;strong&gt;Windows 7, 8, or even early Windows 10 builds&lt;/strong&gt;, you might have noticed a quiet truth: &lt;strong&gt;security updates have stopped&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Life on an unsupported Windows PC can be frustrating:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pop-ups warning about end-of-support&lt;/li&gt;
-&lt;li&gt;Applications that stop updating&lt;/li&gt;
-&lt;li&gt;Increased risk of malware and exploits&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Maintaining it yourself means &lt;strong&gt;tracking CVEs and patches manually&lt;/strong&gt; — essentially, keeping a full-time security hobby.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Field-Notes on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</title>
+    <link>http://localhost:1313/tags/field-notes/</link>
+    <description>Recent content in Field-Notes on Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</copyright>
+    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/field-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Router Interference: Why Your Wi-Fi Drops Out in Apartment Complexes</title>
+      <link>http://localhost:1313/posts/router-interference/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/router-interference/</guid>
+      <description>&lt;p&gt;If you live in &lt;strong&gt;Kirksville&lt;/strong&gt;, you’ve probably noticed your Wi-Fi acting weird at certain times — Netflix buffers, calls glitch, smart plugs vanish like they’ve entered the Twilight Zone.&lt;/p&gt;&#xA;&lt;p&gt;Nine times out of ten, it’s &lt;strong&gt;not your router dying&lt;/strong&gt;. It’s interference.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-causing-it&#34;&gt;What’s Causing It?&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Saving Your Old Windows PC: How Linux Can Keep It Secure</title>
+      <link>http://localhost:1313/posts/save-your-old-pc/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/save-your-old-pc/</guid>
+      <description>&lt;h2 id=&#34;your-old-windows-pc-isnt-getting-updates--why-thats-a-problem&#34;&gt;Your Old Windows PC Isn’t Getting Updates — Why That’s a Problem&lt;/h2&gt;&#xA;&lt;p&gt;If your laptop or desktop is running &lt;strong&gt;Windows 7, 8, or even early Windows 10 builds&lt;/strong&gt;, you might have noticed a quiet truth: &lt;strong&gt;security updates have stopped&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Life on an unsupported Windows PC can be frustrating:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pop-ups warning about end-of-support&lt;/li&gt;&#xA;&lt;li&gt;Applications that stop updating&lt;/li&gt;&#xA;&lt;li&gt;Increased risk of malware and exploits&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Maintaining it yourself means &lt;strong&gt;tracking CVEs and patches manually&lt;/strong&gt; — essentially, keeping a full-time security hobby.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

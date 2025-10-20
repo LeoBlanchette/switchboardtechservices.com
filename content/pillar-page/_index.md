@@ -5,9 +5,11 @@ draft: false
 description: "A collection of in-depth guides from Switchboard Tech Services — practical, local, and built for Kirksville residents."
 summary: "Switchboard Tech Services offers practical, plainspoken guides on repair, privacy, open-source tools, and resilient technology for Kirksville and beyond."
 cover: 
+type: "list"
 ---
 ![Toolkit Guides](images/toolkit-guides.jpg)
 # Guides and Toolkits
+
 
 Need advanced guides? See [/guides/](/guides/)
 

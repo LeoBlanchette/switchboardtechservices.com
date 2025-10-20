@@ -4,5 +4,5 @@ Allow: /
 Disallow: /drafts/
 Disallow: /tmp/
 
-Sitemap: https://switchboardtechservices.com/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml
 

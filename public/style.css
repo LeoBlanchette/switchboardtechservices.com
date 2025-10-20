@@ -1,0 +1,144 @@
+/* === Theme Palette (Terminal-consistent) === */
+:root {
+  --accent: #41c07b;       /* main green */
+  --accent-2: #2a7f52;     /* hover/darker green */
+  --background: #0e1111;   /* page background */
+  --color: #e6ffe6;        /* body text */
+  --secondary: #9ad7b8;    /* subtle secondary */
+  --surface: #141616;      /* card/table bg */
+  --surface-alt: #1a1c1c;  /* striped bg */
+}
+
+/* === Links & Buttons === */
+a {
+  color: var(--accent);
+}
+a:hover {
+  color: var(--accent-2);
+}
+a.btn {
+  padding: .5rem .9rem;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  text-decoration: none;
+  background: transparent;
+  color: var(--accent);
+  transition: all 0.2s ease;
+}
+a.btn:hover {
+  background: var(--accent);
+  color: #000;
+  border-color: var(--accent-2);
+}
+
+/* === Services Nav (sidebar-style callout) === */
+.svc-nav {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  list-style: none !important;
+}
+
+.svc-nav li {
+  list-style: none !important;
+}
+
+.svc-nav__list {
+  list-style: none !important;      /* remove bullets/dashes */
+  padding-left: 0;       /* align with border */
+  margin: 0;             /* optional clean-up */
+}
+
+.svc-nav__item::marker {
+  content: none !important;         /* kill the dash/bullet entirely */
+}
+
+.svc-nav__item::before {
+  content: none !important;
+}
+
+.svc-nav__title {
+  margin: 0 0 .5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+}
+.svc-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.svc-nav__item {
+  margin: .35rem 0;
+}
+.svc-nav__item a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.svc-nav__item.is-active a {
+  color: var(--accent);
+  font-weight: 600;
+}
+.svc-nav__item a:hover {
+  text-decoration: underline;
+  color: var(--accent-2);
+}
+
+/* === Terminal-Style Tables === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  background: var(--surface);
+  color: var(--color);
+  border-color: #9ad7b8;
+}
+table th,
+table td {
+  border: none;
+  border-bottom: 1px solid var(--accent-2); /* softer divider */
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+}
+table th {
+  background: var(--surface-alt);
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+table tr:nth-child(even) td {
+  background: #121414;
+}
+
+/* === Contact Block Styling === */
+.contact-block {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--surface, #141616);
+  border-left: 3px solid var(--accent, #41c07b);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--color, #e6ffe6);
+  line-height: 2em;
+}
+.contact-block a {
+  color: var(--accent, #41c07b);
+  text-decoration: none;
+  font-weight: 500;
+}
+.contact-block a:hover {
+  text-decoration: underline;
+  color: var(--accent-2, #2a7f52);
+}
+.contact-block span {
+  color: var(--secondary, #9ad7b8);
+  font-style: italic;
+}
+

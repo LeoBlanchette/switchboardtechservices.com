@@ -1,12 +1,465 @@
-<!doctype html><html lang=en><head><title>How to Communicate Without the Internet: LoRa, Mesh, and Magic :: Switchboard Tech Services | Kirksville Computer Repair & IT Help</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="When the web goes dark, how do we keep talking? A look at LoRa radios, mesh networks, and the growing movement to build communication that can survive without the Internet."><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://switchboardtechservices.com/posts/mesh-lora-communications/><script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ853YL51X"></script><script>var dnt,doNotTrack=!1;if(!0&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-SZ853YL51X")}</script><link rel=stylesheet href=https://switchboardtechservices.com/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://switchboardtechservices.com/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://switchboardtechservices.com/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://switchboardtechservices.com/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://switchboardtechservices.com/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://switchboardtechservices.com/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css><link rel=stylesheet href=https://switchboardtechservices.com/css/main.min.775ac2af004d44c22a6d000fbd1d9af529642f5cef27399d0280d180af2c2e9b.css><link rel=stylesheet href=https://switchboardtechservices.com/css/menu.min.310d32205bdedd6f43144e3c3273c9deecd238eba5f9108db5ea96ca0cfbe377.css><link rel=stylesheet href=https://switchboardtechservices.com/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://switchboardtechservices.com/css/post.min.ad50c7f4d00e7975918f37fc74c6029e1959a40d66fb5b2c6564a8715e985573.css><link rel=stylesheet href=https://switchboardtechservices.com/css/syntax.min.e9ab635cf918bc84b901eb65c0b2caa74c9544245e3647c1af5c129896ef276e.css><link rel=stylesheet href=https://switchboardtechservices.com/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://switchboardtechservices.com/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://switchboardtechservices.com/style.css><link rel="shortcut icon" href=https://switchboardtechservices.com/favicon.png><link rel=apple-touch-icon href=https://switchboardtechservices.com/apple-touch-icon.png><meta name=twitter:card content="summary"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="How to Communicate Without the Internet: LoRa, Mesh, and Magic"><meta property="og:description" content="When the web goes dark, how do we keep talking? A look at LoRa radios, mesh networks, and the growing movement to build communication that can survive without the Internet."><meta property="og:url" content="https://switchboardtechservices.com/posts/mesh-lora-communications/"><meta property="og:site_name" content="Switchboard Tech Services | Kirksville Computer Repair & IT Help"><meta property="og:image" content="https://switchboardtechservices.com/posts/mesh-lora-communications/images/minifig-lego-lora-communication.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="627"><meta property="article:section" content="Open Source"><meta property="article:section" content="Off-Grid Tech"><meta property="article:section" content="Local Tech"><meta property="article:published_time" content="2025-10-17 00:00:00 +0000 UTC"><link href=https://switchboardtechservices.com/posts/mesh-lora-communications/index.json rel=alternate type=application/json title="Switchboard Tech Services | Kirksville Computer Repair & IT Help"><script type=application/ld+json>{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https:\/\/switchboardtechservices.com#business","name":"Switchboard Tech Services, LLC","image":"https:\/\/switchboardtechservices.com\/images\/theswitchboard.jpg","url":"https:\/\/switchboardtechservices.com","telephone":"\u002b1.660.956.1108","email":"theswitchboard@protonmail.com","address":{"@type":"PostalAddress","streetAddress":"PO Box 594","addressLocality":"Kirksville","addressRegion":"MO","postalCode":"63501","addressCountry":"US"},"areaServed":{"@type":"City","name":"Kirksville"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"17:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"18:00"}],"sameAs":["https://www.facebook.com/SwitchboardTechServices/","https://www.yelp.com/biz/switchboard-tech-services-kirksville"]}</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://switchboardtechservices.com/><div class=logo>Switchboard Tech Services, Kirksville</div></a></div><ul class="menu menu--mobile"><li class=menu__trigger>Menu&nbsp;▾</li><li><ul class=menu__dropdown><li><a href=https://switchboardtechservices.com/services/>Services / Prices</a></li><li><a href=https://switchboardtechservices.com/who/>Who I Help</a></li><li><a href=https://switchboardtechservices.com/about/>About</a></li><li><a href=https://switchboardtechservices.com/pillar-page/>Guides</a></li><li><a href=https://switchboardtechservices.com/contact/>Contact</a></li></ul></li></ul></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=https://switchboardtechservices.com/services/>Services / Prices</a></li><li><a href=https://switchboardtechservices.com/who/>Who I Help</a></li><li><a href=https://switchboardtechservices.com/about/>About</a></li><li><a href=https://switchboardtechservices.com/pillar-page/>Guides</a></li><li><a href=https://switchboardtechservices.com/contact/>Contact</a></li></ul></nav></header><div class=content><article class=post><h1 class=post-title><a href=https://switchboardtechservices.com/posts/mesh-lora-communications/>How to Communicate Without the Internet: LoRa, Mesh, and Magic</a></h1><div class=post-meta><time class=post-date>2025-10-17</time><span class=post-author>Leo Blanchette</span></div><span class=post-tags>#<a href=https://switchboardtechservices.com/tags/lora/>lora</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/mesh/>mesh</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/meshtastic/>meshtastic</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/offgrid/>offgrid</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/kirksville/>kirksville</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/altgrid/>altgrid</a>&nbsp;
-#<a href=https://switchboardtechservices.com/tags/switchboard-tech-services/>switchboard tech services</a>&nbsp;
-</span><img src=https://switchboardtechservices.com/posts/mesh-lora-communications/images/minifig-lego-lora-communication.jpg class=post-cover alt="How to Communicate Without the Internet: LoRa, Mesh, and Magic" title="Cover Image"><div class=table-of-contents><h2>Table of Contents</h2><nav id=TableOfContents><ul><li><ul><li><a href=#the-illusion-of-always-on>The Illusion of Always-On</a></li><li><a href=#when-the-net-blinks-out>When the Net Blinks Out</a></li><li><a href=#ancient-magic-radio-waves-never-went-away>Ancient Magic: Radio Waves Never Went Away</a></li><li><a href=#lora-the-whisper-network>LoRa: The Whisper Network</a></li><li><a href=#mesh-networks-the-neighborhood-internet>Mesh Networks: The Neighborhood Internet</a></li><li><a href=#building-a-fallback-layer>Building a Fallback Layer</a></li><li><a href=#communication-as-a-commons>Communication as a Commons</a></li><li><a href=#real-world-use-cases>Real-World Use Cases</a></li><li><a href=#getting-started>Getting Started</a></li><li><a href=#the-magic-reclaimed>The Magic, Reclaimed</a></li></ul></li></ul></nav></div><div class=post-content><div><h1 id=how-to-communicate-without-the-internet-lora-mesh-and-magic>How to Communicate Without the Internet: LoRa, Mesh, and Magic<a href=#how-to-communicate-without-the-internet-lora-mesh-and-magic class=hanchor arialabel=Anchor>#</a></h1><p><em>By Switchboard Tech Services &ndash; Kirksville, Missouri</em></p><hr><h3 id=the-illusion-of-always-on>The Illusion of Always-On<a href=#the-illusion-of-always-on class=hanchor arialabel=Anchor>#</a></h3><p>The Internet feels eternal until your router blinks out, your cell tower goes dark, and your favorite cloud app suddenly becomes a paperweight.<br>It is, in truth, a house of cards &ndash; one cut cable, one storm, or one power failure away from silence.</p><p>We rely on a fragile web of cables, satellites, and server farms to do the simplest thing humans have done for centuries: talk.<br>When that breaks, we realize how little we actually own of our own communication.</p><p>That is where the magic comes back &ndash; literal radio waves, bouncing quietly across the air, ready to carry our words again.</p><blockquote><p>Note: This article stems from easy systems (Meshtastic) to advanced, more hobbyist systems (ESP32 kits).</p></blockquote><hr><h3 id=when-the-net-blinks-out>When the Net Blinks Out<a href=#when-the-net-blinks-out class=hanchor arialabel=Anchor>#</a></h3><p>Ask anyone in a rural area. The &ldquo;always-on&rdquo; Internet is mostly &ldquo;usually-off.&rdquo;<br>A single downed line or lightning strike can knock out communication for miles.<br>No messages, no maps, no updates. Even smart locks and thermostats start to act dumb.</p><p>And yet &ndash; this is the most predictable kind of outage imaginable.<br>Power grids fail. Networks get congested.
-The fallback layer &ndash; the local, neighbor-to-neighbor layer &ndash; is what we’ve lost in the name of convenience.</p><p>But it is surprisingly easy to rebuild.</p><hr><h3 id=ancient-magic-radio-waves-never-went-away>Ancient Magic: Radio Waves Never Went Away<a href=#ancient-magic-radio-waves-never-went-away class=hanchor arialabel=Anchor>#</a></h3><p>Before there was Wi-Fi, there was radio. It never went anywhere &ndash; we just stopped paying attention.<br>The air around you is filled with signals, many of which are free to use under <strong>ISM bands</strong><br>(Industrial, Scientific, and Medical).</p><p>These include frequencies like 433 MHz, 868 MHz, and 915 MHz &ndash; open bands where small devices can whisper data to one another for miles.</p><p>That whispering part is where <strong>LoRa</strong> comes in.</p><hr><h3 id=lora-the-whisper-network>LoRa: The Whisper Network<a href=#lora-the-whisper-network class=hanchor arialabel=Anchor>#</a></h3><p><strong>LoRa</strong> (short for &ldquo;Long Range&rdquo;) is a wireless technology that lets tiny radios send data over astonishing distances while sipping almost no power.<br>It is not fast &ndash; think of it as the telegraph, not broadband &ndash; but it is incredibly steady.</p><ul><li>One node on a hill can reach another several miles away.</li><li>Each node can be battery or solar powered.</li><li>They can talk without Wi-Fi, cell towers, or Internet service.</li></ul><p>The hardware is small and inexpensive. You can find open-source LoRa boards such as:<br><a href=https://github.com/LilyGO/TTGO-LoRa-Series>LilyGO TTGO LoRa32</a> or <a href=https://heltec.org/project/wifi-lora-32/>Heltec WiFi LoRa 32</a>.<br>Pair them with a little open firmware, and you have the beginnings of a neighborhood network.</p><p>Projects like <strong><a href=https://meshtastic.org>Meshtastic</a></strong> have made this even easier &ndash;<br>a friendly, open-source system that lets people send messages across a radio mesh, phone-free.</p><hr><h3 id=mesh-networks-the-neighborhood-internet>Mesh Networks: The Neighborhood Internet<a href=#mesh-networks-the-neighborhood-internet class=hanchor arialabel=Anchor>#</a></h3><p>A <strong>mesh network</strong> is a collection of nodes that all relay for one another.<br>No single hub. No central control. Just cooperation.</p><p>Each node extends the network for everyone else.<br>If one goes down, the rest route around it automatically.<br>That’s what makes it the antidote to the &ldquo;house of cards&rdquo; problem &ndash; there’s no one card that can topple the whole thing.</p><p>LoRa-based mesh systems are already being used by hikers, rural communities,<br>and off-grid tinkerers around the world. They can run quietly for weeks on a single charge.</p><p>It’s not about isolation; it’s about independence.</p><hr><h3 id=building-a-fallback-layer>Building a Fallback Layer<a href=#building-a-fallback-layer class=hanchor arialabel=Anchor>#</a></h3><p>The clever part is combining these pieces.<br>Imagine a few LoRa nodes around town &ndash; each running Meshtastic or a similar firmware &ndash;<br>connected by solar panels or backup batteries.</p><p>Add a small <strong>gateway</strong> (like a Raspberry Pi or ESP32 with Wi-Fi) and you can bridge messages<br>between the mesh and the Internet when it <em>is</em> available,<br>but keep it running even when it’s not.</p><p>That is a fallback layer: an independent, local communication web that does not beg permission from the cloud.</p><hr><h3 id=communication-as-a-commons>Communication as a Commons<a href=#communication-as-a-commons class=hanchor arialabel=Anchor>#</a></h3><p>This is the philosophical heart of it: <strong>communication should belong to everyone.</strong></p><p>When only a few corporations control the pipes, outages become monopolies of silence.<br>LoRa and mesh networks put the means of connection back in our own hands.<br>They are the radio equivalent of the right-to-repair movement &ndash;<br>a way of saying, &ldquo;We can fix this ourselves.&rdquo;</p><p>And yes, it feels a little like magic. Because it is.</p><hr><h3 id=real-world-use-cases>Real-World Use Cases<a href=#real-world-use-cases class=hanchor arialabel=Anchor>#</a></h3><ul><li><strong>Farms</strong> can share sensor data across fields with no cellular plan.</li><li><strong>Neighborhoods</strong> can pass messages during storms or power outages.</li><li><strong>Hobbyists</strong> can build private text networks for fun or privacy.</li><li><strong>Rural towns</strong> (like ours here in Kirksville) can stay in touch when the big pipes go down.</li></ul><p>This is practical technology, not paranoia &ndash; it’s a safety net that also happens to be fascinating to build.</p><hr><h3 id=getting-started>Getting Started<a href=#getting-started class=hanchor arialabel=Anchor>#</a></h3><p><a href=https://meshtastic.org/>https://meshtastic.org/</a> &#171; to get a quick start with ready-made hardware.</p><p>OR</p><ol><li>Pick up a LoRa board (like <a href=https://github.com/LilyGO/TTGO-LoRa-Series>LilyGO TTGO</a>).</li><li>Flash it with <a href=https://meshtastic.org/docs/getting-started/>Meshtastic firmware</a>.</li><li>Power it on and connect via Bluetooth to the phone app.</li><li>Start chatting &ndash; locally, privately, and completely off-grid.</li></ol><p>The FCC allows these unlicensed bands for personal and experimental use,<br>as long as you follow the power limits and avoid interference.<br>(Translation: do not turn your homebrew antenna into a backyard radar cannon.)</p><hr><h3 id=the-magic-reclaimed>The Magic, Reclaimed<a href=#the-magic-reclaimed class=hanchor arialabel=Anchor>#</a></h3><p>The Internet is wonderful &ndash; until it is not.<br>When it fails, it takes with it our sense of connection and control.</p><p>But LoRa, mesh, and a bit of open-source ingenuity remind us that communication<br>does not have to depend on someone else’s server.</p><p>The air around us is still free.<br>All we need are the right tools &ndash; and the will to use them.</p><hr><p><em>Switchboard Tech Services &ndash; Building resilient, local technology in Kirksville, Missouri.</em><br><a href=https://switchboardtechservices.com>https://switchboardtechservices.com</a></p></div></div><div class=pagination><div class=pagination__title><span class=pagination__title-h></span><hr></div><div class=pagination__buttons><a href=https://switchboardtechservices.com/posts/host-website-in-kirksville/ class="button inline prev">&lt; [<span class=button__text>How I Host Your Website in Kirksville</span>]
-</a>::
-<a href=https://switchboardtechservices.com/posts/speed-up-laptop/ class="button inline next">[<span class=button__text>How to Speed Up Your Old Laptop (Kirksville Edition)</span>] ></a></div></div></article></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><span>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</span>
-<span>:: <a href=https://github.com/panr/hugo-theme-terminal target=_blank>Theme</a> made by <a href=https://github.com/panr target=_blank>panr</a></span></div></div></footer><script type=text/javascript src=https://switchboardtechservices.com/bundle.min.js></script></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>How to Communicate Without the Internet: LoRa, Mesh, and Magic :: Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="When the web goes dark, how do we keep talking? A look at LoRa radios, mesh networks, and the growing movement to build communication that can survive without the Internet." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/mesh-lora-communications/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ853YL51X"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SZ853YL51X');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to Communicate Without the Internet: LoRa, Mesh, and Magic">
+<meta property="og:description" content="When the web goes dark, how do we keep talking? A look at LoRa radios, mesh networks, and the growing movement to build communication that can survive without the Internet." />
+<meta property="og:url" content="http://localhost:1313/posts/mesh-lora-communications/" />
+<meta property="og:site_name" content="Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/posts/mesh-lora-communications/images/minifig-lego-lora-communication.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Open Source" />
+
+  <meta property="article:section" content="Off-Grid Tech" />
+
+  <meta property="article:section" content="Local Tech" />
+
+
+  <meta property="article:published_time" content="2025-10-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+  <link href="http://localhost:1313/posts/mesh-lora-communications/index.json" rel="alternate" type="application/json" title="Switchboard Tech Services | Kirksville Computer Repair &amp; IT Help" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https:\/\/switchboardtechservices.com#business",
+  "name": "Switchboard Tech Services, LLC",
+  "image": "https:\/\/switchboardtechservices.com\/images\/theswitchboard.jpg",
+  "url": "https:\/\/switchboardtechservices.com",
+  "telephone": "\u002b1.660.956.1108",
+  "email": "theswitchboard@protonmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 594",
+    "addressLocality": "Kirksville",
+    "addressRegion": "MO",
+    "postalCode": "63501",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "City", "name": "Kirksville" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "17:00", "closes": "21:00"
+    },
+    { "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00", "closes": "18:00"
+    }
+  ],
+  "sameAs": ["https://www.facebook.com/SwitchboardTechServices/","https://www.yelp.com/biz/switchboard-tech-services-kirksville"]
+}
+</script>
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Switchboard Tech Services, Kirksville
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="http://localhost:1313/services/">Services / Prices</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/">Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/">About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/pillar-page/">Guides</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/">Contact</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="http://localhost:1313/services/" >Services / Prices</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/who/" >Who I Help</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/about/" >About</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/pillar-page/" >Guides</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/contact/" >Contact</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/mesh-lora-communications/">How to Communicate Without the Internet: LoRa, Mesh, and Magic</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-10-17</time><span class="post-author">Leo Blanchette</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/lora/">lora</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/mesh/">mesh</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/meshtastic/">meshtastic</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/offgrid/">offgrid</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/kirksville/">kirksville</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/altgrid/">altgrid</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/switchboard-tech-services/">switchboard tech services</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="http://localhost:1313/posts/mesh-lora-communications/images/minifig-lego-lora-communication.jpg"
+    class="post-cover"
+    alt="How to Communicate Without the Internet: LoRa, Mesh, and Magic"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-illusion-of-always-on">The Illusion of Always-On</a></li>
+        <li><a href="#when-the-net-blinks-out">When the Net Blinks Out</a></li>
+        <li><a href="#ancient-magic-radio-waves-never-went-away">Ancient Magic: Radio Waves Never Went Away</a></li>
+        <li><a href="#lora-the-whisper-network">LoRa: The Whisper Network</a></li>
+        <li><a href="#mesh-networks-the-neighborhood-internet">Mesh Networks: The Neighborhood Internet</a></li>
+        <li><a href="#building-a-fallback-layer">Building a Fallback Layer</a></li>
+        <li><a href="#communication-as-a-commons">Communication as a Commons</a></li>
+        <li><a href="#real-world-use-cases">Real-World Use Cases</a></li>
+        <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#the-magic-reclaimed">The Magic, Reclaimed</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="how-to-communicate-without-the-internet-lora-mesh-and-magic">How to Communicate Without the Internet: LoRa, Mesh, and Magic<a href="#how-to-communicate-without-the-internet-lora-mesh-and-magic" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><em>By Switchboard Tech Services &ndash; Kirksville, Missouri</em></p>
+<hr>
+<h3 id="the-illusion-of-always-on">The Illusion of Always-On<a href="#the-illusion-of-always-on" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The Internet feels eternal until your router blinks out, your cell tower goes dark, and your favorite cloud app suddenly becomes a paperweight.<br>
+It is, in truth, a house of cards &ndash; one cut cable, one storm, or one power failure away from silence.</p>
+<p>We rely on a fragile web of cables, satellites, and server farms to do the simplest thing humans have done for centuries: talk.<br>
+When that breaks, we realize how little we actually own of our own communication.</p>
+<p>That is where the magic comes back &ndash; literal radio waves, bouncing quietly across the air, ready to carry our words again.</p>
+<blockquote>
+<p>Note: This article stems from easy systems (Meshtastic) to advanced, more hobbyist systems (ESP32 kits).</p>
+</blockquote>
+<hr>
+<h3 id="when-the-net-blinks-out">When the Net Blinks Out<a href="#when-the-net-blinks-out" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Ask anyone in a rural area. The &ldquo;always-on&rdquo; Internet is mostly &ldquo;usually-off.&rdquo;<br>
+A single downed line or lightning strike can knock out communication for miles.<br>
+No messages, no maps, no updates. Even smart locks and thermostats start to act dumb.</p>
+<p>And yet &ndash; this is the most predictable kind of outage imaginable.<br>
+Power grids fail. Networks get congested.
+The fallback layer &ndash; the local, neighbor-to-neighbor layer &ndash; is what we’ve lost in the name of convenience.</p>
+<p>But it is surprisingly easy to rebuild.</p>
+<hr>
+<h3 id="ancient-magic-radio-waves-never-went-away">Ancient Magic: Radio Waves Never Went Away<a href="#ancient-magic-radio-waves-never-went-away" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Before there was Wi-Fi, there was radio. It never went anywhere &ndash; we just stopped paying attention.<br>
+The air around you is filled with signals, many of which are free to use under <strong>ISM bands</strong><br>
+(Industrial, Scientific, and Medical).</p>
+<p>These include frequencies like 433 MHz, 868 MHz, and 915 MHz &ndash; open bands where small devices can whisper data to one another for miles.</p>
+<p>That whispering part is where <strong>LoRa</strong> comes in.</p>
+<hr>
+<h3 id="lora-the-whisper-network">LoRa: The Whisper Network<a href="#lora-the-whisper-network" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><strong>LoRa</strong> (short for &ldquo;Long Range&rdquo;) is a wireless technology that lets tiny radios send data  over astonishing distances while sipping almost no power.<br>
+It is not fast &ndash; think of it as the telegraph, not broadband &ndash; but it is incredibly steady.</p>
+<ul>
+<li>One node on a hill can reach another several miles away.</li>
+<li>Each node can be battery or solar powered.</li>
+<li>They can talk without Wi-Fi, cell towers, or Internet service.</li>
+</ul>
+<p>The hardware is small and inexpensive. You can find open-source LoRa boards such as:<br>
+<a href="https://github.com/LilyGO/TTGO-LoRa-Series">LilyGO TTGO LoRa32</a> or <a href="https://heltec.org/project/wifi-lora-32/">Heltec WiFi LoRa 32</a>.<br>
+Pair them with a little open firmware, and you have the beginnings of a neighborhood network.</p>
+<p>Projects like <strong><a href="https://meshtastic.org">Meshtastic</a></strong> have made this even easier &ndash;<br>
+a friendly, open-source system that lets people send messages across a radio mesh, phone-free.</p>
+<hr>
+<h3 id="mesh-networks-the-neighborhood-internet">Mesh Networks: The Neighborhood Internet<a href="#mesh-networks-the-neighborhood-internet" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>A <strong>mesh network</strong> is a collection of nodes that all relay for one another.<br>
+No single hub. No central control. Just cooperation.</p>
+<p>Each node extends the network for everyone else.<br>
+If one goes down, the rest route around it automatically.<br>
+That’s what makes it the antidote to the &ldquo;house of cards&rdquo; problem &ndash; there’s no one card that can topple the whole thing.</p>
+<p>LoRa-based mesh systems are already being used by hikers, rural communities,<br>
+and off-grid tinkerers around the world. They can run quietly for weeks on a single charge.</p>
+<p>It’s not about isolation; it’s about independence.</p>
+<hr>
+<h3 id="building-a-fallback-layer">Building a Fallback Layer<a href="#building-a-fallback-layer" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The clever part is combining these pieces.<br>
+Imagine a few LoRa nodes around town &ndash; each running Meshtastic or a similar firmware &ndash;<br>
+connected by solar panels or backup batteries.</p>
+<p>Add a small <strong>gateway</strong> (like a Raspberry Pi or ESP32 with Wi-Fi) and you can bridge messages<br>
+between the mesh and the Internet when it <em>is</em> available,<br>
+but keep it running even when it’s not.</p>
+<p>That is a fallback layer: an independent, local communication web that does not beg permission from the cloud.</p>
+<hr>
+<h3 id="communication-as-a-commons">Communication as a Commons<a href="#communication-as-a-commons" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>This is the philosophical heart of it: <strong>communication should belong to everyone.</strong></p>
+<p>When only a few corporations control the pipes, outages become monopolies of silence.<br>
+LoRa and mesh networks put the means of connection back in our own hands.<br>
+They are the radio equivalent of the right-to-repair movement &ndash;<br>
+a way of saying, &ldquo;We can fix this ourselves.&rdquo;</p>
+<p>And yes, it feels a little like magic. Because it is.</p>
+<hr>
+<h3 id="real-world-use-cases">Real-World Use Cases<a href="#real-world-use-cases" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Farms</strong> can share sensor data across fields with no cellular plan.</li>
+<li><strong>Neighborhoods</strong> can pass messages during storms or power outages.</li>
+<li><strong>Hobbyists</strong> can build private text networks for fun or privacy.</li>
+<li><strong>Rural towns</strong> (like ours here in Kirksville) can stay in touch when the big pipes go down.</li>
+</ul>
+<p>This is practical technology, not paranoia &ndash; it’s a safety net that also happens to be fascinating to build.</p>
+<hr>
+<h3 id="getting-started">Getting Started<a href="#getting-started" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><a href="https://meshtastic.org/">https://meshtastic.org/</a> &laquo; to get a quick start with ready-made hardware.</p>
+<p>OR</p>
+<ol>
+<li>Pick up a LoRa board (like <a href="https://github.com/LilyGO/TTGO-LoRa-Series">LilyGO TTGO</a>).</li>
+<li>Flash it with <a href="https://meshtastic.org/docs/getting-started/">Meshtastic firmware</a>.</li>
+<li>Power it on and connect via Bluetooth to the phone app.</li>
+<li>Start chatting &ndash; locally, privately, and completely off-grid.</li>
+</ol>
+<p>The FCC allows these unlicensed bands for personal and experimental use,<br>
+as long as you follow the power limits and avoid interference.<br>
+(Translation: do not turn your homebrew antenna into a backyard radar cannon.)</p>
+<hr>
+<h3 id="the-magic-reclaimed">The Magic, Reclaimed<a href="#the-magic-reclaimed" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The Internet is wonderful &ndash; until it is not.<br>
+When it fails, it takes with it our sense of connection and control.</p>
+<p>But LoRa, mesh, and a bit of open-source ingenuity remind us that communication<br>
+does not have to depend on someone else’s server.</p>
+<p>The air around us is still free.<br>
+All we need are the right tools &ndash; and the will to use them.</p>
+<hr>
+<p><em>Switchboard Tech Services &ndash; Building resilient, local technology in Kirksville, Missouri.</em><br>
+<a href="https://switchboardtechservices.com">https://switchboardtechservices.com</a></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/host-website-in-kirksville/" class="button inline prev">
+        &lt; [<span class="button__text">How I Host Your Website in Kirksville</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/speed-up-laptop/" class="button inline next">
+         [<span class="button__text">How to Speed Up Your Old Laptop (Kirksville Edition)</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

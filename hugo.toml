@@ -74,7 +74,7 @@ canonifyURLs = true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Switchboard Tech Services"
+    title = "Switchboard Tech Services | Kirksville Computer Repair & IT Help"
     copyright = "© 2025 Switchboard Tech Services, LLC — Kirksville, Missouri · Licensed · Locally Operated"
     readMore = "Read more →"
     readOtherPosts = "More field notes"

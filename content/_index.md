@@ -1,5 +1,5 @@
 +++
-title = "Switchboard Tech Services, LLC"
+title = "Switchboard Tech Services | Kirksville Computer Repair & IT Help"
 description = "Local tech help in Kirksville, Missouri: Linux conversions, house calls, odd repairs, and practical fixes within two miles of the courthouse."
 keywords = ["Kirksville computer repair", "Linux conversions", "local tech help", "Switchboard Tech Services"]
 cover = "images/theswitchboard.jpg"

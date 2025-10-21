@@ -1,0 +1,25 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Local config overrides
+config.local.toml
+config.local.yaml
+config.local.json
+
+# OS-specific cruft
+.DS_Store
+Thumbs.db
+
+# Node/npm stuff (if using PostCSS, Tailwind, etc.)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE/editor files
+*.log
+*.swp
+*~
+.vscode/
+.idea/

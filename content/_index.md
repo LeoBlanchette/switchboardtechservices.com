@@ -41,9 +41,9 @@ If it plugs in, powers on, or connects to the internet, there’s a good chance 
 ---
 
 ### From the Workbench
-
+[![AltGrid and Scrollmapper, Projects by Leo Blanchette](images/viatux-looking-down-at-terminal-condensed.jpg)](/projects/)
 ### [See my major technical projects →](/projects/)
 These are major projects I've created or am working on.
-
+[![Technical blog posts by Leo Blanchette](images/viatux-looking-down-at-project-table.jpg)](/posts/)
 ### [Read Switchboard's latest posts →](/posts/)
 Guides, local stories, and practical how-tos from the Switchboard workshop.

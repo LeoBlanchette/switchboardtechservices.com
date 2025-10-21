@@ -7,7 +7,7 @@ description: "Practical steps for Kirksville residents to make old laptops run f
 tags: ["laptop repair", "kirksville", "computer repair", "speed up laptop", "linux", "switchboard tech services"]
 categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook"]
 summary: "Tired of watching the hourglass spin? Here’s how locals in Kirksville can bring tired laptops back to life -- without spending a fortune."
-cover: posts/speed-up-laptop/images/lego-minifig-speeds-up-his-laptop.png
+cover: posts/speed-up-laptop/images/lego-minifig-speeds-up-his-laptop.jpg
 ---
 
 # How to Speed Up Your Old Laptop (Kirksville Edition)

@@ -1,11 +1,11 @@
 ---
 title: "USB Boot and Firmware Unlock Cheat Sheet"
-date: 2025-10-19T00:00:00Z
+date: 2025-10-22
 description: "Field-ready Hugo markdown reference for booting from USB and unlocking firmware protections across every major computer system."
 tags: ["usb boot", "bios", "secure boot", "firmware", "repair"]
 categories: ["guides", "field manual"]
 draft: false
-cover: guides/boot-from-usb-every-major-system/images/lego-figurine-in-front-of-computer-bios.jpg
+cover: /posts/boot-from-usb-every-major-system/images/lego-figurine-in-front-of-computer-bios.jpg
 ---
 
 ## Dell

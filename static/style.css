@@ -142,3 +142,22 @@ table tr:nth-child(even) td {
   font-style: italic;
 }
 
+/* === Category Styling === */
+
+.categorylist ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.categorylist li {
+  margin: 0.3em 0;
+}
+.categorylist a {
+  font-weight: 600;
+  text-decoration: none;
+}
+.categorylist a:hover {
+  text-decoration: underline;
+}
+.categorylist small {
+  color: #666;
+}

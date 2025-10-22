@@ -16,7 +16,7 @@ Sometimes the hardest part of running Linux isn’t using it — it’s convinci
 
 [See the cheat sheet here...](/guides/boot-from-usb-every-major-system/)
 
-[This guide](/guides/boot-from-usb-every-major-system/) is your multilingual phrasebook for talking to every BIOS, UEFI, and half-forgotten bootloader still haunting thrift-store shelves and modern retail aisles alike.
+[This guide](/posts/boot-from-usb-every-major-system/) is your multilingual phrasebook for talking to every BIOS, UEFI, and half-forgotten bootloader still haunting thrift-store shelves and modern retail aisles alike.
 
 From Dells that cling to Secure Boot like superstition, to Chromebooks that think they know better, this cheat sheet shows how to politely (or not) persuade any machine to load **Tails, Ubuntu, Fedora**, or your favorite flavor of freedom.
 

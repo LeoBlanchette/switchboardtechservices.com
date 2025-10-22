@@ -4,8 +4,8 @@ date: 2025-10-17
 draft: false
 author: "Switchboard Tech Services"
 description: "A practical guide from Switchboard Tech Services in Kirksville on keeping your files safe with offline backups -- no cloud accounts, no subscriptions, no nonsense."
-tags: ["data backup", "kirksville", "offline storage", "privacy", "switchboard tech services"]
-categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook"]
+tags: ["data backup", "kirksville", "offline storage", "privacy", "switchboard tech services", "Offline Tech"]
+categories: ["Local Tech", "Maintenance", "Kirksville Tech Handbook", "Data Protection"]
 summary: "Keep your files safe without trusting the cloud. A practical guide for Kirksville residents on simple, reliable offline backups."
 cover: posts/simple-data-backups-without-the-cloud/images/simple-data-backup-without-the-cloud-lego-minifigure.jpg
 ---

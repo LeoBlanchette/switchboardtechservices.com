@@ -5,7 +5,7 @@ draft: false
 author: "Switchboard Tech Services"
 description: "Practical steps for Kirksville residents to make old laptops run faster without spending a fortune. Local advice from Switchboard Tech Services."
 tags: ["laptop repair", "kirksville", "computer repair", "speed up laptop", "linux", "switchboard tech services"]
-categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook"]
+categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook", "Repair"]
 summary: "Tired of watching the hourglass spin? Here’s how locals in Kirksville can bring tired laptops back to life -- without spending a fortune."
 cover: posts/speed-up-laptop/images/lego-minifig-speeds-up-his-laptop.jpg
 ---

@@ -1,0 +1,32 @@
+{{/* 
+  categorylist shortcode
+  Usage: {{< categorylist "pillar-1" >}}
+  Lists all posts belonging to the given category, sorted by .Params.priority (ascending) or date (descending).
+*/}}
+
+{{ $cat := .Get 0 }}
+{{ $pages := where site.RegularPages "Params.categories" "intersect" (slice $cat) }}
+
+{{/* Sort first by priority if it exists, then by date */}}
+{{ $sorted := sort $pages "Params.priority" }}
+{{ if eq (len $sorted) 0 }}
+  {{ $sorted = sort $pages "Date" "desc" }}
+{{ end }}
+
+{{ if gt (len $sorted) 0 }}
+<div class="categorylist">
+  <h3>Posts in {{ $cat }}</h3>
+  <ul>
+    {{ range $sorted }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.description }}
+          <small> — {{ . | plainify }}</small>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ else }}
+  <p><em>No posts found in this category yet.</em></p>
+{{ end }}

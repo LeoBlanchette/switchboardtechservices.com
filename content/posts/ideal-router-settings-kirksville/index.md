@@ -6,7 +6,7 @@ author: "Leo Blanchette"
 description: "Smart router configuration tips for rural Missouri homes and small apartment buildings. Learn how placement, firmware, and security settings affect Wi-Fi speed, reliability, and safety."
 summary: "Default router settings are made for city apartments, not small-town homes. A few careful changes can boost range, reliability, and security for everyone on your network."
 tags: ["router", "wifi", "kirksville", "network", "firmware", "security", "switchboard tech services"]
-categories: ["Networking", "Local Tech", "How-To"]
+categories: ["Networking", "Local Tech", "How-To", "Maintenance"]
 keywords: ["router settings", "kirksville wifi", "small town internet", "apartment network tips", "firmware update", "home networking"]
 cover: posts/ideal-router-settings-kirksville/images/tweaking-router-settings-lego-minifig-illustration.jpg
 ---

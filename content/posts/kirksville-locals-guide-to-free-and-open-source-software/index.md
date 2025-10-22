@@ -5,7 +5,7 @@ draft: false
 author: "Switchboard Tech Services"
 description: "A practical guide from Switchboard Tech Services in Kirksville on replacing expensive software with free, open-source tools for Windows and Linux users."
 tags: ["open source", "kirksville", "free software", "linux", "computer repair kirksville", "local tech help"]
-categories: ["Local Tech", "Open Source", "Kirksville Tech Handbook"]
+categories: ["Local Tech", "Open Source", "Kirksville Tech Handbook", "Linux", "Open-Source Tools"]
 summary: "A simple guide from Kirksville’s local tech shop on free and open-source software that saves money, increases privacy, and puts you back in control of your computer."
 cover: posts/kirksville-locals-guide-to-free-and-open-source-software/images/lego-minifig-open-source-software-showcase.jpg
 ---

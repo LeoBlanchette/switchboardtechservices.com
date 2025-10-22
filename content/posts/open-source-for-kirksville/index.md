@@ -4,7 +4,7 @@ date: 2025-10-16
 draft: false
 description: "When money's tight, free software like Linux keeps Kirksville running. How open-source tools save cash, extend hardware life, and build real tech skills in our community."
 tags: ["open-source", "Kirksville", "Linux", "right-to-repair", "local economy"]
-categories: ["Philosophy", "Technology", "Local"]
+categories: ["Philosophy", "Technology", "Local", "Linux", "Open-Source Tools"]
 author: "Leo Blanchette"
 cover: posts/open-source-for-kirksville/images/kirksville-open-source.jpg
 ---
@@ -73,7 +73,7 @@ And just like any other trade, those skills spread from neighbor to neighbor, ki
 
 ## The Right-to-Repair Ethos
 
-"Right-to-repair" is not a slogan; it is survival during tough times.
+["Right-to-repair"](/right-to-repair/) is not a slogan; it is survival during tough times.
 
 Open-source software was built on that idea from the start.  
 No locked firmware, no voided warranties for being curious, no $300 service calls to replace a $5 part.  

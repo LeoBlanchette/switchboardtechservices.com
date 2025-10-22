@@ -5,7 +5,7 @@ draft: false
 author: "Switchboard Tech Services"
 description: "How to stay connected, powered, and productive when darkness or outages strike — from ham radios to Linux laptops and flashlights."
 tags: ["offline tech", "ham radio", "resilience", "kirksville", "linux", "emergency toolkit"]
-categories: ["Resilience", "Local Tech", "Preparedness"]
+categories: ["Resilience", "Local Tech", "Preparedness", "Offline Tech", "Data Protection"]
 summary: "When the grid and cloud go silent, here’s a comprehensive toolkit of power, comms, and gear that will still work in rural Missouri."
 cover: posts/offline-tech-toolkit/images/offline-toolkit-lego-minifig.png
 ---

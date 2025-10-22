@@ -5,7 +5,7 @@ draft: false
 author: "Leo Blanchette"
 description: "Kirksvilles tech repair shop explains why ProtonMail is the private, secure, and ad-free email alternative to Gmail -- and why privacy matters now more than ever."
 tags: ["protonmail", "privacy", "kirksville", "email", "switchboard tech services"]
-categories: ["Privacy", "Open Source", "Local Tech"]
+categories: ["Secure Communication"]
 summary: "Google reads your emails like a nosy neighbor. ProtonMail locks them up tighter than Fort Knox. Heres why that matters in Kirksville."
 cover: posts/why-use-protonmail/images/welcome-to-protonmail.jpg
 ---

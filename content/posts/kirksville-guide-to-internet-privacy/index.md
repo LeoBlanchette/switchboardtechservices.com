@@ -5,7 +5,7 @@ draft: false
 author: "Leo Blanchette"
 description: "A comprehensive guide to achieving full digital privacy using Tails Tor ProtonMail Signal encryption and proven operational security practices. Written for normal people who want real privacy."
 tags: ["privacy", "tails", "tor", "protonmail", "signal", "security", "encryption", "switchboard tech services", "kirksville"]
-categories: ["Privacy", "Guides", "Security"]
+categories: ["Privacy", "Guides", "Security", "Secure Communication"]
 summary: "Complete practical and understandable. This is the modern privacy guide for people who want to take control of their digital life using open verifiable tools."
 cover: posts/kirksville-guide-to-internet-privacy/images/lego-minifigure-in-his-privacy-mancave.jpg
 ---

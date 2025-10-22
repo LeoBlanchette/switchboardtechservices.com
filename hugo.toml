@@ -107,7 +107,7 @@ canonifyURLs = true
 [[menu.main]]
     identifier = "guides"
     name = "Guides"
-    url = "/pillar-page/"
+    url = "/guides/"
     weight = 5
 
 [[menu.main]]
@@ -153,3 +153,7 @@ canonifyURLs = true
     anonymizeIP = true
     respectDoNotTrack = true
     useSessionStorage = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

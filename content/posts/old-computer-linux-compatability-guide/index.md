@@ -1,10 +1,11 @@
 ---
 title: "Linux Compatibility Cheat Sheet by Make, Model & Year (10+ Years of Hardware)"
+date: 2025-10-22
 description: "Pick the right Linux distro for your exact computer: make → model → year range. Mapped to modern (Tier A) and lightweight (Tier B) options, with notes and certified hardware links."
 tags: ["Linux", "Compatibility", "Computer Repair", "Refurbish", "Old PCs"]
 categories: ["Linux", "Guides"]
 summary: "Choose the best Linux distro for your old (or semi-modern) PC by make, model, and year—fast."
-cover: /guides/old-computer-linux-compatability-guide/images/minifigure-assesses-build-options-for-linux.jpg
+cover: /posts/old-computer-linux-compatability-guide/images/minifigure-assesses-build-options-for-linux.jpg
 ---
 
 ## How to Use This Cheat Sheet
@@ -18,7 +19,7 @@ Pick your **Make → Model Family → Year Range** and install from the **Distro
 
 > **Rule of thumb:** Newer models need only Tier A. Older models list an *ideal highest* distro from Tier A (if feasible) plus lighter Tier B options when needed.
 
-Need to get the bootable usb working? See this guide: [/guides/boot-from-usb-every-major-system/](/guides/boot-from-usb-every-major-system/)
+Need to get the bootable usb working? See this guide: [/guides/boot-from-usb-every-major-system/](/posts/boot-from-usb-every-major-system/)
 
 ### Vendor & Distro Certification Links
 - **Ubuntu Certified Hardware (Laptops):** https://ubuntu.com/certified/laptops  

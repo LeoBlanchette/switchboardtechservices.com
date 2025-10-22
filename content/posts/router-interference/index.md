@@ -3,6 +3,7 @@ title: "Router Interference: Why Your Wi-Fi Drops Out in Apartment Complexes"
 date: 2025-10-13
 description: "A field note on diagnosing Wi-Fi interference in Kirksville apartments and how to pick the best channel for reliable connections."
 tags: ["Wi-Fi", "router", "interference", "networking", "Kirksville", "field-notes"]
+categories: ["Repair Guides"]
 draft: false
 cover: posts/router-interference/images/lego-man-working-on-router.jpg
 ---

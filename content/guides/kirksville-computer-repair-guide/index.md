@@ -7,7 +7,7 @@ description: "Local guide to computer repair, maintenance, and upgrades for Kirk
 tags: ["computer repair", "kirksville", "tech help", "switchboard tech services"]
 categories: ["repair", "kirksville-tech-handbook"]
 summary: "Everything you need to know about keeping your computer healthy in Kirksville — repairs, backups, and smart maintenance."
-cover: pillar-page/kirksville-computer-repair-guide/images/computer-repair-guide.jpg
+cover: guides/kirksville-computer-repair-guide/images/computer-repair-guide.jpg
 ---
 
 # Kirksville Computer Repair Guide
@@ -19,13 +19,9 @@ This page links together our repair-related tutorials and service notes.
 
 ## 🖥️ Repair & Maintenance Posts
 
-- [Kirksville Computer Repair Tips](/posts/kirksville-computer-repair-tips/)
-- [Speed Up Your Laptop](/posts/speed-up-laptop/)
-- [Save Your Old PC](/posts/save-your-old-pc/)
-- [What to Do Before You Bring Your Computer for Repair](/posts/what-to-do-before-repair/)
-- [Simple Data Backups Without the Cloud](/posts/simple-data-backups-without-the-cloud/)
-- [Router Interference and How to Fix It](/posts/router-interference/)
-- [Ideal Router Settings for Kirksville](/posts/ideal-router-settings-kirksville/)
+{{< categorylist "Repair Guides" >}}
+
+{{< categorylist "Maintenance" >}}
 
 ---
 

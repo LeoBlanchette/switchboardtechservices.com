@@ -5,7 +5,7 @@ draft: false
 author: "Leo Blanchette"
 description: "When the web goes dark, how do we keep talking? A look at LoRa radios, mesh networks, and the growing movement to build communication that can survive without the Internet."
 tags: ["lora", "mesh", "meshtastic", "offgrid", "kirksville", "altgrid", "switchboard tech services"]
-categories: ["Open Source", "Off-Grid Tech", "Local Tech"]
+categories: ["Open Source", "Off-Grid Tech", "Local Tech", "Communications"]
 summary: "The Internet is a house of cards. LoRa, mesh networks, and a bit of radio magic can keep us talking when the lights go out."
 cover: posts/mesh-lora-communications/images/minifig-lego-lora-communication.jpg
 ---

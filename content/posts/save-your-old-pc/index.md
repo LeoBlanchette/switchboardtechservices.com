@@ -3,6 +3,7 @@ title: "Saving Your Old Windows PC: How Linux Can Keep It Secure"
 date: 2025-10-13
 description: "Your old Windows machine no longer receives updates, leaving it vulnerable. Learn how reinstalling Linux can revive performance and security."
 tags: ["Windows", "Linux", "old PC", "security", "field-notes", "unsupported"]
+categories: ["Repair", "Repair Guides"]
 draft: false
 cover: posts/save-your-old-pc/images/lego-man-installs-ubuntu.jpg
 ---

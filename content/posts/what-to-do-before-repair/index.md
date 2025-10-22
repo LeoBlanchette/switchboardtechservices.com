@@ -5,7 +5,7 @@ draft: false
 author: "Switchboard Tech Services"
 description: "A short, practical checklist from Switchboard Tech Services in Kirksville on how to prepare your computer for repair safely and efficiently."
 tags: ["computer repair", "kirksville", "tech tips", "backup", "security", "switchboard tech services"]
-categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook"]
+categories: ["Local Tech", "Repair Guides", "Kirksville Tech Handbook", "Repair"]
 summary: "A practical checklist from Switchboard Tech Services in Kirksville. Here is how to prepare your computer for repair the smart way -- safely, simply, and without losing your files."
 cover: posts/what-to-do-before-repair/images/lego-minifig-about-to-repair-computer.jpg
 ---

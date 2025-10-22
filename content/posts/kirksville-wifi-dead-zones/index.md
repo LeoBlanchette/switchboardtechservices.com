@@ -5,7 +5,7 @@ draft: false
 author: "Switchboard Tech Services"
 description: "A complete guide for Kirksville residents and techs on diagnosing and fixing Wi-Fi dead zones, understanding local network infrastructure, and improving home and neighborhood connectivity."
 tags: ["wifi repair kirksville", "network troubleshooting", "kirksville internet", "computer repair kirksville", "wireless", "broadband"]
-categories: ["Repair", "Networking", "Kirksville"]
+categories: ["Repair", "Networking", "Kirksville", "Communications"]
 summary: "Kirksville’s most complete guide to Wi-Fi troubleshooting, written by local techs for local homes and small businesses."
 cover: posts/kirksville-wifi-dead-zones/images/wifi-dropouts-lego-minifig-explores.jpg
 ---

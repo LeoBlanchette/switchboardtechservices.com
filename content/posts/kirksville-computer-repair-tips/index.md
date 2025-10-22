@@ -2,6 +2,7 @@
 title: "Kirksville Computer Repair: Top Problems with 10+ Year Old PCs"
 date: 2025-10-14
 tags: ["computer repair", "computer service", "Kirksville", "old computers", "PC troubleshooting"]
+categories: ["Repair", "Repair Guides"]
 cover: posts/kirksville-computer-repair-tips/images/lego-man-repairs-computer-in-kirksville.jpg
 ---
 

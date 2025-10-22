@@ -7,7 +7,7 @@ description: "A practical guide to off-grid and backup technology for Kirksville
 tags: ["offline tech", "resilience", "lora", "mesh", "kirksville"]
 categories: ["off-grid-tech", "resilience"]
 summary: "How to stay connected and productive when the internet or power goes down."
-cover: pillar-page/offline-resilient-tech-toolkit/images/offline-toolkit.jpg
+cover: guides/offline-resilient-tech-toolkit/images/offline-toolkit.jpg
 ---
 
 # Offline and Resilient Tech Toolkit
@@ -19,15 +19,13 @@ This collection covers mesh networking, radio communication, and offline data st
 
 ## 📡 Communications
 
-- [How to Communicate Without the Internet: LoRa, Mesh, and Magic](/posts/mesh-lora-communications/)
-- [Kirksville Wi-Fi Dead Zones and Fixed Wireless Tips](/posts/kirksville-wifi-dead-zones/)
+{{< categorylist "Communications" >}}
 
 ---
 
 ## 🧰 Offline Systems
 
-- [Offline Tech Toolkit for Rural Missouri](/posts/offline-tech-toolkit/)
-- [Simple Data Backups Without the Cloud](/posts/simple-data-backups-without-the-cloud/)
+{{< categorylist "Offline Tech" >}}
 
 ---
 

@@ -3,7 +3,7 @@ title: "Linux Compatibility Cheat Sheet by Make, Model & Year (10+ Years of Hard
 date: 2025-10-22
 description: "Pick the right Linux distro for your exact computer: make → model → year range. Mapped to modern (Tier A) and lightweight (Tier B) options, with notes and certified hardware links."
 tags: ["Linux", "Compatibility", "Computer Repair", "Refurbish", "Old PCs"]
-categories: ["Linux", "Guides"]
+categories: ["Linux", "Guides", "Linux Conversions"]
 summary: "Choose the best Linux distro for your old (or semi-modern) PC by make, model, and year—fast."
 cover: /posts/old-computer-linux-compatability-guide/images/minifigure-assesses-build-options-for-linux.jpg
 ---
@@ -499,3 +499,4 @@ Here is the more detailed list of Make / Model / Year Distro information.
 > Fedora HCL: https://fedoraproject.org/wiki/HCL
 
 
+{{< backtolinux >}}

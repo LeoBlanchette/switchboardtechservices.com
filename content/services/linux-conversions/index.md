@@ -75,3 +75,5 @@ See also [I Am Kirksville’s Linux Guy](posts/kirksville-mo-linux-guy/)
 ![Computer Repair](/images/services/computer-repair.jpg)
 
 {{< servicesnav >}}
+
+{{< categorylist "Linux Conversions" >}}

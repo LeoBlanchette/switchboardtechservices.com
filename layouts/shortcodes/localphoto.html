@@ -1,0 +1,68 @@
+{{/*  
+------------------------------------------------------------------------------
+Shortcode: localphoto
+Author: Switchboard Tech Services
+Purpose:
+  - Adds schema.org Photograph markup for local or historical photos.
+  - Designed for use in pages that display regional photography (e.g. closed stores).
+  - All metadata fields are configurable with defaults to prevent broken markup.
+  - Outputs a <figure> block with semantic <meta> tags for SEO / structured data.
+  
+Usage Template:
+------------------------------------------------------------------------------
+{{< localphoto
+  src="images/example.jpg"
+  caption="Former storefront on the Kirksville square, closed 2018."
+  author="Leo Blanchette"
+  copyrightHolder="Switchboard Tech Services LLC"
+  copyrightYear="2025"
+  isPartOf="Kirksville Closed Stores Photo Project"
+  location="Downtown Kirksville, Missouri"
+  lat="40.1948"
+  lon="-92.5827"
+  date="2025-10-24"
+>}}
+------------------------------------------------------------------------------
+Required:
+  src        = image path (e.g. /images/example.jpg)
+Optional:
+  caption    = image caption (also used as alt text if none provided)
+  alt        = custom alt text
+  author     = photographer or source (default: 'Unknown Photographer')
+  copyrightHolder = copyright entity (default: 'Unknown or Public Domain')
+  copyrightYear   = year photo taken/published (default: 'Unknown')
+  isPartOf   = name of larger collection (default: 'Local Photography Archive')
+  location   = name of city, area, or landmark (default: 'Unknown Location')
+  lat/lon    = coordinates (optional)
+  date       = creation date (ISO format recommended)
+  
+This shortcode uses only semantic HTML and inline CSS — no JS dependencies.
+------------------------------------------------------------------------------
+*/}}
+
+<figure itemscope itemtype="https://schema.org/Photograph" class="local-photo">
+  <img src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" | default (.Get "caption") }}"
+    itemprop="contentUrl"
+    loading="lazy" />
+
+  {{ with .Get "caption" }}
+    <figcaption itemprop="caption description">{{ . }}</figcaption>
+  {{ end }}
+
+  <meta itemprop="author" content="{{ .Get "author" | default "Unknown Photographer" }}">
+  <meta itemprop="copyrightHolder" content="{{ .Get "copyrightHolder" | default "Unknown or Public Domain" }}">
+  <meta itemprop="copyrightYear" content="{{ .Get "copyrightYear" | default "Unknown" }}">
+  <meta itemprop="isPartOf" content="{{ .Get "isPartOf" | default "Local Photography Archive" }}">
+  <meta itemprop="locationCreated" content="{{ .Get "location" | default "Unknown Location" }}">
+
+  {{ if or (.Get "lat") (.Get "lon") }}
+    <meta itemprop="contentLocation" content="{{ .Get "location" | default "Unknown Location" }}">
+    <meta itemprop="latitude" content="{{ .Get "lat" | default "" }}">
+    <meta itemprop="longitude" content="{{ .Get "lon" | default "" }}">
+  {{ end }}
+
+  {{ with .Get "date" }}
+    <meta itemprop="dateCreated" content="{{ . }}">
+  {{ end }}
+</figure>

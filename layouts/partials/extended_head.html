@@ -9,6 +9,7 @@
   "@type": "LocalBusiness",
   "@id": "{{ $url }}#business",
   "name": "{{ .Site.Params.business.legalName | default .Site.Params.business.name }}",
+  "description": "{{ with .Site.Params.business.description }}{{ . }}{{ else }}Local computer repair, Linux conversions, and IT help in Kirksville, Missouri.{{ end }}",
   "image": "{{ $logo }}",
   "url": "{{ $url }}",
   "telephone": "{{ .Site.Params.business.phone }}",
@@ -21,20 +22,109 @@
     "postalCode": "{{ .Site.Params.business.zip }}",
     "addressCountry": "US"
   },
-  "areaServed": { "@type": "City", "name": "{{ .Site.Params.business.city }}" },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ .Site.Params.business.lat }}",
+    "longitude": "{{ .Site.Params.business.lng }}"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "{{ .Site.Params.business.city }}"
+  },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification",
+    {
+      "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "17:00", "closes": "21:00"
+      "opens": "17:00",
+      "closes": "21:00"
     },
-    { "@type": "OpeningHoursSpecification",
+    {
+      "@type": "OpeningHoursSpecification",
       "dayOfWeek": "Saturday",
-      "opens": "10:00", "closes": "18:00"
+      "opens": "10:00",
+      "closes": "18:00"
     }
   ],
+  "priceRange": {{ .Site.Params.business.priceRange }},
+  "founder": {
+    "@type": "Person",
+    "name": "Leo Blanchette"
+  },
   "sameAs": {{ .Site.Params.business.sameAs | jsonify | safeJS }}
 }
 </script>
+
+{{ if .IsPage }}
+  {{ if eq .Type "posts" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+
+  "headline": "{{ .Title }}",
+  "description": "{{ with .Description }}{{ . | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}",
+  "articleBody": {{ if lt (countwords .Content) 1200 }}
+    "{{ .Content | plainify }}",
+  {{ else }}
+    "{{ .Content | plainify | truncate 800 }}",
+  {{ end }}
+
+
+  "author": {
+    "@type": "Person",
+    "name": "Leo Blanchette"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Switchboard Tech Services, LLC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ $logo }}"
+    }
+  },
+
+  "url": "{{ .Permalink }}",
+  "dateCreated": "{{ .Date.Format "2006-01-02" }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+
+  "image": {{ with .Params.image }}"{{ . | absURL }}"{{ else }}"{{ $logo }}"{{ end }},
+
+  "keywords": [{{ range $i, $t := .Params.tags }}{{ if $i }}, {{ end }}"{{ $t }}"{{ end }}],
+
+  "articleSection": [
+    {{ range $i, $c := .Params.categories }}{{ if $i }}, {{ end }}"{{ $c }}"{{ end }}
+    {{ if and .Params.categories .Params.tags }},{{ end }}
+    {{ range $i, $t := .Params.tags }}{{ if $i }}, {{ end }}"{{ $t }}"{{ end }}
+  ],
+
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Switchboard Tech Services",
+    "url": "{{ .Site.BaseURL }}"
+  },
+
+  "inLanguage": "en",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Switchboard Tech Services, LLC"
+  },
+  "copyrightYear": "{{ .Date.Format "2006" }}",
+
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": ["{{ .Permalink }}"]
+  }
+}
+</script>
+  {{ end }}
+{{ end }}
+
 
 {{- if or (eq .Kind "taxonomy") (eq .Kind "term") -}}
   <meta name="robots" content="noindex,follow">

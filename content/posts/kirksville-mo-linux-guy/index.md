@@ -4,7 +4,7 @@ date: 2025-10-16
 draft: false
 description: "Linux already powers most of the world — and now it can power Kirksville. Here's how open-source systems can make your computers faster, safer, and built to last."
 tags: ["linux", "kirksville", "computer repair", "open-source", "switchboard tech services"]
-categories: ["Linux"]
+categories: ["Linux", "Linux Conversions"]
 aliases: ["kirksville-linux-support", "linux-guy-kirksville"]
 author: "Leo Blanchette"
 cover: posts/kirksville-mo-linux-guy/images/linux-guy-leo-kirksville.jpg
@@ -114,4 +114,4 @@ See [https://ubuntu.com/desktop](https://ubuntu.com/desktop)
 
 ---
 
-_Article © 2025 Switchboard Tech Services LLC — Written by Leo Blanchette_
+{{< backtolinux >}}

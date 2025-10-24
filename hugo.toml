@@ -141,6 +141,12 @@ canonifyURLs = true
     "https://www.facebook.com/SwitchboardTechServices/",
     "https://www.yelp.com/biz/switchboard-tech-services-kirksville"
   ]
+  legalName = "Switchboard Tech Services, LLC"
+  description = "Local computer repair, Linux conversions, and IT help in Kirksville, Missouri."
+  lat = "40.194530"   
+  lng = "-92.589729"  
+  priceRange = "$20-$40"
+  founder = "Leo Blanchette"
 
 # Modern way
 [services]

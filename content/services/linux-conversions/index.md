@@ -30,6 +30,16 @@ Most of these tasks run faster and lighter on Linux than on an aging Windows or 
 
 ---
 
+## Linux Distros I Install For You... 
+
+- [Linux Mint](/posts/linux-distros/linux-mint) *(Suggested for Windows users...)*
+- [Ubuntu](/posts/linux-distros/ubuntu)
+- [Fedora](/posts/linux-distros/fedora)
+- [Debian](/posts/linux-distros/debian)
+- [openSUSE](/posts/linux-distros/opensuse)
+
+**$35/hour** -- process should be an hour or less. But if migrating data, maybe more.
+
 ## What You Generally Won’t Do the Same Way
 
 There are limits and trade-offs to be aware of:
@@ -74,6 +84,8 @@ See also [I Am Kirksville’s Linux Guy](posts/kirksville-mo-linux-guy/)
 
 ![Computer Repair](/images/services/computer-repair.jpg)
 
-{{< servicesnav >}}
-
 {{< categorylist "Linux Conversions" >}}
+
+{{< categorylist "Distro List" >}}
+
+{{< servicesnav >}}

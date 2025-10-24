@@ -163,3 +163,6 @@ canonifyURLs = true
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+
+disableKinds = ["taxonomy", "taxonomyTerm"]

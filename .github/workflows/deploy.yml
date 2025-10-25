@@ -33,4 +33,4 @@ jobs:
         run: |
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_rsa" \
-            public/ theswitchboard@<opal18.opalstack.com:apps/switchboardtechservices.com/
+            public/ theswitchboard@<opal18.opalstack.com:/home/theswitchboard/apps/switchboardtechservices/

@@ -25,4 +25,4 @@ That keeps service responsive and reliable.
 
 If you’re nearby and need a practical tech fix, I’ll make it work.
 
-{{< servicesnav section="services" >}}
+

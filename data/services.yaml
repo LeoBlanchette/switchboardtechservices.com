@@ -1,7 +1,10 @@
 basicrates:
-  - name: "Computer Maintenance / Linux Conversions"
+  - name: "Linux Conversions"
     price: "$35/hour"
     link: "/services/linux-conversions/"
+  - name: "Computer Maintenance"
+    price: "$35/hour"
+    link: "/services/computer-maintenance/"
   - name: "House Calls"
     price: "$20/visit + task"
     link: "/services/house-calls/"

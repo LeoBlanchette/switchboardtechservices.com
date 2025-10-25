@@ -1,58 +1,72 @@
 +++
 title = "About"
-description = "Family-run tech help in Kirksville: practical computer repair, Linux conversions, and personal service close to the courthouse square."
-keywords = ["Kirksville tech support", "computer repair", "Linux conversions", "local IT help", "Switchboard Tech Services"]
+description = "Switchboard Tech Services LLC provides practical, local tech help for Kirksville residents and businesses — from computer repair to Linux conversions and network support."
+keywords = ["Kirksville computer repair", "Linux conversions", "local IT help", "Switchboard Tech Services", "Leo Blanchette"]
 cover = "images/multimeter.jpg"
 +++
 
 # About Switchboard Tech Services
 
-## Who We Are
-Switchboard Tech Services, LLC is a **family-run business in Kirksville**.  
-We were founded to meet the steady demand for on-site tech help in Kirksville — the kind of personal support that’s harder to find in today’s age of automation and corporate call centers.
+Switchboard Tech Services LLC is operated by **Leo Blanchette**, providing practical technology services to residents and small businesses in **Kirksville, Missouri**.  
+Work includes computer repair, Linux conversions, electronics maintenance, network setup, tutoring, and general IT troubleshooting.  
 
-Our goal is simple:  
-**practical, person-to-person fixes for everyday technology problems.**
-
-### The Name 
-"**The Switchboard**" is a name inspired from old tech and a location in the game Fallout 4. 
+For service details and rates, see [Services](/services/).
 
 ---
 
-## What We Do Differently
-### Local and Person-Focused
-- Based near the Adair County Courthouse.  
-- Meetings and drop-offs arranged at the courthouse — a neutral, trusted spot.  
-- Repairs are done in our own workshop, not shipped away.  
+## Leo Blanchette — Skills and Qualifications
 
-### Filling Local Gaps
-Kirksville businesses and residents rely heavily on tech — card readers, Wi-Fi, printers, laptops, smart devices — but often lack in-house IT.  
-Switchboard was created to:
-- Keep local shops running when POS or Wi-Fi fails.  
-- Help retirees and students with practical, plain-English support.  
-- Repair or repurpose electronics that others won’t touch.  
+Leo’s background combines programming, electronics, repair, and digital design. His experience spans commercial, industrial, and freelance environments.
 
-### Fast Help
-- After-hours and on-site service.  
-- Linux systems and conversions.  
-- Oddball electronics and custom devices.  
-- Patient tutoring and one-on-one help.  
+### **Programming and Development**
+- Python  
+- C++  
+- C#  
+- PHP  
+- MySQL / SQL  
+- Django (Python CMS)  
+- WordPress  
+- HTML / CSS  
+- JSON / XML  
+- Git version control  
+- General web design
 
-### See [Services / Prices](/services/)
+### **Systems and Networking**
+- Linux installation and troubleshooting (Ubuntu, Debian)  
+- Windows system repair and configuration  
+- Wi-Fi and wired networking (routers, access points, Cat5 wiring)  
+- Internet and device setup for homes and small businesses  
+- Local web hosting configuration (Apache, Nginx, Opalstack)  
+- Data backup and migration  
+- Network diagnostics and optimization  
+
+### **Hardware and Electronics**
+- Computer repair  
+- Peripheral troubleshooting (printers, POS, modems, etc.)  
+- Electronics maintenance and small device repair  
+- Legacy equipment restoration  
+- 3D printing and small-scale prototyping  
+- Basic circuit and sensor integration  
+
+### **Projects**
+- [Scrollmapper Bible Databases](https://github.com/scrollmapper/bible_databases)
+- [Scrollmapper App](https://store.steampowered.com/app/3366380/Scrollmapper/)
+- [AltGrid (Offline Communications Project)](https://github.com/AltGrid/)
+
+### **Design and Visualization**
+- [lb3d.co](https://lb3d.co/)
+- 3D modeling and rendering (Blender, ZBrush, Unity)  
+- 2D graphics and layout (Photoshop, Illustrator, Creative Suite)  
+- Digital illustration and animation  
+- Web and UI design fundamentals  
+- Technical documentation and visual presentation  
+
+### **Communication and Support**
+- One-on-one technical tutoring  
+- Plain-language instruction for new computer users  
+- On-site troubleshooting for homes and small businesses  
+- Remote support configuration and walkthroughs  
 
 ---
 
-## About Leo Blanchette
-
-See [About Leo Blanchette](/leo-blanchette)
-
----
-
-## Why It Matters
-Technology should **work for the people who use it**.  
-That means:
-- Clear explanations, not jargon.  
-- Honest rates and simple terms.  
-- Repairs and conversions that extend the life of equipment instead of pushing replacement.  
-
-Switchboard Tech Services exists to keep everyday tools running — from laptops and Wi-Fi to POS systems and small electronics — in a way that’s local, dependable, and personal.  
+Switchboard Tech Services provides the full range of local technology help — from system setup to repair and instruction — with an emphasis on reliability, maintainability, and clear communication.

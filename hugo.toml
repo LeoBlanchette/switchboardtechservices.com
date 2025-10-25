@@ -121,10 +121,11 @@ canonifyURLs = true
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
   page = ["HTML", "JSON"]
+  taxonomy = []        # prevents tags/categories pages from generating
 
 # Sitemap & SEO
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
@@ -164,5 +165,3 @@ canonifyURLs = true
   category = "categories"
   tag = "tags"
 
-
-disableKinds = ["taxonomy", "taxonomyTerm"]

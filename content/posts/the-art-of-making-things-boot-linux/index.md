@@ -5,7 +5,6 @@ description: "A practical and slightly mischievous guide to convincing stubborn 
 summary: "Because sometimes the hardest part of running Linux is getting the machine to start it."
 tags: ["linux", "usb boot", "bios", "secure boot", "firmware", "tails", "ubuntu", "fedora"]
 categories: ["guides", "field manual"]
-cover: "/images/lego/linux-boot-cheatsheet.jpg"
 draft: false
 cover: /posts/the-art-of-making-things-boot-linux/images/lego-figurine-shows-the-art-of-booting-computers.jpg
 ---

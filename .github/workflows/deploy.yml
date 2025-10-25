@@ -29,7 +29,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan opal18.opalstack.com >> ~/.ssh/known_hosts
 
-      - name: Deploy to Opalstack with rsync
+      - name: Deploy to Opalstack via rsync
         run: |
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_rsa" \

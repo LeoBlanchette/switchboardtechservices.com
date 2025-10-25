@@ -1,5 +1,5 @@
 ---
-title: "Industrial Dryer Repair: Replacing the Main Reservoir Capacitor (Early 2000s Models)”"
+title: "Industrial Dryer Repair: Replacing the Main Reservoir Capacitor (Early 2000s Models)"
 date: 2025-10-25
 description: "A practical guide and case study: successfully troubleshooting and fixing an industrial dryer (early 2000s model) by replacing the main reservoir capacitor near the power supply transformer. Problem solved."
 tags: ["Industrial Dryer", "Capacitor", "Power Supply", "Troubleshooting", "Early 2000s Hardware", "Electrical Repair", "Refurbish", "Appliance Repair", "Success Story", "Transformer"]

@@ -35,7 +35,7 @@ If it plugs in, powers on, or connects to the internet, there’s a good chance 
 
 ---
 
-## Contact
+## Contact Us
 {{< contactinfo >}}
 
 ---

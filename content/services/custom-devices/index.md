@@ -85,7 +85,5 @@ If it looks like a gamble on an essential or expensive device, I’ll stop and t
 Kirksville shops run on practical tools. My experience with Linux, programming, and electronics means **you have options** when standard gear won’t do.  
 If a small, focused device can save you money or hassle, we’ll build it. If not, we won’t.
 
-For the philosophy behind my walk-first, low-overhead model:  
-see **[Foot Soldier for Tech Maintenance](/services/foot-soldier/)**.
 
 {{< servicesnav >}}

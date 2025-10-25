@@ -53,12 +53,6 @@ Always subject to current demand — never at the expense of scheduled tech call
 
 ---
 
-## Radius
-
-See [Foot Soldier for Tech Maintenance](/services/foot-soldier/).  
-
----
-
 ## Conclusion
 
 Call us for any need you may have. 

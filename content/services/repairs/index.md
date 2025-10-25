@@ -9,8 +9,6 @@ cover: "images/services/tech-repairs.jpg"
 
 ## Oddball Repairs
 
-I walk to appointments. This keeps costs low and response reliable. See [Foot Soldier for Tech Maintenance](/services/foot-soldier/).
-
 I handle repairs within my experience: Windows and Linux systems, electronics, and a range of general devices.  
 
 - If the problem is simple and visible on site, I’ll repair it there.  

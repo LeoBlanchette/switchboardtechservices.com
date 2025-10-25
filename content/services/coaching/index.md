@@ -34,11 +34,13 @@ The goal is confidence: giving you the skills to handle your own system day to d
 ## Professional Approach
 
 I treat coaching as professional work:  
+
 - Clear explanations without jargon  
 - Respect for your pace and questions  
 - Plain advice on what’s worth learning and what’s best left alone
 
 In some cases, unusual or older equipment may require research.  
+
 If that happens, I adapt quickly — and I don’t charge for my learning time.  
 
 {{< servicesnav >}}

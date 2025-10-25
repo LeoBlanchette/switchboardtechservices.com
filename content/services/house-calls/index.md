@@ -9,8 +9,7 @@ cover: "images/services/house-calls.jpg"
 
 ## Yes, I Make House Calls
 
-I provide on-site help for homes and businesses within about **two miles of the courthouse square** in Kirksville.  
-This means I can walk to you quickly and reliably. See [Foot Soldier for Tech Maintenance](/services/foot-soldier/).
+I provide on-site help for homes and businesses within about **five miles of the courthouse square** in Kirksville.  
 
 ---
 

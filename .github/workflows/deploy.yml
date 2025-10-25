@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (with submodules)
         uses: actions/checkout@v3
+        with:
+          submodules: true   # <-- this is the correct place
+          fetch-depth: 0     # optional but recommended for themes using git history
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

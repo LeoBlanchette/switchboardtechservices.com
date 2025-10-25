@@ -31,7 +31,7 @@ If it plugs in, powers on, or connects to the internet, there’s a good chance 
 ---
 
 ### 🧰 [See Services & Prices →](/services/)
-[Transparent, local, and explained in plain English.](/services/)
+[Transparent, local, and explained in basic English.](/services/)
 
 ---
 

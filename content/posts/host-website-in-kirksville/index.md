@@ -123,5 +123,5 @@ No lock-ins, no hidden subscriptions, and no upsells.
 When I build your site, you get something that is both elegant and durable.  
 It loads fast, it looks professional, and it costs less than what the big companies charge for templates and advertising banners.
 
-
+{{< contactinfo >}}
 

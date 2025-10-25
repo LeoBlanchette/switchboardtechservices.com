@@ -27,7 +27,7 @@ I handle everyday computer issues, restore old hardware, and build or maintain s
 
 No contracts, no gimmicks -- just direct repair and practical help within a couple miles of the courthouse.  
 If it plugs in, powers on, or connects to the internet, there’s a good chance I can make it work again.
-
+ 
 ---
 
 ### 🧰 [See Services & Prices →](/services/)

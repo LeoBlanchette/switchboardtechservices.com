@@ -30,8 +30,6 @@ Late-stage capitalism has, over time, produced a culture where ravenous opportun
 
 This replica is not benign. It is leveraged to exploit you in ways both subtle and overt. And in darker times--darker even than these--who can say what further purposes it might serve?
 
-## The New Surveillance Ecosystem of Software and Services
-
 "I have nothing to hide," some people say. A clean conscience is good to have. But the danger isn’t in your actions--it’s in theirs. Surveillance isn’t about exposing your secrets; it’s about giving powerful systems leverage over you, whether you’ve done anything wrong or not.
 
 ### 1. How tracking and surveillance work online

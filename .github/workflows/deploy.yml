@@ -21,22 +21,22 @@ jobs:
 
       - name: Build site
         run: hugo --minify
-        
 
       - name: Setup SSH Agent
-        # This action handles key formatting, permissions, and starting the agent
         uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ secrets.THESWITCHBOARD_OPALSTACK }}
+          # This pulls the unencrypted Private Key from your GitHub secret
+          ssh-private-key: ${{ secrets.THESWITCHBOARD_OPALSTACK }} 
 
-      - name: Add known_hosts (Still necessary for security)
+      # 2. Add known_hosts (Ensures the server host is trusted)
+      - name: Add known_hosts
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan opal18.opalstack.com >> ~/.ssh/known_hosts
 
+      # 3. Deploy to Opalstack with rsync
       - name: Deploy to Opalstack with rsync
-        # rsync now uses the key provided by the agent automatically,
-        # so you don't need the "-e" flag or the private key path.
         run: |
+          # rsync now uses the key made available by the SSH agent
           rsync -avz --delete \
             public/ theswitchboard@opal18.opalstack.com:/home/theswitchboard/apps/switchboardtechservices/

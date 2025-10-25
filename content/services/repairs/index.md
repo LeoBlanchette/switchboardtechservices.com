@@ -20,6 +20,8 @@ I handle repairs within my experience: Windows and Linux systems, electronics, a
 
 I don’t claim to fix everything — but if it’s in my wheelhouse, I’ll give it my full attention and be honest about the outcome.
 
+{{< categorylist "Completed Fixes Portfolio" >}}
+
 {{< servicesnav >}}
 
 

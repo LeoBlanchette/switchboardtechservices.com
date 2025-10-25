@@ -3,6 +3,7 @@ title: "Computer disaster in Kirksville! The 'Virus' That Wasn't"
 description: "Browser notification scams, fake virus alerts, and how to fix them — from a real Kirksville tech repair case."
 date: 2025-10-15
 tags: ["Kirksville", "malware", "virus removal", "Firefox", "browser scam"]
+categories: ["Completed Fixes Portfolio"]
 cover: posts/browser-push-notification-scam/images/lego-man-virus-alert.jpg
 ---
 

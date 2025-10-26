@@ -31,12 +31,5 @@ The **Right-to-Repair** section dives deeper:
 
 ---
 
-## 🧩 Related Reading
-
-- [Save Your Old PC](/posts/save-your-old-pc/)
-- [Simple Data Backups Without the Cloud](/posts/simple-data-backups-without-the-cloud/)
-
----
-
 Open-source isn’t just software — it’s a philosophy of local independence.  
 [Learn more about Linux conversions](/services/linux-conversions/).

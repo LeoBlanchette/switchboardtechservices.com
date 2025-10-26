@@ -3,7 +3,7 @@ title: "Why is my computer fan so loud all the time?"
 date: 2025-10-26
 tags: ["kirksville", "fan noise", "cooling", "dust"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-is-my-computer-fan-so-loud-all-the-time/images/loud-computer-fan.webp
+cover: /posts/tech-support-questions/why-is-my-computer-fan-so-loud-all-the-time/images/loud-computer-fan.webp
 ---
 
 Could be:

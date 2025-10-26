@@ -3,7 +3,7 @@ title: "Why does my laptop overheat and shut down?"
 date: 2025-10-26
 tags: ["kirksville", "overheating", "thermal paste", "fans"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-does-my-laptop-overheat-and-shut-down/images/overheating-laptop.webp
+cover: /posts/tech-support-questions/why-does-my-laptop-overheat-and-shut-down/images/overheating-laptop.webp
 ---
 
 Possibilities to consider:

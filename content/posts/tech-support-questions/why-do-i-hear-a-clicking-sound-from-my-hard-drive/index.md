@@ -3,7 +3,7 @@ title: "Why do I hear a clicking sound from my hard drive?"
 date: 2025-10-26
 tags: ["kirksville", "hard drive", "clicking", "data recovery"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-do-i-hear-a-clicking-sound-from-my-hard-drive/images/lego-man-addresses-clicking-noise-in-hard-drive.webp
+cover: /posts/tech-support-questions/why-do-i-hear-a-clicking-sound-from-my-hard-drive/images/lego-man-addresses-clicking-noise-in-hard-drive.webp
 ---
 
 This one deserves caution:

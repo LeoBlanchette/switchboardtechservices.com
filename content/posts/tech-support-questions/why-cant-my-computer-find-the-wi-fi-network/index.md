@@ -3,7 +3,7 @@ title: "Why can’t my computer find the Wi-Fi network?"
 date: 2025-10-26
 tags: ["kirksville", "wifi missing", "network", "drivers"]
 categories: ["Tech Support", "House Calls"]
-cover: /posts/tech-support-why-cant-my-computer-find-the-wi-fi-network/images/router-in-lego.webp
+cover: /posts/tech-support-questions/why-cant-my-computer-find-the-wi-fi-network/images/router-in-lego.webp
 ---
 Consider:
 

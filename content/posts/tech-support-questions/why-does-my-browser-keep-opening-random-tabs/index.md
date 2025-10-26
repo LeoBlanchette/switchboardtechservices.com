@@ -3,7 +3,7 @@ title: "Why does my browser keep opening random tabs?"
 date: 2025-10-26
 tags: ["kirksville", "malware", "browser", "popups"]
 categories: ["Tech Support", "Computer Maintenance"]
-cover: /posts/tech-support-why-does-my-browser-keep-opening-random-tabs/images/huh-wtf.webp
+cover: /posts/tech-support-questions/why-does-my-browser-keep-opening-random-tabs/images/huh-wtf.webp
 ---
 
 A few suspects:

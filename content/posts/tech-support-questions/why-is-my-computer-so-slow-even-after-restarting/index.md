@@ -3,7 +3,7 @@ title: "Why is my computer so slow even after restarting?"
 date: 2025-10-26
 tags: ["kirksville", "slow computer", "ssd", "ram"]
 categories: ["Tech Support", "Computer Maintenance"]
-cover: /posts/tech-support-why-is-my-computer-so-slow-even-after-restarting/images/sad-computer-slow.png
+cover: /posts/tech-support-questions/why-is-my-computer-so-slow-even-after-restarting/images/sad-computer-slow.png
 ---
 
 Some possibilities:

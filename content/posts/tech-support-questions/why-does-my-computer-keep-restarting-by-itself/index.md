@@ -3,7 +3,7 @@ title: "Why does my computer keep restarting by itself?"
 date: 2025-10-26
 tags: ["kirksville", "random restart", "psu", "drivers"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-does-my-computer-keep-restarting-by-itself/images/why-no-boot.webp
+cover: /posts/tech-support-questions/why-does-my-computer-keep-restarting-by-itself/images/why-no-boot.webp
 ---
 
 A few angles:

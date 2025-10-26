@@ -3,7 +3,7 @@ title: "Why does my computer say 'No boot device found'?"
 date: 2025-10-26
 tags: ["kirksville", "no boot device", "bios", "drive failure"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-does-my-computer-say-no-boot-device-found/images/no-boot-device-found.webp
+cover: /posts/tech-support-questions/why-does-my-computer-say-no-boot-device-found/images/no-boot-device-found.webp
 ---
 
 What to look at:

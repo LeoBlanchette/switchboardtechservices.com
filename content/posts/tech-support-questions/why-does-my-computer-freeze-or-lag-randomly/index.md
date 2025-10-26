@@ -3,7 +3,7 @@ title: "Why does my computer freeze or lag randomly?"
 date: 2025-10-26
 tags: ["kirksville", "freezing", "lag", "diagnostics"]
 categories: ["Tech Support", "Computer Maintenance"]
-cover: /posts/tech-support-why-does-my-computer-freeze-or-lag-randomly/images/solve-computer-freeze.webp
+cover: /posts/tech-support-questions/why-does-my-computer-freeze-or-lag-randomly/images/solve-computer-freeze.webp
 ---
 
 Likely suspects:

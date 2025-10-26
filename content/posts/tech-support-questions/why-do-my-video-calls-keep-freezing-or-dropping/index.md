@@ -3,7 +3,7 @@ title: "Why do my video calls keep freezing or dropping?"
 date: 2025-10-26
 tags: ["kirksville", "zoom", "teams", "wifi"]
 categories: ["Tech Support", "House Calls"]
-cover: /posts/tech-support-why-do-my-video-calls-keep-freezing-or-dropping/images/video-call-freezing-frames.webp
+cover: /posts/tech-support-questions/why-do-my-video-calls-keep-freezing-or-dropping/images/video-call-freezing-frames.webp
 ---
 
 Likely:

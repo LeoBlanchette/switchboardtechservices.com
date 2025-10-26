@@ -3,7 +3,7 @@ title: "Why does my computer boot so slow?"
 date: 2025-10-26
 tags: ["kirksville", "computer repair", "slow boot", "startup"]
 categories: ["Tech Support", "Computer Maintenance"]
-cover: /posts/tech-support-why-does-my-computer-boot-so-slow/images/solving-the-slow-boot.webp
+cover: /posts/tech-support-questions/why-does-my-computer-boot-so-slow/images/solving-the-slow-boot.webp
 ---
 
 Could be a few things, and they often stack:

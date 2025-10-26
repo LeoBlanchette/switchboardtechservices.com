@@ -3,7 +3,7 @@ title: "Why does my computer say 'Your device is offline'?"
 date: 2025-10-26
 tags: ["kirksville", "offline", "network", "sign-in"]
 categories: ["Tech Support", "House Calls"]
-cover: /posts/tech-support-why-does-my-computer-say-your-device-is-offline/images/device-online.webp
+cover: /posts/tech-support-questions/why-does-my-computer-say-your-device-is-offline/images/device-online.webp
 ---
 
 Likely causes:

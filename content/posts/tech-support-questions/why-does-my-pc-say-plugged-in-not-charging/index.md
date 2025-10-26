@@ -3,7 +3,7 @@ title: "Why does my PC say 'Plugged in, not charging'?"
 date: 2025-10-26
 tags: ["kirksville", "battery", "charging", "ac adapter"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-does-my-pc-say-plugged-in-not-charging/images/uncharged.webp
+cover: /posts/tech-support-questions/why-does-my-pc-say-plugged-in-not-charging/images/uncharged.webp
 ---
 
 A few things to try:

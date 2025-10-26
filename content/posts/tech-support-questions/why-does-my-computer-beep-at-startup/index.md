@@ -3,7 +3,7 @@ title: "Why does my computer beep at startup?"
 date: 2025-10-26
 tags: ["kirksville", "post codes", "beeps", "hardware"]
 categories: ["Tech Support", "Repairs"]
-cover: /posts/tech-support-why-does-my-computer-beep-at-startup/images/beeeeeeeeeep.webp
+cover: /posts/tech-support-questions/why-does-my-computer-beep-at-startup/images/beeeeeeeeeep.webp
 ---
 
 Those beeps are POST codes:

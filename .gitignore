@@ -1,5 +1,6 @@
 # Hugo build output
 /public/
+/image-sources/
 /resources/_gen/
 /hugo_stats.json
 

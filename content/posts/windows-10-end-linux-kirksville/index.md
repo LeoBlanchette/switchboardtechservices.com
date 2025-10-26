@@ -59,3 +59,5 @@ Times are changing. Windows is trying to become something it was never meant to 
 Linux has become what it was always destined to be: the backbone of the modern world. It powers the Internet, most of the servers you connect to daily, the majority of supercomputers, and countless devices you depend on.
 
 It can power your home computer, too -- cleanly, quietly, stable, and supported.
+
+{{< contactinfo >}}

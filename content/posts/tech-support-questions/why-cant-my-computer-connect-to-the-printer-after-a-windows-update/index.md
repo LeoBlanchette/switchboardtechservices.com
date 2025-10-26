@@ -3,7 +3,7 @@ title: "Why can’t my computer connect to the printer after a Windows update?"
 date: 2025-10-26
 tags: ["kirksville", "printer", "windows update", "drivers"]
 categories: ["Tech Support", "House Calls"]
-cover: /posts/tech-support-why-cant-my-computer-connect-to-the-printer-after-a-windows-update/images/lego-man-fixing-printer.webp
+cover: /posts/tech-support-questions/why-cant-my-computer-connect-to-the-printer-after-a-windows-update/images/lego-man-fixing-printer.webp
 ---
 
 Seen this a lot:

@@ -2,7 +2,6 @@
 title: "Your OS Is a Moral Choice: right to repair, old hardware, and e-waste"
 date: 2025-10-29T14:03:00-05:00
 author: "Switchboard Tech Services"
-cover: "/images/covers/os-moral-choice.jpg"
 tags: ["right to repair", "linux", "operating systems", "e-waste", "sustainability"]
 keywords: ["right to repair", "linux on old hardware", "reduce e-waste", "computer repair", "operating system ethics", "Kirksville tech"]
 description: "A plain English look at why your operating system is more than convenience. It shapes repair rights, device lifespan, and how much junk ends up in landfills."

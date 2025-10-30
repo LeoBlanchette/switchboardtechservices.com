@@ -48,7 +48,6 @@ The same architecture that keeps the global web stable also keeps your laptop ca
 - **Over 96% of the world’s top 1 million web servers** run Linux.  
 - **The New York Stock Exchange** operates on Linux-based systems for performance and uptime.  
 - **Android**, the world’s most-used operating system, is built on the Linux kernel.  
-- **NASA’s Perseverance rover** on Mars uses a Linux-based flight computer.  
 - **Supercomputers:** Every single one of the world’s top 500 supercomputers runs Linux.  
 - **Banking and finance networks** depend on Linux for secure transaction handling.  
 - **The Internet itself** — from DNS servers to routers — runs on Linux or Unix-like systems.  
